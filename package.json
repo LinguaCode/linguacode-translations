@@ -1,0 +1,35 @@
+{
+  "name": "linguacode-translations",
+  "version": "0.0.1",
+  "description": "Constants",
+  "main": "./src/index.js",
+  "homepage": "https://github.com/linguacode/linguacode-translations",
+  "author": "Arman Yeghiazaryann <otanim617@gmail.com> (http://otanim.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linguacode/linguacode-translations"
+  },
+  "engines": {
+    "node": ">= 7.4.0"
+  },
+  "license": "SEE the LICENSE file",
+  "keywords": [
+    "js",
+    "es5",
+    "node",
+    "education",
+    "programming",
+    "linguacode",
+    "language"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "linguacode-constants": "https://github.com/linguacode/linguacode-constants",
+    "require-dir": "^0.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/linguacode/linguacode-translations/issues"
+  }
+}
