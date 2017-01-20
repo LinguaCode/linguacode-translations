@@ -1,7 +1,8 @@
 # linguacode-translations
 
 ## Description
-translations
+This repository contains translation files for LinguaCode. The main reason that I've separated from the [LinguaCode's Core](https://github.com/LinguaCode/core) is that in this way it will be much more easy to make a translations.
+If you've any kind of suggestions, that can help with the translations (like some corrections), you can open issue [here](https://github.com/LinguaCode/linguacode-translations/issues).
 
 ## Contribution
 #### if you know how to make a contribution in GitHub.
