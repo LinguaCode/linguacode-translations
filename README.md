@@ -5,7 +5,7 @@ translations
 
 ## Contribution
 #### if you know how to make a contribution
-1. git@github.com:LinguaCode/linguacode-translations.git
+1. `git clone git@github.com:LinguaCode/linguacode-translations.git`
 3. add new language file in *ISO 639-1* standard, like for japanese it would be *jp.js*.
 4. create a pull request to merge *master* branch.
 
