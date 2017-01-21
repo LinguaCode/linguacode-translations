@@ -112,7 +112,7 @@ module.exports = [{
   definition: 'lg'
 }, {
   command: COMMAND.PI,
-  definition: 'pi'
+  definition: 'pi_numero'
 }, {
   command: COMMAND.E,
   definition: 'e_numero'
