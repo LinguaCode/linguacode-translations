@@ -115,5 +115,5 @@ module.exports = [{
   definition: 'pi'
 }, {
   command: COMMAND.E,
-  definition: 'e'
+  definition: 'e_numero'
 }];
