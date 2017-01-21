@@ -1,4 +1,4 @@
-//author: Elen Mkhitaryan (rweryt, rwryt.tumblr.com)
+//author: Elen Mkhitaryan (rwryt, rwryt.tumblr.com)
 
 const COMMAND = require('linguacode-constants').COMMAND;
 
