@@ -1,4 +1,4 @@
-const languageList = ['en', 'hy', 'ru'];
+const languageList = ['en', 'hy', 'ru', 'it'];
 
 let languages = {};
 
