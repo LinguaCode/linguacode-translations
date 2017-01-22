@@ -1,9 +1,8 @@
 const languageList = ['en', 'hy', 'ru', 'it'];
 
-let languages = {};
-
-for (let key in languageList) {
-  languages[key] = require('./languages/' + key);
-}
+const languages = {};
+languageList.forEach((language) => {
+  languages[language] = require('./languages/' + language);
+});
 
 module.exports = languages;
