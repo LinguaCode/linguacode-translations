@@ -26,7 +26,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "linguacode-constants": "https://github.com/linguacode/linguacode-constants"
+    "linguacode-constants": "https://github.com/linguacode/linguacode-constants",
+    "lodash": "^4.17.4"
   },
   "bugs": {
     "url": "https://github.com/linguacode/linguacode-translations/issues"

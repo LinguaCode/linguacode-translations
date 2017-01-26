@@ -1,3 +1,5 @@
+//author: Enrique Esquinas (esquinas)
+
 const COMMAND = require('linguacode-constants').COMMAND;
 
 module.exports = [{
