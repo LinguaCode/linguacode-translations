@@ -1,6 +1,6 @@
 {
   "name": "linguacode-translations",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Constants",
   "main": "./src/index.js",
   "homepage": "https://github.com/linguacode/linguacode-translations",
