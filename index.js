@@ -1,6 +1,6 @@
 const languageList = ['en', 'hy', 'ru', 'it'];
 
-const languages = {};
+var languages = {};
 languageList.forEach((language) => {
   languages[language] = require('./languages/' + language);
 });
