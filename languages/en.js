@@ -56,13 +56,13 @@ module.exports = [{
   definition: 'random'
 }, {
   command: COMMAND.POW,
-  definition: 'pow'
+  definition: 'power'
 }, {
   command: COMMAND.SQR,
-  definition: 'sqr'
+  definition: 'square'
 }, {
   command: COMMAND.SQRT,
-  definition: 'sqrt'
+  definition: 'square_root'
 }, {
   command: COMMAND.ROUND,
   definition: 'round'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'abs'
+  definition: 'absolute_value'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'
