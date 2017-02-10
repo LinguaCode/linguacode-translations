@@ -2,10 +2,10 @@ const COMMAND = require('linguacode-constants').COMMAND;
 
 module.exports = [{
   command: COMMAND.INPUT,
-  definition: 'ввести'
+  definition: 'ввод'
 }, {
   command: COMMAND.OUTPUT,
-  definition: 'вывести'
+  definition: 'вывод'
 }, {
   command: COMMAND.IF,
   definition: 'если'
