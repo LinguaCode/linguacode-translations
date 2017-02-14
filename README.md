@@ -11,6 +11,10 @@ If you've any kind of suggestions, that can help with the translations (like som
 3. create a pull request to merge *master* branch.
 
 ### if you don't know how to do that
+1. Visit [Crowdin's LinguaCode page](https://translate.linguacode.me/project/linguacode/).
+2. Open the language that you planning to translate.
+3. translate it :)
+#### or
 1. Read what is [**ISO 639-1**](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) standard.
 2. open **src** folder.
 3. download **en.js** file.
