@@ -1,0 +1,362 @@
+{
+  "blocks":{
+    "controlPanelBlock":{
+      "edit":"Bewerken",
+      "delete":"Verwijderen"
+    },
+    "lovePanelBlock":{
+      "like":"Als",
+      "liked":"Vond",
+      "star":"Sterren",
+      "starred":"Ster"
+    },
+    "moreFromUserBlock":{
+      "viewAll":"Bekijk alle",
+      "moreFromFirst":"Meer van",
+      "moreFromLast":""
+    },
+    "programListFilterBlock":{
+      "sortBy":"Sorteren op",
+      "recent":"Recente",
+      "views":"Uitzicht",
+      "stars":"Sterren",
+      "likes":"Houdt van",
+      "random":"Willekeurig"
+    },
+    "shareBlock":{
+      "link":"Link",
+      "share":"Delen",
+      "tweet":"Tweet",
+      "textTwitter":"Programma \"${programTitle}\" door ${userName} op #LinguaCode ${userPageLink}",
+      "descriptionVK":"LinguaCode is een sociale codering platform en is speciaal ontworpen voor kinderen, waar ze kunnen leren programmeren en delen hun codes met hun eigen taal en zonder de noodzaak van het kennen van het engels."
+    },
+    "userPrimaryInfoBlock":{
+      "editProfile":"Profiel bewerken"
+    },
+    "userSecondaryInfoBlock":{
+      "joinedOn":"Lid sinds"
+    }
+  },
+  "pages":{
+    "errorPage":{
+      "title":"Fout",
+      "explanation":"Sorry, het is een kritieke fout opgetreden op deze pagina."
+    },
+    "landingPage":{
+      "title":"LinguaCode: Leren door Codering",
+      "learningByCoding":"Leren <span className=\"masthead--lora-italic\">by Coding</span>",
+      "explanation":"We maken het leren van programmeren en coderen van zo vol van vreugde en leven, zult u hardop lachen.",
+      "facebookSignIn":"Aanmelden met Facebook",
+      "or":"of",
+      "seeTheListOfPrograms":"Zie de lijst van programma ' s bestaan",
+      "descriptionHead":"De beste manier om te leren programmeren.",
+      "descriptionBody":"LinguaCode is een sociale codering platform en is speciaal ontworpen voor kinderen, waar ze kunnen leren programmeren en delen hun codes met hun eigen taal en zonder de noodzaak van het kennen van het engels.",
+      "advantagesHeadline":"LinguaCode helpt u <span className=\"u-emphasized\">learn beter </span>",
+      "advantageTopFirstHeadline":"Meertalige",
+      "advantageTopFirstDescription":"Het schrijven van programma ' s op uw eigen taal, en dat niet alleen.",
+      "advantageTopSecondHeadline":"Het is gratis!",
+      "advantageTopSecondDescription":"Alles is gratis.",
+      "advantageTopThirdHeadline":"Quick start",
+      "advantageTopThirdDescription":"Aan de slag is veel makkelijker dan je denkt!",
+      "advantageBottomFirstHeadline":"Verbeelding",
+      "advantageBottomFirstDescription":"Leren, proberen, te Maken!",
+      "advantageBottomSecondHeadline":"Onderwijs",
+      "advantageBottomSecondDescription":"Leren programmeren, evenals andere onderwerpen.",
+      "advantageBottomThirdHeadline":"Gemeenschap",
+      "advantageBottomThirdDescription":"Deel uw programma ' s met vrienden en nieuwe vrienden te vinden.",
+      "joinText":"Join <span className=\"u-emphasized\">the community</span> van leerlingen",
+      "facebookRegister":"Registreer je nu, het is GRATIS!"
+    },
+    "notFoundPage":{
+      "title":"Pagina Niet Gevonden",
+      "explanation":"Sorry, maar de pagina die u probeert te bekijken bestaat niet.",
+      "descriptionPartFirst":"Probeer op weg naar",
+      "descriptionPartSecond":"de belangrijkste pagina",
+      "descriptionPartThird":"in plaats daarvan."
+    },
+    "programChangePage":{
+      "titleOfEditPage":"Het bewerken van de ${userName}/${title} programma",
+      "editProgramHeadline":"Het bewerken van een programma",
+      "editProgramButton":"Bewerk Programma",
+      "titleOfCreatePage":"Maak een nieuw programma",
+      "newProgramHeadline":"Maak een nieuw programma",
+      "submitProgramButton":"Het Indienen Van Programma",
+      "programContent":"Een programma bevat alle informatie over de code.",
+      "name":"Naam",
+      "programNameForm":"Geweldig programma namen zijn kort en niet te vergeten, zoals <b>hello-world</b>.",
+      "titleOfProgram":"Titel",
+      "description":"Beschrijving",
+      "validationError":"Validatie fout",
+      "errorTextForNameLength":"Lengte van de <b>name</b> moet meer zijn dan 0 en kleiner dan 32, moet bestaan uit latijns-symbolen en streepjes.",
+      "errorTextForName":"Deze naam van de bron is al door u wordt gebruikt.",
+      "errorTextForTitle":"Lengte van de <b>title</b> moet meer zijn dan 0 en kleiner dan 128.",
+      "errorTextForDescription":"Lengte van de <b>description</b> moet meer zijn dan 0 en kleiner dan 5120.",
+      "errorTextForSource":"Lengte van de <b>source</b> moet meer zijn dan 0 en kleiner dan 10240."
+    },
+    "programs":{
+      "title":"Programma ' s"
+    },
+    "settingsPage":{
+      "title":"Instellingen",
+      "publicProfile":"Openbaar profiel",
+      "validationError":"Validatie fout",
+      "username":"Gebruikersnaam",
+      "yourUsername":"Uw gebruikersnaam",
+      "usernameWasAlreadyUsed":"De gebruikersnaam is reeds gebruikt",
+      "usernameWasReserved":"Gebruikersnaam was voorbehouden",
+      "usernameValidation":"Lengte van de <b>username</b> moet worden minder dan 24 en bevatten kleine letters van het latijn en nummers.",
+      "name":"Naam",
+      "yourFirstNameAndLastName":"Uw voor-en achternaam",
+      "nameValidation":"Lengte van de <b>name</b> moet meer zijn dan 0 en kleiner dan 24",
+      "bio":"Bio",
+      "tellALittleAboutYourself":"Vertel iets over jezelf",
+      "bioValidation":"Lengte van de <b>bio</b> moet kleiner zijn dan 128.",
+      "country":"Land",
+      "select":"selecteer",
+      "countryValidation":"Selecteer een van de landen",
+      "updateProfile":"Update profiel"
+    }
+  },
+  "modals":{
+    "loginRequiredModal":{
+      "signInTitle":"Teken in",
+      "signInDescription":"De werking is alleen mogelijk wanneer u bent aangemeld."
+    },
+    "programDeleteModal":{
+      "programDeleteConfirmation":"Bent u zeker dat u wilt om het programma te verwijderen ?",
+      "answerYes":"ja",
+      "answerNo":"geen"
+    },
+    "syntaxInfoModal":{
+      "cheatSheet":{
+        "outputName":"Uitgang",
+        "outputNameValue":"``linguacode\noutput(X)\n``",
+        "outputDescription":"Prints elke X-waarde: getallen, bewerkingen, de tekst en de variabele waarden. Bijvoorbeeld",
+        "outputDescriptionValue":"``linguacode\nuitgang(4) # 4\noutput(\"Howdy\") # Howdy\nuitgang(1+2) # 3\n``",
+        "inputName":"Ingang",
+        "inputNameValue":"``linguacode\ninput(X)\n``",
+        "inputDescription":"Elke X-waarde van variabele te verklaren door de gebruiker. Bijvoorbeeld",
+        "inputDescriptionValue":"``linguacode\ningang(a)\n``",
+        "ifElseStatementName":"Controle-en verliesrekening",
+        "ifElseStatementNameValue":"``linguacode\nals <condition N1> dan\n<operation N1>\nanders als <condition N2> dan\n<operation N2>\nanders\n<operation N3>\n``",
+        "ifElseStatementDescription":"Activiteiten worden uitgevoerd op basis van de opgegeven voorwaarde waar is. Bijvoorbeeld",
+        "ifElseStatementDescriptionValue":"``linguacode\na = 5\nb = 5\nals a > b dan\nuitvoer ('a > b\")\nanders als a < b dan\nuitvoer ('< b\")\nanders\noutput(\"b == a\") # b == a\n``",
+        "loopForName":"Beperkt herhalen",
+        "loopForNameValue":"``linguacode\nherhaal <N> keer\n<operation>\n``",
+        "loopForDescription":"Voert een blok van de code een aantal keer. Bijvoorbeeld",
+        "loopForDescriptionValue":"``linguacode\nherhaal 10 maal\noutput(\"Howdy\")\n``",
+        "loopWhileDoName":"Loop \"Terwijl\"",
+        "loopWhileDoNameValue":"``linguacode\nterwijl <condition> dan\n<operation>\n``",
+        "loopWhileDoDescription":"'Tijdens het Doen\" lus wordt uitgevoerd door een blok code zolang een bepaalde voorwaarde is voldaan. Bijvoorbeeld",
+        "loopWhileDoDescriptionValue":"``linguacode\na = 1\nterwijl een < 5 then\noutput(a)\na = a + 1\n``",
+        "loopDoWhileName":"Loop \"Te Doen, Terwijl\"",
+        "loopDoWhileNameValue":"``linguacode\ndoen\n<operation>\nterwijl <condition>\n``",
+        "loopDoWhileDescription":"Loop \"te Doen, Terwijl de\" herhaalt de lus, zolang de voorwaarde waar is. Bijvoorbeeld",
+        "loopDoWhileDescriptionValue":"``linguacode\na = 1\ndoen \noutput(a)\na = a + 1\nterwijl een < 5\n``",
+        "piName":"wiskundige constante pi",
+        "piNameValue":"``linguacode\noutput(pi)\n``",
+        "piDescription":"Prints wiskundige constante <b>pi</b>. Bijvoorbeeld",
+        "piDescriptionValue":"``linguacode\noutput(pi) # 3.141592653589793\n``",
+        "eNumberName":"e de mathematische constante",
+        "eNumberNameValue":"``linguacode\noutput(e)\n``",
+        "eNumberDescription":"Prints wiskundige constante <b>e</b>. Bijvoorbeeld",
+        "eNumberDescriptionValue":"``linguacode\noutput(e) # 2.718281828459045\n``",
+        "sqrName":"Plein van het aantal",
+        "sqrNameValue":"``linguacode\nsqr(X)\n``",
+        "sqrDescription":"Geeft plein van <b>X</b> nummer ingevoerd door de gebruiker. Bijvoorbeeld",
+        "sqrDescriptionValue":"``linguacode\nX = 5 \nY = sqr(X) \noutput(Y) # 25\n``",
+        "powName":"De macht van het getal",
+        "powNameValue":"``linguacode\npow(X,Y)\n``",
+        "powDescription":"Geeft als resultaat de waarde van <b>X</b> de kracht van <b>Y</b>. Bijvoorbeeld",
+        "powDescriptionValue":"``linguacode\nX = 2 \nY = 5 \nZ = pow(X, Y) \noutput(Z) # 32\n``",
+        "sqrtName":"De vierkantswortel van het aantal",
+        "sqrtNameValue":"``linguacode\nsqrt(X)\n``",
+        "sqrtDescription":"Geeft de vierkantswortel van <b>X</b> nummer ingevoerd door de gebruiker. Bijvoorbeeld",
+        "sqrtDescriptionValue":"``linguacode\nX = 9 \nY = sqrt(X) \noutput(Y) # 3\n``",
+        "absName":"De Absolute waarde van getal",
+        "absNameValue":"``linguacode\nabs(X)\n``",
+        "absDescription":"Geeft als resultaat de absolute waarde van <b>X</b> nummer ingevoerd door de gebruiker. Bijvoorbeeld՝",
+        "absDescriptionValue":"``linguacode\nX = -5 \nY = abs(X) \noutput(Y) # 5\n``",
+        "roundName":"Aantal afronding",
+        "roundNameValue":"``linguacode\nround(X)\n``",
+        "roundDescription":"Rondes een <b>X</b> nummer op het dichtstbijzijnde gehele getal, en geeft de waarde. Bijvoorbeeld",
+        "roundDescriptionValue":"``linguacode\nX = 2.3 \na = round(X) \nuitgang(a) # 2\n``",
+        "floorName":"Aantal vloer",
+        "floorNameValue":"``linguacode\nfloor(X)\n``",
+        "floorDescription":"Rondes een <b>X</b> aantal <b>downwards</b> op het dichtstbijzijnde gehele getal, en geeft de waarde. Bijvoorbeeld",
+        "floorDescriptionValue":"``linguacode\nX = 2.6 \na = floor(X) \nuitgang(a) # 2\n``",
+        "ceilName":"Aantal ceil",
+        "ceilNameValue":"``linguacode\nceil(X)\n``",
+        "ceilDescription":"Rond een <b>X</b> aantal <b>upwards</b> naar het dichtstbijzijnde gehele getal, en geeft de waarde",
+        "ceilDescriptionValue":"``linguacode\nX = 2.2 \na = ceil(X) \nuitgang(a) # 3\n``",
+        "sinName":"Sinus",
+        "sinNameValue":"``linguacode\nsin(X)\n``",
+        "sinDescription":"Geeft als resultaat de waarde van de <b>sine</b> van een <b>X</b> nummer. Bijvoorbeeld",
+        "sinDescriptionValue":"``linguacode\nX = sin(pi) \noutput(X) # 0\n``",
+        "cosName":"Cosinus",
+        "cosNameValue":"``linguacode\ncos(X)\n``",
+        "cosDescription":"Geeft als resultaat de waarde van de <b>cosine</b> van een <b>X</b> nummer. Bijvoorbeeld",
+        "cosDescriptionValue":"``linguacode\nX = cos(pi) \noutput(X) # -1\n``",
+        "tanName":"Tangens",
+        "tanNameValue":"``linguacode\ntan(X)\n``",
+        "tanDescription":"Geeft als resultaat de waarde van de <b>tangent</b> van een <b>X</b> nummer. Bijvoorbeeld՝",
+        "tanDescriptionValue":"``linguacode\nX = tan(pi) \noutput(X) # 0\n``",
+        "ctgName":"Cotangens",
+        "ctgNameValue":"``linguacode\nctg(X)\n``",
+        "ctgDescription":"Geeft als resultaat de waarde van de <b>cotangent</b> van een <b>X</b> nummer. Bijvoorbeeld՝",
+        "ctgDescriptionValue":"``linguacode\nX = ctg(pi/4) \noutput(X) # 1\n``",
+        "arcSinName":"Boogsinus",
+        "arcSinNameValue":"``linguacode\narcsin(X)\n``",
+        "arcSinDescription":"Geeft de waarde waar de sinus krijgt dezelfde waarde als <b>X</b>. Bijvoorbeeld",
+        "arcSinDescriptionValue":"``linguacode\na = arcsin(1) \nuitgang(a) # pi/2 \n``",
+        "arcCosName":"De boogcosinus",
+        "arcCosNameValue":"``linguacode\narccos(X)\n``",
+        "arcCosDescription":"Geeft de waarde waar de cosinus krijgt dezelfde waarde als <b>X</b>. Bijvoorbeeld",
+        "arcCosDescriptionValue":"``linguacode\na = arccos(1) \nuitgang(a) # 0\n``",
+        "arcTanName":"Boogtangens",
+        "arcTanNameValue":"``linguacode\narctan(X)\n``",
+        "arcTanDescription":"Geeft de waarde waar de raaklijn krijgt dezelfde waarde als <b>X</b>. Bijvoorbeeld",
+        "arcTanDescriptionValue":"``linguacode\na = arctan(0) \nuitgang(a) # 0\n``",
+        "arcCtgName":"Arccotangent",
+        "arcCtgNameValue":"``linguacode\narcctg(X)\n``",
+        "arcCtgDescription":"Geeft de waarde waar de cotangens krijgt dezelfde waarde als <b>X</b>. Bijvoorbeeld",
+        "arcCtgDescriptionValue":"``linguacode\na = arcctg(1) \nuitgang(a) # pi/4\n``",
+        "logName":"Logaritme",
+        "logNameValue":"``linguacode\nlog(X,Y)\n``",
+        "logDescription":"Geeft als resultaat de waarde van de logaritme van <b>X</b> aan de basis <b>Y</b>. Bijvoorbeeld",
+        "logDescriptionValue":"``linguacode\na = log(3,27) \nuitgang(a) # 3\n``",
+        "lgName":"Gemeenschappelijke logaritme",
+        "lgNameValue":"``linguacode\nlg(Y)\n``",
+        "lgDescription":"Geeft als resultaat de waarde van de logaritme van <b>X</b> aan de basis <b>10</b>. Bijvoorbeeld",
+        "lgDescriptionValue":"``linguacode\na = lg(100) \nuitgang(a) # 10\n``",
+        "lnName":"Natuurlijke logaritme",
+        "lnNameValue":"``linguacode\nln(Y)\n``",
+        "lnDescription":"Geeft als resultaat de waarde van de logaritme van <b>X</b> aan de basis <b>e</b>. Bijvoorbeeld",
+        "lnDescriptionValue":"``linguacode\na = ln(e) \nuitgang(a) # 1\n``",
+        "randomName":"Random getal genereren",
+        "randomNameValue":"``linguacode\nrandom(X,[Y])\n``",
+        "randomDescription":"Als de parameter <b>Y</b> is gegeven, zal het programma willekeurig genereren en terug random geheel getal van range<b>[X, Y]</b>. Maar zonder <b>Y</b> parameter het assortiment zal worden <b>[0, X]</b>. Bijvoorbeeld",
+        "randomDescriptionValueFirst":"``linguacode\nX = 10 \na = random(X) # [0; 10]\nuitgang(a) # 4 \n``",
+        "randomDescriptionValueSecond":"``linguacode\nX = 5 \nY = 15 \na = random(X,Y) # [5; 15]\nuitgang(a) # 12\n``"
+      },
+      "tutorials":{
+        "intro":"Inleiding",
+        "output":"Uitgang",
+        "variables":"Variabelen",
+        "input":"Ingang",
+        "operations":"Activiteiten",
+        "conditions":"Voorwaarden",
+        "boolean":"Boolean",
+        "languageAboutLanguageTitle":"Over Taal",
+        "languageAboutLanguageContent":"LinguaCode is gemaakt voor iedereen die wil leren de basis van het programmeren in meer comfortabele manier. \nOm te leren met LinguaCode het is niet noodzakelijk de kennis van vreemde talen of technische vaardigheden. Alles wat je nodig hebt is de wil om te leren en ijver. \n\n#### Kenmerken:\n- **Meertalig**\n- **Multi**\n- **Eenvoudige Source code**\n- **Gratis**\n",
+        "languageFeaturesTitle":"Taal",
+        "languageFeaturesContent":"LinguaCode is gebaseerd op Python, Pascal en JavaScript, waardoor het gemakkelijk is te begrijpen met eenvoudige broncode en leer een andere programmeertaal sneller. \n\n**Hier zijn alle basis begrippen van de taal:**\n\n- **Voor elke opdracht start van de nieuwe lijn.** \nSource code zal meer eenvoudig en duidelijk op die manier.\n- **- Commando ' s kunnen worden geschreven, hoofdletters en kleine letters.** \nHet versnelt het proces van programmeren, maar het is aanbevolen om te schrijven met een kleine letter.\n- **De tekst kan worden geschreven tussen de beide aanhalingstekens en apostroffen.** \nIn veel landen zijn er geen aanhalingstekens in gebruik, zodat u kunt hier kiezen handige versie voor je.\n- **Tekst geschreven na een symbool \"\\#\" wordt beschouwd als commentaar en heeft geen invloed op het werk van de broncode.** \nOpmerkingen zijn voor het maken van aantekeningen.",
+        "outputCommandDefinitionTitle":"Opdracht definitie",
+        "outputCommandDefinitionContent":"Elk programma, waarin een aantal activiteiten moeten laten ons informatie over het resultaat. Dat is de reden waarom de programmering systemen tekst output mogelijkheid en de plaats waar kunnen we het resultaat zien, die heet **Terminal**. \n\nOpdracht \"*uitvoer*\" wordt gebruikt voor de uitvoer. \n\n#### Bijvoorbeeld \nBron code``linguacode\noutput(\"Howdy\")\n`Resultaat``terminal\nHowdy\n``",
+        "outputPossibleValuesTitle":"Mogelijke waarden",
+        "outputPossibleValuesContent":"Commando-uitvoer, kan het afdrukken van tekst, getallen, wiskundige bewerkingen en variabele waarden.\n\n#### Bijvoorbeeld \nBroncode \n``linguacode\noutput(100)\nuitgang(5 * 25)\n`Resultaat``terminal\n100\n125\n``",
+        "variablesDeclaresAndAssignsTitle":"De aangifte en de opdracht",
+        "variablesDeclaresAndAssignsContent":"Vaak moeten we het opslaan van de tekst, het aantal en de numerieke operaties ergens met het doel opnieuw te gebruiken. De containers, waar we kunnen besparen verschillende waarden worden genoemd **variabelen**. Ten eerste moeten we een naam geven aan de variabele en het toewijzen van een waarde aan. Na deze kunnen we verwijzen naar de waarde gewoon door het aanroepen van de variabele met de naam. \nVariabelen worden opgeslagen in het Random access memory (RAM) van de computer, en wanneer wij het gebruik van de variabele, computer keert terug naar de waarde die overeenkomt met de naam van de variabele uit het RAM-geheugen.\n#### Belangrijk om te onthouden\nVariabele-namen \n**1.** Kan letters, symbolen of cijfers \n**2.** Kan niet beginnen met een cijfer \n**3.** Kan het niet bevatten, ruimte en symbolen van rekenkundige bewerkingen\n#### Bijvoorbeeld \nVoor het afdrukken aantal **617** in plaats van dit \n``linguacode\noutput(617)\n``\nwe zullen schrijven\n``linguacode\nX = 617\noutput(X)\n``\nResultaat\n``terminal\n617\n`` \nEn als we willen aan de uitgang van de zelfde waarde drie keer, we zullen schrijven \n``linguacode\nX = 617\noutput(X)\noutput(X)\noutput(X)\n`` \nResultaat \n``terminal\n617\n617\n617\n``",
+        "variablesPracticalUseTitle":"Praktisch gebruik",
+        "variablesPracticalUseContent":"Zoals we zien, kunnen we u zowel numerieke en tekst van waarden van variabelen. Maar vaak moeten we toekennen aan de variabele een bepaalde waarde, die toegekend was aan een ander. In dat geval kunnen we u al bestaande variabele naar de nieuwe.\n#### Bijvoorbeeld \nBroncode\n``linguacode\na = 1\nb = 2\nc = a + b\noutput(c)\n`` \nResultaat\n``terminal\n3\n``\n",
+        "variablesMultipleUsesTitle":"Meervoudig gebruik",
+        "variablesMultipleUsesContent":"U hoeft niet te maken met een nieuwe variabele voor een nieuwe waarde. Ook kunnen We de waarden die aan de variabelen. Wij vermijden van onnodige variabelen en de source code zal meer eenvoudige manier.\n#### Bijvoorbeeld\nLaten we aannemen dat we **100** appels en sla deze waarde op **apple** * variabele. Het aantal appels was de wind door **5** elke dag. \nWe moeten uitgang van de graaf van appels voor elke dag. \n\nBroncode\n``linguacode\napple = 100\noutput(apple)\n\napple = apple - 5 # 95\noutput (apple)\n\napple = apple - 5 # 90\noutput(apple)\n\napple = apple - 5 # 85\noutput(apple)\n`` \nResultaat\n``terminal\n100\n95\n90\n85\n``",
+        "inputCommandDefinitionTitle":"Opdracht definitie",
+        "inputCommandDefinitionContent":"In de programmering moeten we zowel naar de uitgang en in veel gevallen om gegevens. We moeten het als variabelen krijgen een waarde. Wij kunnen ook de bron code van elke tijd en toekennen van nieuwe waarden aan de variabele, maar het is niet effectief en behoeften te lange tijd. \n\nIn dat geval gebruiken we de opdracht \"*input*\". \n\nEn hier is een eenvoudig voorbeeld van een programma die uitgangen dubbele van het aantal ingegeven door de gebruiker. ``linguacode\ninput(aantal)\noutput(aantal * 2)\n`` Na het uitvoeren van dit programma zien we het symbool \"**>**\" wat betekent dat het programma is gestart en we moeten het invoeren van een ontbrekende gegevens. Na het invoeren van een nummer en drukt u op **** zien we dubbel van het ingevoerde getal. ``terminal\n>617\n1234\n`Meestal moeten we schrijven programma ' s, die gebruikt kunnen worden door mensen, die niet eens weten dat de programmering.",
+        "inputWorkMechanismTitle":"Werken mechanisme",
+        "inputWorkMechanismContent":"Laat ons nu eens zien hoe de commando-ingang werkt. We hebben bijvoorbeeld dit programma ``linguacode\noutput(\"Vul uw gegevens in:\")\noutput(\"Naam:\")\ninput(naam)\noutput(\"Naam:\")\ningang(achternaam)\noutput(\"Hallo\" + naam + \"\" + naam)\n`` Als we zien dat er 6 lijnen in ons programma. \nNa het uitvoeren van het we kunnen zien dat programma werkte tot lijn 3.``terminal\nVul uw gegevens in:\nNaam:\n>\n`` Na het invoeren van de gemiste gegevens, we zullen zien dat het nu het werkte tot aan lijn 5.``terminal\nVul uw gegevens in:\nNaam:\n>Marine\nAchternaam:\n>\n`` En ten slotte, na het invoeren van de laatste messed data programma zal werken en het einde.``terminal\nVul uw gegevens in:\nNaam:\n>Marine\nAchternaam:\n>Chamchyan\nHi, Marine Chamchyan\n`` Zo zagen we dat bij deze opdracht is het programma onderdeel door een deel eigen aan de ingang gemiste gegevens.",
+        "operationsArithmeticOperatorsTitle":"Rekenkundige bewerkingen",
+        "operationsArithmeticOperatorsContent":"In LinguaCode het is mogelijk implementeren van eenvoudige rekenkundige bewerkingen zoals **+**, **-**, **\\***, **/**. \n\nBijvoorbeeld dit programma doet het allemaal rekenkundige operatoren met **1** en **2** de nummers. ``linguacode\nuitgang(1 + 2) # 3\nuitgang(1 - 2) # -1\nuitgang(1 * 2) # 2\nuitgang(1 / 2) # 0.5\n` ` #### Belangrijk om te onthouden \nZoals we weten in Wiskunde vermenigvuldiging van variabele met een andere variabele of getal kan geschreven worden zonder symbool van vermenigvuldiging. Bijvoorbeeld *7 keer X* zal worden geschreven **7X** of *X keer Y* * * like **XY**. \nMaar in de programmering is het belangrijk te schrijven symbool van vermenigvuldiging. Bijvoorbeeld **7 \\* X** of **X \\* Y**.",
+        "operationsExecutingPriorityTitle":"Bewerkingen uitvoeren van prioriteit",
+        "operationsExecutingPriorityContent":"Zowel in de Wiskunde en in de programmering als er sprake is van een divisie of een vermenigvuldiging, we in de eerste plaats doen ze en pas nadat we doen het optellen en aftrekken. \n\n#### Bijvoorbeeld ``linguacode\nX = 10 + 2 * 4 - 2\n# X = 10 + 8 - 2\n# X = 18 - 2\n# X = 16\n`` Maar we kunnen de uitvoering van prioriteit door het gebruik van haakjes. \n#### Bijvoorbeeld ``linguacode\nX = (10 + 2) * (4 - 2)\n# X = 12 * (4 - 2)\n# X = 12 * 2\n# X = 24\n``In de programmering kunnen we haakjes gebruiken, zelfs als ze niet nodig zijn. \nHet zal niet verkeerd zijn, maar het is aanbevolen om te schrijven eenvoudige en duidelijke bron code, die gemakkelijk te begrijpen is voor anderen.",
+        "operationsNumbersTitle":"Nummers",
+        "operationsNumbersContent":"Zoals we weten <a href=\"https://en.wikipedia.org/wiki/Number\" target=\"_blank\">numbers</a> zijn wiskundige objecten die worden gebruikt om te tellen, te meten en label. \nEr zijn 5 soorten nummers. We zullen omgaan met alle van hen, behalve voor complexe numbes \n- ** natuurlijke getallen** **1**, **2**, ...``linguacode\noutput(7 + 4) # 13\n`` \n- **gehele getallen** ..., **-1**, **0**, **1**, ...``linguacode\noutput(-6 * 5 + -3) # -33\n`` \n- **rationale getallen** **1/2**, **2/3**, **0.125**, ...``linguacode\noutput(0.617 * 2 * 1000) # 1234\n`` \n- **reële getallen** **√2**, **1.62**, ...``linguacode\noutput(2/3 + 1/2) # 1\n``",
+        "operationsSumOfStringAndNumberTitle":"Som van strings en getallen",
+        "operationsSumOfStringAndNumberContent":"Zoals we zien, het is mogelijk om beide nummers en teksten aan elkaar, in die resultaat lijnen worden gecombineerd in één lijn. Maar vaak moeten we een lijn, waarbij er zal worden gebruikt numerieke waarde in. In dat geval is het mogelijk om tekst toe te voegen aan het nummer, in welk resultaat het aantal zal worden aangepast en in combinatie met de tekst als tekst.``linguacode\ntext = \"er zijn\" + 365 + \"dagen in het jaar\"\n# text = \"er zijn\" + \"365\" + \"dagen in het jaar\"\n# text = \"er zijn 365\" + \"dagen in het jaar\"\n# text = \"er zijn 365 dagen in het jaar\"\n` ` #### Belangrijk om te onthouden \nMet lijnen kunnen we doen alleen het toevoegen van de werking. Terwijl het doen van andere activiteiten zal leiden tot fout.",
+        "conditionsCommandsIfTitle":"Opdracht \"Als\"",
+        "conditionsCommandsIfContent":"Soms in de programmering moeten we het uitvoeren van een aantal activiteiten op basis van de conditie. Voor het er zijn toestand controle commando ' s zoals \"Als\", \"If-else\" en \"Else If\". \n\nHet schrijven van de vorm van het commando \"****\" ``linguacode\nals <condition> dan\n<operation>\n`` Hier tussen de commando ' s \"Als\" en \"dan\" er is een aandoening, en na de nieuwe lijn en na **4 ruimtes** is geschreven werking (of activiteiten), die zal worden gedaan als de uitspraak waar is. \n\n#### Bijvoorbeeld ``linguacode\na = 5\nb = 2\nals a > b dan\nuitvoer ('a > b\")\n``",
+        "conditionsCommandsIfElseTitle":"Opdracht \"If-Else\"",
+        "conditionsCommandsIfElseContent":"Zo weten we hoe het gebruik van voorwaardelijke instructie in programma ' s. Nu bespreken we het geval als de toestand onwaar is.\n\nHet schrijven vorm van \"**If-Else**\" verklaring ``linguacode\nals <condition> dan\n<operation N1>\nanders\n<operation N2>\n`` Hier, na het commando \"Als\" er is een nieuwe opdracht \"Anders\". En van de nieuwe lijn, na 4 ruimtes is geschreven op de bediening, die zal worden gedaan, indien de genoemde toestand onwaar is.\n\n#### Bijvoorbeeld ``linguacode\na = 5\nb = 10\nals a > b\nuitvoer ('a > b\")\nanders\noutput(\"b < a\")\n``",
+        "conditionsCommandsElseIfTitle":"Opdracht \"Else If\" -",
+        "conditionsCommandsElseIfContent":"We hebben reeds besproken dat de opdracht zal worden uitgevoerd op basis van de conditie waar of onwaar. Maar soms moeten we controleren meer dan één aandoening in dezelfde tijd. \n\nHet schrijven vorm van \"**If-Else-If**\" verklaring``linguacode\nals <condition N1> dan\n<operation N1>\nanders als <condition N2> dan\n<operation N2>\nanders\n<operation N3>\n`` Hier moeten we meer dan één aandoening. In het geval van het \"Anders-Als\" het schrijven van een formulier kunnen er 1 of meer \"Else If\"-jaarrekening tussen de commando ' s \"Als\" en \"Anders\". \n\n#### Bijvoorbeeld ``linguacode\na = 5\nb = 5\nals a > b dan\nuitvoer ('a > b\")\nanders als a < b dan\nuitvoer ('< b\")\nanders\noutput(\"b == a\")\n``",
+        "booleanTypesBooleanTitle":"Beschrijving",
+        "booleanTypesBooleanContent":"We weten al hoe om te controleren jaarrekening en een aantal van hen kan worden *waar* (22 > 18) of *false* (16 > 18). Soms vanwege de lengte van de conditie controleren van de lijn, wordt het moeilijk om de broncode te lezen. Hier komt om te helpen de waarden van booleaans \n\n- **waar** ``linguacode\nvoorwaarde = true\noutput(conditie) #true\n`` \n\n- **false**``linguacode\nvoorwaarde = false\noutput(conditie) #false\n`` Een booleaanse vergelijking bekend aan ons retourneert een van de gegeven waarden \n\nVoorbeeld van *echte* vergelijking ``linguacode\nstaat = 1 < 5\noutput(conditie) # true\n`` Exemple van *false* vergelijking ``linguacode\ncondition = 10 < 5\noutput(conditie) # false\n`` Dus in conditie controleren van commando ' s kunnen we gebruik maken van variabelen met booleaanse waarden. \n\n#### Bijvoorbeeld ``linguacode\nuitvoer ('het Schrijven van een aantal \"a\":\")\ningang(a)\n\nuitvoer ('het Schrijven van een aantal \"b\":\")\ninput(b)\n\ncondition1 = a > b\ncondition2 = a < b\n\nals condition1 dan\nresultaat = 'a > b\"\nanders als condition2 then\nresultaat = \"< b\"\nanders\nresultaat = a == b\"։\noutput(\"Resultaat:\" + resultaat)\n``",
+        "booleanOperatorsComparisonTitle":"Vergelijkingsoperatoren",
+        "booleanOperatorsComparisonContent":"In de conditie controle-opdrachten hebben we al gebruikt symbolen van een \"groter dan\" > en \"minder dan\" < vergelijkings-operatoren. Maar nu kunnen we hier gebruik maken van andere operators bij ons bekend. \n\n- **>** vergelijkt numerieke waarden, waarvan de eerste is *#meer* dan de tweede. Bijvoorbeeld ``linguacode\nuitgang(5 > 1) # true\nuitgang(1 > 5) # false\n`` \n\n- **>=** vergelijkt numerieke waarden, waarvan de eerste is *#groter of gelijk aan* de tweede. Bijvoorbeeld ``linguacode\nuitgang(5 >= 5) # true\nuitgang(1 >= 5) # false\n`` \n\n- **<** vergelijkt numerieke waarden, waarvan de eerste is *#minder* dan de tweede. Bijvoorbeeld ``linguacode\nuitgang(1 < 5) # true\nuitgang(5 < 1) # false\n`` \n\n- **<=** vergelijkt numerieke waarden, waarvan de eerste is *#minder of gelijk aan* de tweede. Bijvoorbeeld ``linguacode\nuitgang(1 <= 5) # true\nuitgang(5 <= 1) # false\n`` \n\n- **==** vergelijkt numerieke waarden of tekst in die de eerste is *#gelijk aan* de tweede. Bijvoorbeeld ``linguacode\nuitgang(5 == 5) # true\nuitgang(5 == 1) # false\noutput(\"soldaat\" == \"soldaat\") # true\noutput(\"Hallo\" == \"Helo\") # false\n`` \n\n- **!=** vergelijkt numerieke waarden of tekst in die de eerste is *#niet gelijk aan* de tweede. Bijvoorbeeld ``linguacode\nuitgang(5 != 1) # true\nuitgang(5 != 5) # false\noutput(\"Hallo\" != \"Helo\") # true\noutput(\"soldaat\" != \"soldaat\") # false\n`` \n\n- **()** levert omgekeerd resultaat van een numerieke of tekst te vergelijken. Bijvoorbeeld ``linguacode\nuitgang(niet(1 > 5)) # true\noutput(geen lid 5 == 5)) # false\nuitgang(niet(false)) # true\noutput(not(true)) # false\n``",
+        "booleanOperatorsLogicalTitle":"Booleaanse operatoren",
+        "booleanOperatorsLogicalContent":"Dus we weten hoe het schrijven van een voorwaardelijke instructie, maar vaak moeten we combineren een aantal van de voorwaarden in één, en gebaseerd op het uitvoeren van bepaalde acties. Het combineren van de voorwaarden vindt plaats door de booleaanse operatoren. \n\n- Opdracht \"**en**\" combineert twee voorwaarden in een, dat heet **trouw** * * als aan beide voorwaarden is *waar* en **false** wanneer ten minste een van de voorwaarden is *fout*. Bijvoorbeeld ``linguacode\nuitgang(5 > 1 և 10 < 100) # true\nuitgang(20 < 100 և 1 > 5) # false\n`` \n\n- Opdracht \"**of**\" combineert twee voorwaarden in een, dat heet **trouw** wanneer ten minste een van de voorwaarden is *waar* en **false** wanneer de twee voorwaarden *false*. Bijvoorbeeld ``linguacode\nuitgang(5 > 1 of 100 < 10) # true\nuitgang(20 > 100 of 1 > 5) # false\n``",
+        "booleanOperatorsExecutingPriorityTitle":"De uitvoering van prioriteit",
+        "booleanOperatorsExecutingPriorityContent":"Wij geleerd hoe combineer 2 voorwaarden, maar kan meer dan 2, op basis van programma-inhoud. In dat geval voorwaarden worden gecombineerd met elkaar van links naar rechts*, totdat zij vormen een voorwaarde.\n\n#### Bijvoorbeeld ``linguacode\nuitgang(5 < 1 և 1 < 7 of 1 >= 3 of 9 == 9)\n`` dit is het zelfde als ``linguacode\noutput(false և true of false of true)\n`` laten we combineren **1** en **2** \"**false en true**\" voorwaarden in een․ ``linguacode\noutput(vals of onwaar of waar)\n``dan **1+2** staat met **3** \"**vals of onwaar**\" ``linguacode\noutput(false of true)\n`` en tenslotte **1+2+3** staat met **4e** \"**false of true**\"․ ``linguacode\noutput(ware)\n`` En zo combineren wij 4 voorwaarden in één. We kunnen combineren meer voorwaarden die manier. \n\nSoms moeten we veranderen van links naar rechts het combineren van prioriteit door het gebruik van haakjes. \n\n#### Bijvoorbeeld ``linguacode\nuitgang(5 < 1 և (1 < 7 (1 >= 3 of 9 == 9)))\n`` \n\ndit is hetzelfde als ``linguacode\noutput(false և (waar of niet (false of true)))\n`` laten we combineren **3** en **4e** \"**false of true**\" voorwaarden ``linguacode\noutput(vals of niet (false of true))\n`` na het **2** toestand met **3+4** voorwaarde zal worden \"**false of true**\" ``linguacode\noutput(false և ware)\n`` en tot slot laten we combineren **1** toestand met **2+(3+4)**. Het zal een \"**false en true**\" ``linguacode\noutput(onwaar)\n`` En dus zagen wij dat resultaat is gewijzigd met het veranderen van het combineren van prioriteit."
+      },
+      "syntaxInfo":{
+        "modalTitle":"Opdracht gids",
+        "cheatSheetTitle":"Cheat sheet",
+        "lesson":"Tutorial"
+      }
+    }
+  },
+  "modules":{
+    "ide":{
+      "title":"<b> Hotkeys</b>",
+      "undo":"Ongedaan maken",
+      "redo":"Opnieuw",
+      "selectAll":"Selecteer alle",
+      "run":"Uitvoeren",
+      "terminal":"Terminal"
+    },
+    "program":{
+      "program":"Programma",
+      "sourceCode":"Broncode",
+      "functionArgumentSyntaxError":"Argument van de functie syntax fout in ${line} lijn.",
+      "undefinedVariable":"De \"${variable}\" variabele niet gedefinieerd in ${line} lijn.",
+      "indentError":"Space fout in ${line} lijn.",
+      "hackAttempt":"Hack poging. Uw \"${ip}\" ip-adres is opgeslagen in onze database.",
+      "syntaxError":"Syntax fout",
+      "timeout":"Compile time-out. Zorg ervoor dat de code niet hebben oneindige lus.",
+      "true":"waar",
+      "false":"false",
+      "NaN":"onbekend",
+      "null":"onbekend",
+      "Infinity":"infinity",
+      "undefined":"niet gedefinieerd"
+    },
+    "programListGroup":{
+      "programs":"Programma ' s"
+    },
+    "terminal":{
+      "hotkeys":"<b> Hotkeys</b>",
+      "undo":"Ongedaan maken",
+      "redo":"Opnieuw",
+      "selectAll":"Selecteer alle",
+      "terminal":"Terminal"
+    }
+  },
+  "buttons":{
+    "loginButton":{
+      "signIn":"Teken in"
+    },
+    "menuButton":{
+      "settings":"Instellingen",
+      "logOut":"Afmelden"
+    }
+  },
+  "panels":{
+    "header":{
+      "title":"Thuis"
+    }
+  },
+  "elements":{
+    "emptyProgramListForOthersComponent":{
+      "programNotFoundForOthers":"Gebruiker heeft geen programma ' s nog."
+    },
+    "emptyProgramListForOwnerComponent":{
+      "programNotFoundListForOwner":"U hoeft geen programma ' s nog.",
+      "programNotFoundClickPartFirst":"Klik",
+      "programNotFoundClickPartSecond":"hier",
+      "programNotFoundClickPartThird":"maken van een nieuw programma."
+    },
+    "loading":{
+      "loading":"Laden"
+    }
+  }
+}

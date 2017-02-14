@@ -1,0 +1,362 @@
+{
+  "blocks":{
+    "controlPanelBlock":{
+      "edit":"Editar",
+      "delete":"Eliminar"
+    },
+    "lovePanelBlock":{
+      "like":"Como",
+      "liked":"Le gustaba",
+      "star":"Estrella",
+      "starred":"Protagonizada"
+    },
+    "moreFromUserBlock":{
+      "viewAll":"Ver todos",
+      "moreFromFirst":"Más de",
+      "moreFromLast":""
+    },
+    "programListFilterBlock":{
+      "sortBy":"Ordenar por",
+      "recent":"Recientes",
+      "views":"Vistas",
+      "stars":"Estrellas",
+      "likes":"Le gusta",
+      "random":"Al azar"
+    },
+    "shareBlock":{
+      "link":"Enlace",
+      "share":"Compartir",
+      "tweet":"Tweet",
+      "textTwitter":"Programa \"${programTitle}\" por ${userName} en #LinguaCode ${userPageLink}",
+      "descriptionVK":"LinguaCode social de la plataforma de codificación y está diseñado especialmente para los niños, donde pueden aprender a programar y compartir sus códigos con su lengua nativa y sin necesidad de saber inglés."
+    },
+    "userPrimaryInfoBlock":{
+      "editProfile":"Editar perfil"
+    },
+    "userSecondaryInfoBlock":{
+      "joinedOn":"Se unió en"
+    }
+  },
+  "pages":{
+    "errorPage":{
+      "title":"Error",
+      "explanation":"Lo siento, un error crítico en esta página."
+    },
+    "landingPage":{
+      "title":"LinguaCode: el Aprendizaje mediante la Codificación de",
+      "learningByCoding":"Aprendizaje <span className=\"masthead--lora-italic\">by Coding</span>",
+      "explanation":"Hacemos el aprendizaje de programación y codificación tan lleno de alegría y vida, se va a reír en voz alta.",
+      "facebookSignIn":"Iniciar sesión con Facebook",
+      "or":"o",
+      "seeTheListOfPrograms":"Ver la lista de existir programas",
+      "descriptionHead":"La mejor forma para aprender programación.",
+      "descriptionBody":"LinguaCode social de la plataforma de codificación y está diseñado especialmente para los niños, donde pueden aprender a programar y compartir sus códigos con su lengua nativa y sin necesidad de saber inglés.",
+      "advantagesHeadline":"LinguaCode ayuda <span className=\"u-emphasized\">learn mejor </span>",
+      "advantageTopFirstHeadline":"Multilingüe",
+      "advantageTopFirstDescription":"Escribir programas en su idioma nativo, y no sólo.",
+      "advantageTopSecondHeadline":"Es gratis!",
+      "advantageTopSecondDescription":"Todo es gratis.",
+      "advantageTopThirdHeadline":"De inicio rápido",
+      "advantageTopThirdDescription":"Introducción es mucho más fácil de lo que piensas!",
+      "advantageBottomFirstHeadline":"La imaginación",
+      "advantageBottomFirstDescription":"Aprender, probar, Crear!",
+      "advantageBottomSecondHeadline":"La educación",
+      "advantageBottomSecondDescription":"Aprender programación, así como de otros temas.",
+      "advantageBottomThirdHeadline":"La comunidad",
+      "advantageBottomThirdDescription":"Compartir sus programas con los amigos y encontrar nuevos amigos.",
+      "joinText":"Únete a <span className=\"u-emphasized\">the community</span> de los alumnos",
+      "facebookRegister":"Registrate ahora, es GRATIS!"
+    },
+    "notFoundPage":{
+      "title":"No Se Encontró La Página",
+      "explanation":"Lo sentimos, pero la página que estaban intentando ver no existe.",
+      "descriptionPartFirst":"Trate de dirigirse a",
+      "descriptionPartSecond":"página principal",
+      "descriptionPartThird":"en su lugar."
+    },
+    "programChangePage":{
+      "titleOfEditPage":"Editar el ${userName}/${title} programa",
+      "editProgramHeadline":"Edición de un programa de",
+      "editProgramButton":"Programa De Edición",
+      "titleOfCreatePage":"Crear un nuevo programa",
+      "newProgramHeadline":"Crear un nuevo programa",
+      "submitProgramButton":"Presentar Programa",
+      "programContent":"Un programa contiene toda la información sobre su código.",
+      "name":"Nombre",
+      "programNameForm":"Grandes nombres de programa corto y memorable, como <b>hello-world</b>.",
+      "titleOfProgram":"Título",
+      "description":"Descripción",
+      "validationError":"Error de validación",
+      "errorTextForNameLength":"La longitud de la <b>name</b> debe más de 0 y menos de 32, que debe consistir en latín los símbolos y los guiones.",
+      "errorTextForName":"Este nombre de la fuente ya es utilizado por usted.",
+      "errorTextForTitle":"La longitud de la <b>title</b> debe más de 0 y menos de 128.",
+      "errorTextForDescription":"La longitud de la <b>description</b> debe más de 0 y menos de 5120.",
+      "errorTextForSource":"La longitud de la <b>source</b> debe más de 0 y menos de 10240."
+    },
+    "programs":{
+      "title":"Los programas de"
+    },
+    "settingsPage":{
+      "title":"Configuración",
+      "publicProfile":"Perfil público",
+      "validationError":"Error de validación",
+      "username":"Nombre de usuario",
+      "yourUsername":"Su nombre de usuario",
+      "usernameWasAlreadyUsed":"Nombre de usuario ya ha sido utilizado",
+      "usernameWasReserved":"Nombre de usuario era reservado",
+      "usernameValidation":"La longitud de la <b>username</b> debe ser inferior a 24 y contener letras pequeñas del latín y de los números.",
+      "name":"Nombre",
+      "yourFirstNameAndLastName":"Su primer nombre y apellido",
+      "nameValidation":"La longitud de la <b>name</b> debe ser mayor que 0 y menor de 24",
+      "bio":"Bio",
+      "tellALittleAboutYourself":"Contar un poco acerca de ti",
+      "bioValidation":"La longitud de la <b>bio</b> debe ser inferior a 128.",
+      "country":"País",
+      "select":"seleccione",
+      "countryValidation":"Seleccione cualquiera de los países",
+      "updateProfile":"Actualización de perfil"
+    }
+  },
+  "modals":{
+    "loginRequiredModal":{
+      "signInTitle":"Signo en",
+      "signInDescription":"La operación sólo es posible cuando se está firmado."
+    },
+    "programDeleteModal":{
+      "programDeleteConfirmation":"¿Estás seguro de querer eliminar el programa ?",
+      "answerYes":"sí",
+      "answerNo":"no"
+    },
+    "syntaxInfoModal":{
+      "cheatSheet":{
+        "outputName":"Salida",
+        "outputNameValue":"``linguacode\nde salida(X)\n``",
+        "outputDescription":"Imprime cualquier valor de X: los números, las operaciones, el texto y los valores de la variable. Por ejemplo",
+        "outputDescriptionValue":"``linguacode\nde salida(4) # 4\nde salida(\"Hola\") # Howdy\nsalida(1+2) # 3\n``",
+        "inputName":"De entrada",
+        "inputNameValue":"``linguacode\nde entrada(X)\n``",
+        "inputDescription":"Cualquier variable X el valor de declarar por el usuario. Por ejemplo",
+        "inputDescriptionValue":"``linguacode\nde entrada(a)\n``",
+        "ifElseStatementName":"Comprobación de la declaración",
+        "ifElseStatementNameValue":"``linguacode\nsi <condition N1>, a continuación,\n<operation N1>\nsi por el contrario, <condition N2>, a continuación,\n<operation N2>\notra cosa\n<operation N3>\n``",
+        "ifElseStatementDescription":"Las operaciones serán ejecutadas basado en la condición especificada de ser cierto. Por ejemplo",
+        "ifElseStatementDescriptionValue":"``linguacode\na = 5\nb = 5\nsi a > b, entonces\nde salida(\"a > b\")\notra cosa si a < b, entonces\nde salida(\"a < b\")\notra cosa\nde salida(\"b == a\") # b == a\n``",
+        "loopForName":"Limitado a repetir",
+        "loopForNameValue":"``linguacode\nrepita <N> veces\n<operation>\n``",
+        "loopForDescription":"Ejecuta un bloque de código un número de veces. Por ejemplo",
+        "loopForDescriptionValue":"``linguacode\nrepita 10 veces\nde salida(\"Hola\")\n``",
+        "loopWhileDoName":"Bucle \"Mientras Que Hacer\"",
+        "loopWhileDoNameValue":"``linguacode\nmientras <condition>, a continuación,\n<operation>\n``",
+        "loopWhileDoDescription":"El \"Hacer Mientras\" bucle se ejecuta a través de un bloque de código mientras una condición especificada es verdadero. Por ejemplo",
+        "loopWhileDoDescriptionValue":"``linguacode\na = 1\nmientras que un < 5 entonces\nde salida(a)\na = a + 1\n``",
+        "loopDoWhileName":"Bucle \"Do While\"",
+        "loopDoWhileNameValue":"``linguacode\n¿\n<operation>\nmientras <condition>\n``",
+        "loopDoWhileDescription":"Bucle \"Do while\" se repite el bucle mientras la condición es verdadera. Por ejemplo",
+        "loopDoWhileDescriptionValue":"``linguacode\na = 1\n¿ \nde salida(a)\na = a + 1\nmientras que un < 5\n``",
+        "piName":"constante matemática pi",
+        "piNameValue":"``linguacode\nde salida(pi)\n``",
+        "piDescription":"Imprime constante matemática <b>pi</b>. Por ejemplo",
+        "piDescriptionValue":"``linguacode\nde salida(pi) # 3.141592653589793\n``",
+        "eNumberName":"e constante matemática",
+        "eNumberNameValue":"``linguacode\nde salida(e)\n``",
+        "eNumberDescription":"Imprime constante matemática <b>e</b>. Por ejemplo",
+        "eNumberDescriptionValue":"``linguacode\nde salida(e) # 2.718281828459045\n``",
+        "sqrName":"Cuadrado de un número",
+        "sqrNameValue":"``linguacode\nsqr(X)\n``",
+        "sqrDescription":"Devuelve la plaza de <b>X</b> número ingresado por el usuario. Por ejemplo",
+        "sqrDescriptionValue":"``linguacode\nX = 5 \nY = sqr(X) \nde salida(Y) # 25\n``",
+        "powName":"El poder de número",
+        "powNameValue":"``linguacode\npow(X,Y)\n``",
+        "powDescription":"Devuelve el valor de <b>X</b> a la potencia de <b>Y</b>. Por ejemplo",
+        "powDescriptionValue":"``linguacode\nX = 2 \nY = 5 \nZ = pow(X, Y) \nde salida(Z) # 32\n``",
+        "sqrtName":"Raíz cuadrada de un número",
+        "sqrtNameValue":"``linguacode\nsqrt(X)\n``",
+        "sqrtDescription":"Devuelve la raíz cuadrada de <b>X</b> número ingresado por el usuario. Por ejemplo",
+        "sqrtDescriptionValue":"``linguacode\nX = 9 \nY = sqrt(X) \nde salida(Y) # 3\n``",
+        "absName":"Valor absoluto de un número",
+        "absNameValue":"``linguacode\nabs(X)\n``",
+        "absDescription":"Devuelve el valor absoluto de <b>X</b> número ingresado por el usuario. Por ejemplo՝",
+        "absDescriptionValue":"``linguacode\nX = -5 \nY = abs(X) \nde salida(Y) # 5\n``",
+        "roundName":"Número de redondeo",
+        "roundNameValue":"``linguacode\nround(X)\n``",
+        "roundDescription":"Rondas de un <b>X</b> número al entero más cercano y devuelve el valor. Por ejemplo",
+        "roundDescriptionValue":"``linguacode\nX = 2.3 \na = round(X) \nde salida(a) # 2\n``",
+        "floorName":"Número de piso",
+        "floorNameValue":"``linguacode\npiso(X)\n``",
+        "floorDescription":"Rondas de un <b>X</b> número <b>downwards</b> al entero más cercano y devuelve el valor. Por ejemplo",
+        "floorDescriptionValue":"``linguacode\nX = 2.6 \na = floor(X) \nde salida(a) # 2\n``",
+        "ceilName":"Número ceil",
+        "ceilNameValue":"``linguacode\nceil(X)\n``",
+        "ceilDescription":"Ronda de un <b>X</b> número <b>upwards</b> a su entero más cercano y devuelve el valor",
+        "ceilDescriptionValue":"``linguacode\nX = 2.2 \na = ceil(X) \nde salida(a) # 3\n``",
+        "sinName":"Sine",
+        "sinNameValue":"``linguacode\nsin(X)\n``",
+        "sinDescription":"Devuelve el valor de la <b>sine</b> de un <b>X</b> número. Por ejemplo",
+        "sinDescriptionValue":"``linguacode\nX = sin(pi) \nde salida(X) # 0\n``",
+        "cosName":"Coseno",
+        "cosNameValue":"``linguacode\ncos(X)\n``",
+        "cosDescription":"Devuelve el valor de la <b>cosine</b> de un <b>X</b> número. Por ejemplo",
+        "cosDescriptionValue":"``linguacode\nX = cos(pi) \nde salida(X) # -1\n``",
+        "tanName":"Tangente",
+        "tanNameValue":"``linguacode\ntan(X)\n``",
+        "tanDescription":"Devuelve el valor de la <b>tangent</b> de un <b>X</b> número. Por ejemplo՝",
+        "tanDescriptionValue":"``linguacode\nX = tan(pi) \nde salida(X) # 0\n``",
+        "ctgName":"La cotangente",
+        "ctgNameValue":"``linguacode\nctg(X)\n``",
+        "ctgDescription":"Devuelve el valor de la <b>cotangent</b> de un <b>X</b> número. Por ejemplo՝",
+        "ctgDescriptionValue":"``linguacode\nX = ctg(pi/4) \nde salida(X) # 1\n``",
+        "arcSinName":"Arcoseno",
+        "arcSinNameValue":"``linguacode\narcsen(X)\n``",
+        "arcSinDescription":"Devuelve el valor en el que la condición sine obtiene el mismo valor como <b>X</b>. Por ejemplo",
+        "arcSinDescriptionValue":"``linguacode\na = arcsen(1) \nde salida(a) # pi/2 \n``",
+        "arcCosName":"Arcocoseno",
+        "arcCosNameValue":"``linguacode\narccos(X)\n``",
+        "arcCosDescription":"Devuelve el valor donde el coseno obtiene el mismo valor como <b>X</b>. Por ejemplo",
+        "arcCosDescriptionValue":"``linguacode\na = arccos(1) \nde salida(a) # 0\n``",
+        "arcTanName":"Arcotangente",
+        "arcTanNameValue":"``linguacode\narctan(X)\n``",
+        "arcTanDescription":"Devuelve el valor en el que la tangente se obtiene el mismo valor como <b>X</b>. Por ejemplo",
+        "arcTanDescriptionValue":"``linguacode\na = arctan(0) \nde salida(a) # 0\n``",
+        "arcCtgName":"Arccotangent",
+        "arcCtgNameValue":"``linguacode\narcctg(X)\n``",
+        "arcCtgDescription":"Devuelve el valor en el que la cotangente obtiene el mismo valor como <b>X</b>. Por ejemplo",
+        "arcCtgDescriptionValue":"``linguacode\na = arcctg(1) \nde salida(a) # pi/4\n``",
+        "logName":"Logaritmo",
+        "logNameValue":"``linguacode\nlog(X,Y)\n``",
+        "logDescription":"Devuelve el valor del logaritmo de <b>X</b> a la base <b>Y</b>. Por ejemplo",
+        "logDescriptionValue":"``linguacode\na = log(3,27) \nde salida(a) # 3\n``",
+        "lgName":"Logaritmo común",
+        "lgNameValue":"``linguacode\nlg(Y)\n``",
+        "lgDescription":"Devuelve el valor del logaritmo de <b>X</b> a la base <b>10</b>. Por ejemplo",
+        "lgDescriptionValue":"``linguacode\na = lg(100) \nde salida(a) # 10\n``",
+        "lnName":"Logaritmo Natural",
+        "lnNameValue":"``linguacode\nln(Y)\n``",
+        "lnDescription":"Devuelve el valor del logaritmo de <b>X</b> a la base <b>e</b>. Por ejemplo",
+        "lnDescriptionValue":"``linguacode\na = ln(e) \nde salida(a) # 1\n``",
+        "randomName":"Generación de números aleatorios",
+        "randomNameValue":"``linguacode\naleatorio(X,[Y])\n``",
+        "randomDescription":"Si el parámetro <b>Y</b> es dado, el programa generará aleatoriamente y volver entero aleatorio número de range<b>[X; Y]</b>. Pero sin <b>Y</b> parámetro el rango será <b>[0; X]</b>. Por ejemplo",
+        "randomDescriptionValueFirst":"``linguacode\nX = 10 \na = random(X) # [0; 10]\nde salida(a) # 4 \n``",
+        "randomDescriptionValueSecond":"``linguacode\nX = 5 \nY = 15 \na = aleatorio(X,Y) # [5; 15]\nde salida(a) # 12\n``"
+      },
+      "tutorials":{
+        "intro":"Introducción",
+        "output":"Salida",
+        "variables":"Variables",
+        "input":"De entrada",
+        "operations":"Las operaciones de",
+        "conditions":"Condiciones",
+        "boolean":"Boolean",
+        "languageAboutLanguageTitle":"Sobre El Lenguaje",
+        "languageAboutLanguageContent":"LinguaCode es creado para todos aquellos, que quieran aprender programación básica en forma más cómoda. \nPara aprender con LinguaCode no es esencial el conocimiento de idiomas extranjeros o habilidades técnicas. Todo lo que usted necesita es el deseo de aprender y diligencia. \n\n#### Características:\n- **Multilingüe**\n- **Multiplataforma**\n- **Código Fuente**\n- **Gratis**\n",
+        "languageFeaturesTitle":"Características Del Lenguaje",
+        "languageFeaturesContent":"LinguaCode está basado en Python, Pascal y JavaScript, por lo que es fácil de entender con un simple código fuente y, a continuación, aprender otro lenguaje de programación más rápidamente. \n\n**Aquí están todos los conceptos básicos de idioma:**\n\n- ****Cada comando se inicia de nuevo la línea.** \nEl código fuente será más sencillo y claro por ese camino.\n- **Los comandos pueden ser escritas en mayúsculas y minúsculas.** \nAcelera el proceso de programación, pero es preferible escribir con minúsculas.\n- **El texto puede ser escrito entre comillas y apóstrofes.** \nEn muchos países no existen las comillas en uso, así que aquí se puede elegir conveniente versión para usted.\n- **Texto escrito luego de que el símbolo \"\\#\" es considerado como comentario y no tiene ningún efecto sobre el trabajo de código fuente.** \nLos comentarios son siempre para tomar notas.",
+        "outputCommandDefinitionTitle":"Definición de comando",
+        "outputCommandDefinitionContent":"Cada programa, que realiza algunas operaciones, debe mostrarnos información acerca de resultado. Es por eso que la totalidad de la programación de los sistemas han de texto, posibilidad de salida y el lugar donde se puede ver el resultado, que se llama **Terminal**. \n\nComando \"*salida*\" se utiliza para la salida de texto. \n\n#### Por ejemplo \nCódigo fuente``linguacode\nde salida(\"Hola\")\n`\"Resultado`de la`terminal\nHowdy\n``",
+        "outputPossibleValuesTitle":"Valores posibles",
+        "outputPossibleValuesContent":"La salida del comando puede imprimir texto, números, operaciones matemáticas y los valores de la variable.\n\n#### Por ejemplo \nCódigo fuente \n``linguacode\nde salida(100)\nde salida(5 * 25)\n`\"Resultado`de la`terminal\n100\n125\n``",
+        "variablesDeclaresAndAssignsTitle":"Declaración y asignación de",
+        "variablesDeclaresAndAssignsContent":"A menudo tenemos la necesidad de guardar el texto, el número y operaciones numéricas en algún lugar con el propósito de utilizarlo de nuevo. Los contenedores, donde se pueden guardar diferentes valores se llama **variables**. En primer lugar, debemos dar un nombre a la variable y, a continuación, asignar un valor a la misma. Después de esto podemos referirnos al valor simplemente llamando a la variable con su nombre. \nLas Variables se almacenan en la memoria de acceso Aleatorio (RAM) de la computadora y cuando usamos la variable, equipo devuelve el valor correspondiente a ese nombre de variable de la memoria RAM.\n#### Importante recordar\nLos nombres de las variables \n**1.** Puede contener letras, símbolos o dígitos \n**2.** No puede empezar con un número \n**3.** No puede contener el espacio y los símbolos de las operaciones aritméticas\n#### Por ejemplo \nPara imprimir el número de **617** en lugar de este \n``linguacode\nde salida(617)\n``\nvamos a escribir\n``linguacode\nX = 617\nde salida(X)\n``\nResultado\n``terminal\n617\n`` \nY si queremos que la salida del mismo valor tres veces, vamos a escribir \n``linguacode\nX = 617\nde salida(X)\nde salida(X)\nde salida(X)\n`` \nResultado \n``terminal\n617\n617\n617\n``",
+        "variablesPracticalUseTitle":"Uso práctico",
+        "variablesPracticalUseContent":"Como vemos, podemos asignar numéricos y de texto de valores a las variables. Pero a menudo tenemos que asignar a la variable algún valor, que había sido asignada a otro. En ese caso se puede asignar a los ya existentes de la variable a la nueva.\n#### Por ejemplo \nCódigo fuente\n``linguacode\na = 1\nb = 2\nc = a + b\nde salida(c)\n`` \nResultado\n``terminal\n3\n``\n",
+        "variablesMultipleUsesTitle":"Uso múltiple",
+        "variablesMultipleUsesContent":"Usted no tiene que crear una nueva variable para un nuevo valor de cada tiempo. También podemos cambiar los valores asignados a las variables. Vamos a evitar la innecesaria variables y el código fuente será más sencillo de esa manera.\n#### Por ejemplo\nVamos a suponer que tenemos **100** las manzanas y guardar este valor en * * *apple** variable. El número de manzanas fue disminuyendo por **5** cada día. \nDebemos salida de conde de manzanas para cada día. \n\nCódigo fuente\n``linguacode\napple = 100\nde salida(apple)\n\napple = apple - 5 # 95\nde salida (apple)\n\napple = apple - 5 # 90\nde salida(apple)\n\napple = apple - 5 # 85\nde salida(apple)\n`` \nResultado\n``terminal\n100\n95\n90\n85\n``",
+        "inputCommandDefinitionTitle":"Definición de comando",
+        "inputCommandDefinitionContent":"En la programación necesitamos tanto la salida y, en muchos casos, los datos de entrada. La necesitamos cuando las variables puede recibir cualquier valor. También podemos cambiar el código fuente cada vez y asignar nuevos valores a la variable, pero no es eficaz y necesita demasiado tiempo. \n\nEn ese caso se utiliza el símbolo \"**\". \n\nY aquí es un simple ejemplo de programa que genera el doble de un número ingresado por el usuario. ``linguacode\nde entrada(número)\nde salida(número * 2)\n` Después de la ejecución de este programa veremos el símbolo \"**>**\" lo que significa que el programa ha comenzado y tenemos a la entrada de una falta de datos. Después de ingresar cualquier número y pulsando **Entrar** vamos a ver doble del número introducido. ``terminal\n>617\n1234\n``Sobre todo lo que necesitamos para escribir programas que pueden ser utilizados por la gente, que no sé ni de programación.",
+        "inputWorkMechanismTitle":"Mecanismo de trabajo",
+        "inputWorkMechanismContent":"Ahora vamos a ver cómo la entrada de comandos funciona. Por ejemplo tenemos este programa de ``linguacode\nde salida(\"por Favor Introduzca sus credenciales:\")\nde salida(\"Nombre:\")\nde entrada(nombre)\nde salida(\"Apellido:\")\nde entrada(apellido)\nde salida(\"Hola\" + nombre + \"\" + apellido)\n` Como vemos hay 6 líneas en nuestro programa. \nDespués de ejecutarlo, podemos ver que el programa funcionó hasta que la línea 3.``terminal\nPor favor, introduzca sus credenciales:\nNombre:\n>\n`` Después de ingresar los datos faltantes, vamos a ver que ahora que funcionó hasta la línea de 5.``terminal\nPor favor, introduzca sus credenciales:\nNombre:\n>Marina\nApellido:\n>\n` Y finalmente, después de introducir el último lío de datos de programa de trabajo y el fin.``terminal\nPor favor, introduzca sus credenciales:\nNombre:\n>Marina\nApellido:\n>Chamchyan\nHola, Marina Chamchyan\n`` Así que vimos que con este comando el programa de obras por parte por parte que requieren la entrada de datos faltantes.",
+        "operationsArithmeticOperatorsTitle":"Las operaciones aritméticas",
+        "operationsArithmeticOperatorsContent":"En LinguaCode es posible la aplicación de operaciones aritméticas sencillas como **+**, **-**, **\\***, **/**. \n\nPor ejemplo, este programa hará todos los operadores aritméticos con **1** y **2** números. ``linguacode\nsalida(1 + 2) # 3\nsalida(1 - 2) # -1\nsalida(1 * 2) # 2\nde salida(1 / 2) # 0.5\n` ` #### Importante recordar \nComo sabemos en Matemáticas multiplicación de la variable con otra variable o número se puede escribir sin el símbolo de multiplicación. Por ejemplo, *7 veces X* por escrito **7X** o *X veces Y* como **XY**. \nPero en la programación es importante escribir el símbolo de la multiplicación. Por ejemplo, **7 \\* X**, o **X \\* Y**.",
+        "operationsExecutingPriorityTitle":"Las operaciones de ejecución de prioridad",
+        "operationsExecutingPriorityContent":"Tanto en las Matemáticas y en la programación si no hay una división o una multiplicación, tenemos en primer lugar, y sólo después de hacer la suma y la resta. \n\n#### Por ejemplo, ``linguacode\nX = 10 + 2 * 4 - 2\n# X = 10 + 8 - 2\n# X = 18 - 2\n# X = 16\n` Pero podemos cambiar la ejecución de prioridad mediante corchetes. \n#### Por ejemplo, ``linguacode\nX = (10 + 2) * (4 - 2)\n# X = 12 * (4 - 2)\n# X = 12 * 2\n# X = 24\n``En la programación que puede utilizar los soportes, incluso si son innecesarios. \nNo va a estar equivocado, pero es la preferida para escribir sencilla y clara el código fuente, por lo que será fácil de entender para los demás.",
+        "operationsNumbersTitle":"Los números",
+        "operationsNumbersContent":"Como sabemos <a href=\"https://en.wikipedia.org/wiki/Number\" target=\"_blank\">numbers</a> son objetos matemáticos que se usa para contar, medir y etiqueta. \nHay 5 tipos de números. Vamos a tratar con todos ellos, excepto para el complejo numbes \n- ** números naturales** **1**, **2**, ...``linguacode\nde salida(7 + 4) # 13\n`` \n- **números enteros** ..., **-1**, **0**, **1**, ...``linguacode\nde salida(-6 * 5 + -3) # -33\n`` \n- **números racionales** **1/2**, **2/3**, **0.125**, ...``linguacode\nde salida(0.617 * 2 * 1000) # 1234\n`` \n- **los números reales** **√2**, **1.62**, ...``linguacode\nde salida(2/3 + 1/2) # 1\n``",
+        "operationsSumOfStringAndNumberTitle":"Suma de cadenas y números",
+        "operationsSumOfStringAndNumberContent":"Como vemos, es posible añadir dos números y textos para cada uno de los otros, en el cual resultado de las líneas se combinan en una sola línea. Pero a menudo tenemos que conseguir una línea, en la que se utilizará el valor numérico. En ese caso es posible añadir texto al número, en el que el resultado de que el número será modificado y se combinan con el texto como texto.``linguacode\ntexto = \"hay\" + 365 + \"días en el año\"\n# text = \"hay\" + \"365\" + \"días en el año\"\n# text = \"hay 365\" + \"días en el año\"\n# text = \"hay 365 días en el año\"\n` ` #### Importante recordar \nCon las líneas que podemos hacer sólo la adición de operación. Mientras realizan otras operaciones resultado de error.",
+        "conditionsCommandsIfTitle":"El Comando \"Si\"",
+        "conditionsCommandsIfContent":"A veces en la programación que necesita para ejecutar algunas operaciones basado en la condición. Para él no hay condición de comprobación de comandos como \"Si\", \"If-else\" y \"Else If\". \n\nEscrito en forma de comando \"**Si**\" ``linguacode\nsi <condition>, a continuación,\n<operation>\n`` Aquí entre los comandos \"Si\" y \"entonces\" no es cualquier condición, y después de la nueva línea y después de **4 espacios** se escribe la operación (o de operaciones), que se llevará a cabo si la afirmación es verdadera. \n\n#### Por ejemplo, ``linguacode\na = 5\nb = 2\nsi a > b, entonces\nde salida(\"a > b\")\n``",
+        "conditionsCommandsIfElseTitle":"Comando \"If-Else\"",
+        "conditionsCommandsIfElseContent":"Así que sabemos cómo utilizar la instrucción condicional en los programas. Ahora vamos a discutir el caso cuando la condición es falsa.\n\nEscrito en forma de \"**If-Else**\" declaración ``linguacode\nsi <condition>, a continuación,\n<operation N1>\notra cosa\n<operation N2>\n`` Aquí después del comando \"Si\" hay un nuevo comando de \"otra Cosa\". Y de nuevo la línea, después de 4 espacios se escribe la operación, que se llevará a cabo, si la mencionada condición es falsa.\n\n#### Por ejemplo, ``linguacode\na = 5\nb = 10\nsi a > b\nde salida(\"a > b\")\notra cosa\nde salida(\"b <\")\n``",
+        "conditionsCommandsElseIfTitle":"Comando \"Else-If\"",
+        "conditionsCommandsElseIfContent":"Ya hemos hablado de que el comando será ejecutado a partir de la condición de ser true o false. Pero a veces tenemos que marcar más de una condición en el mismo tiempo. \n\nEscrito en forma de \"**If-Else-If**\" declaración``linguacode\nsi <condition N1>, a continuación,\n<operation N1>\nsi por el contrario, <condition N2>, a continuación,\n<operation N2>\notra cosa\n<operation N3>\n`` Aquí debemos marcar más de una condición. En el caso de \"Else-If\" escrito la forma no puede ser de 1 o más \"Else-If\" declaraciones entre los comandos \"Si\" y \"otra Cosa\". \n\n#### Por ejemplo, ``linguacode\na = 5\nb = 5\nsi a > b, entonces\nde salida(\"a > b\")\notra cosa si a < b, entonces\nde salida(\"a < b\")\notra cosa\nde salida(\"b == a\")\n``",
+        "booleanTypesBooleanTitle":"Descripción",
+        "booleanTypesBooleanContent":"Ya sabemos cómo comprobar las declaraciones y algunos de ellos pueden ser: *verdadero* (22 > de 18 años) o *falso* (16 > 18). A veces, debido a la longitud de la condición de comprobación de la línea, se hace difícil leer el código fuente. Aquí viene a ayudar a los valores booleanos \n\n- **verdadera** ``linguacode\ncondición = true\nde salida(condición) #true\n`` \n\n- **falso**``linguacode\ncondición = false\nde salida(condición) #false\n` Cualquier comparación booleana sabe que nos devuelve uno de los valores dados \n\nEjemplo de verdaderos ** comparación ``linguacode\ncondición = 1 < 5\nde salida(condición) # true\n`` Ejemplo de *falso* comparación ``linguacode\ncondición = 10 < 5\nde salida(condición) # false\n`` Así en la condición de comprobación de los comandos que podemos usar variables con valores booleanos. \n\n#### Por ejemplo, ``linguacode\nde salida(\"Escribe un número \"a\":\")\nde entrada(a)\n\nde salida(\"Escribe un número \"b\":\")\nde entrada(b)\n\ncondition1 = a > b\ncondition2 = a < b\n\nsi condition1, a continuación,\nresultado = \"a > b\"\nsi por el contrario, condition2, a continuación,\nresultado = \"a < b\"\notra cosa\nresultado = \"a == b\"։\nde salida(\"Resultado:\" + resultado)\n``",
+        "booleanOperatorsComparisonTitle":"Los operadores de comparación",
+        "booleanOperatorsComparisonContent":"En la condición de comprobación de comandos que ya han utilizado los símbolos \"mayor que\" > y \"menor que\" < operadores de comparación. Pero ahora, aquí podemos utilizar los operadores conocidos para nosotros. \n\n- **>** compara los valores numéricos, en la que la primera es *#mayor* que el segundo. Por ejemplo, ``linguacode\nde salida(5 > 1) # true\nsalida(1 > 5) # false\n`` \n\n- **>=** compara los valores numéricos, en la que la primera es *#mayor o igual a* el segundo. Por ejemplo, ``linguacode\nde salida(5 >= 5) # true\nsalida(1 >= 5) # false\n`` \n\n- **<** compara los valores numéricos, en la que la primera es *#menos* que el segundo. Por ejemplo, ``linguacode\nsalida(1 < 5) # true\nde salida(5 < 1) # false\n`` \n\n- **<=** compara los valores numéricos, en la que la primera es *#menor o igual a* el segundo. Por ejemplo, ``linguacode\nsalida(1 <= 5) # true\nde salida(5 <= 1) # false\n`` \n\n- **==** compara numéricos o valores de texto, en las cuales la primera es *#igual a* el segundo. Por ejemplo, ``linguacode\nde salida(5 == 5) # true\nde salida(5 == 1) # false\nde salida(\"soldado\" == \"soldado\") # true\nde salida(\"Hola\" == \"Helo\") # false\n`` \n\n- **!=** compara numéricos o valores de texto, en las cuales la primera es *#no es igual a* el segundo. Por ejemplo, ``linguacode\nde salida(5 != 1) # true\nde salida(5 != 5) # false\nde salida(\"Hola\" != \"Helo\") # true\nde salida(\"soldado\" != \"soldado\") # false\n`` \n\n- **no()** devuelve invertido resultado de cualquier información numérica o de comparación de texto. Por ejemplo, ``linguacode\nde salida(no(1 > 5)) # true\nde salida(no(5 == 5)) # false\nde salida(no(false)) # true\nde salida(no(true)) # false\n``",
+        "booleanOperatorsLogicalTitle":"Operadores booleanos",
+        "booleanOperatorsLogicalContent":"Así que sabemos cómo escribir cualquier instrucción condicional, pero a menudo es necesario combinar una serie de condiciones a uno, y se basa en la ejecución de algunas operaciones. La combinación de las condiciones que se lleva a cabo por operadores booleanos. \n\n- Comando \"**y* * * * *\" combina dos de las condiciones en uno, que se llama **verdadera** cuando ambas condiciones son verdaderos ** y * * * * *falso** cuando al menos una de las condiciones es *falso*. Por ejemplo, ``linguacode\nde salida(5 > 1 և 10 < 100) # true\nde salida(20 < 100 և 1 > 5) # false\n`` \n\n- Comando \"**o**\" combina dos de las condiciones en uno, que se llama **verdadera** cuando al menos una de las condiciones es *cierto* y * * * * *falso** cuando las dos condiciones son *falso*. Por ejemplo, ``linguacode\nde salida(5 > 1 o 100 < 10) # true\nde salida(20 > 100 o 1 > 5) # false\n``",
+        "booleanOperatorsExecutingPriorityTitle":"La ejecución de prioridad",
+        "booleanOperatorsExecutingPriorityContent":"Hemos aprendido a combinar 2 condiciones, pero pueden ser más de 2, basado en el contenido del programa. En ese caso, las condiciones serán combinados con otros de *de izquierda a derecha*, hasta que se forma una condición.\n\n#### Por ejemplo, ``linguacode\nde salida(5 < 1 և 1 < 7 o 1 >= 3 o 9 == 9)\n` este es el mismo como `linguacode\nde salida(falso և verdadero o falso o verdadero)\n`` vamos a combinar **1º** y **2** \"**falso y verdadero**\" condiciones en una․ ``linguacode\nde salida(falso o falso o verdadero)\n``entonces **1+2** condición **3** \"**falso o falso**\" ``linguacode\nde salida(falso o verdadero)\n`` y, finalmente,**1+2+3** condición **4** \"**falso o verdadero**\"․ ``linguacode\nde salida(verdadero)\n`` Y así combinamos 4 condiciones en uno. Podemos combinar varias condiciones de esa manera. \n\nA veces tenemos que cambiar de izquierda a derecha la combinación de prioridad mediante corchetes. \n\n#### Por ejemplo, ``linguacode\nde salida(5 < 1 և (1 < 7 o (1 >= 3 o 9 == 9)))\n`` \n\neste es el mismo como `linguacode\nde salida(falso և (verdadero o (falso o verdadero)))\n`` vamos a combinar **3** y * * * * *4** \"**falso o verdadero**\" las condiciones en uno ``linguacode\nde salida(falso o (falso o verdadero))\n`` después de que **2º** condición con **3+4** la condición \"**falso o verdadero**\" ``linguacode\nde salida(falso և verdadero)\n`` y, finalmente, vamos a combinar **1º** condición con **2+(3+4)**. Será \"**falso y verdadero**\" ``linguacode\nde salida(falso)\n`` Y así, hemos visto que el resultado es cambiado con el cambio de la combinación de prioridad."
+      },
+      "syntaxInfo":{
+        "modalTitle":"Guía de comandos",
+        "cheatSheetTitle":"Hoja de trucos",
+        "lesson":"Tutorial"
+      }
+    }
+  },
+  "modules":{
+    "ide":{
+      "title":"<b> Hotkeys</b>",
+      "undo":"Deshacer",
+      "redo":"Rehacer",
+      "selectAll":"Seleccione todos los",
+      "run":"Ejecutar",
+      "terminal":"Terminal"
+    },
+    "program":{
+      "program":"Programa",
+      "sourceCode":"Código fuente",
+      "functionArgumentSyntaxError":"Argumento de la función error de sintaxis en ${line} línea.",
+      "undefinedVariable":"El \"${variable}\" variable no definida en ${line} línea.",
+      "indentError":"Error de espacio en ${line} línea.",
+      "hackAttempt":"Hack intento. Su \"${ip}\" dirección ip se guarda en nuestra base de datos.",
+      "syntaxError":"Error de sintaxis",
+      "timeout":"Compilación de tiempo de espera. Asegúrese de que el código no tiene infinito bucle.",
+      "true":"cierto",
+      "false":"falso",
+      "NaN":"desconocido",
+      "null":"desconocido",
+      "Infinity":"el infinito",
+      "undefined":"indefinido"
+    },
+    "programListGroup":{
+      "programs":"Los programas de"
+    },
+    "terminal":{
+      "hotkeys":"<b> Hotkeys</b>",
+      "undo":"Deshacer",
+      "redo":"Rehacer",
+      "selectAll":"Seleccione todos los",
+      "terminal":"Terminal"
+    }
+  },
+  "buttons":{
+    "loginButton":{
+      "signIn":"Signo en"
+    },
+    "menuButton":{
+      "settings":"Configuración",
+      "logOut":"Sesión"
+    }
+  },
+  "panels":{
+    "header":{
+      "title":"Casa"
+    }
+  },
+  "elements":{
+    "emptyProgramListForOthersComponent":{
+      "programNotFoundForOthers":"El usuario no tiene ningún programa todavía."
+    },
+    "emptyProgramListForOwnerComponent":{
+      "programNotFoundListForOwner":"Usted no tiene ningún programa todavía.",
+      "programNotFoundClickPartFirst":"Haga clic en",
+      "programNotFoundClickPartSecond":"aquí",
+      "programNotFoundClickPartThird":"para crear un nuevo programa."
+    },
+    "loading":{
+      "loading":"La carga de"
+    }
+  }
+}

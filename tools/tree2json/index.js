@@ -1,7 +1,7 @@
 const _ = require('lodash');
 const fs = require('fs');
 
-const language = require('../languages/es');
+const language = require('../../languages/en');
 
 const languageConverted = {};
 language.forEach((instance) => {
@@ -9,10 +9,12 @@ language.forEach((instance) => {
 });
 
 
-fs.writeFile("../core.json", JSON.stringify(languageConverted), function(err) {
+fs.writeFile("../../core.json", JSON.stringify(languageConverted), function(err) {
   if(err) {
     return console.log(err);
   }
 
   console.log("The file was saved!");
 });
+
+console.log('tree 2 json: completed');

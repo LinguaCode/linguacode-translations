@@ -1,0 +1,362 @@
+{
+  "blocks":{
+    "controlPanelBlock":{
+      "edit":"Uredi",
+      "delete":"Brisanje"
+    },
+    "lovePanelBlock":{
+      "like":"Kot",
+      "liked":"Všeč mi je",
+      "star":"Star",
+      "starred":"Z zvezdico"
+    },
+    "moreFromUserBlock":{
+      "viewAll":"Prikaži vse",
+      "moreFromFirst":"Več od",
+      "moreFromLast":""
+    },
+    "programListFilterBlock":{
+      "sortBy":"Razvrsti po",
+      "recent":"Nedavne",
+      "views":"Ogledov",
+      "stars":"Zvezde",
+      "likes":"Rad",
+      "random":"Naključno"
+    },
+    "shareBlock":{
+      "link":"Povezava",
+      "share":"Delež",
+      "tweet":"Tweet",
+      "textTwitter":"Program \"${programTitle}\" za ${userName} na #LinguaCode ${userPageLink}",
+      "descriptionVK":"LinguaCode je socialni kodiranje platforme in je zasnovan posebej za otroke, kjer se lahko učijo programiranja in delijo svoje kode z maternem jeziku, ne da bi bilo potrebno znanje angleščine."
+    },
+    "userPrimaryInfoBlock":{
+      "editProfile":"Uredi profil"
+    },
+    "userSecondaryInfoBlock":{
+      "joinedOn":"Pridružil na"
+    }
+  },
+  "pages":{
+    "errorPage":{
+      "title":"Napaka",
+      "explanation":"Žal mi je, kritični do napake na tej strani."
+    },
+    "landingPage":{
+      "title":"LinguaCode: Učenje za Kodiranje",
+      "learningByCoding":"Učenje <span className=\"masthead--lora-italic\">by Coding</span>",
+      "explanation":"Mi bo učenje programiranja in kodiranje, tako poln veselja in življenja, vas bom smejal naglas.",
+      "facebookSignIn":"Vpišite se s Facebook",
+      "or":"ali",
+      "seeTheListOfPrograms":"Glejte seznam obstajajo programi",
+      "descriptionHead":"Najboljši novi način za učenje programiranja.",
+      "descriptionBody":"LinguaCode je socialni kodiranje platforme in je zasnovan posebej za otroke, kjer se lahko učijo programiranja in delijo svoje kode z maternem jeziku, ne da bi bilo potrebno znanje angleščine.",
+      "advantagesHeadline":"LinguaCode vam pomaga <span className=\"u-emphasized\">learn bolje </span>",
+      "advantageTopFirstHeadline":"Večjezična",
+      "advantageTopFirstDescription":"Pisanje programov na vaš materni jeziki, in ne samo.",
+      "advantageTopSecondHeadline":"To je brezplačna!",
+      "advantageTopSecondDescription":"Vse je zastonj.",
+      "advantageTopThirdHeadline":"Hiter začetek",
+      "advantageTopThirdDescription":"Začetek je veliko lažje, kot si mislite!",
+      "advantageBottomFirstHeadline":"Domišljija",
+      "advantageBottomFirstDescription":"Naučite se, poskusite, Ustvarjanje!",
+      "advantageBottomSecondHeadline":"Izobraževanje",
+      "advantageBottomSecondDescription":"Učijo programiranja, kot tudi pri drugih predmetih.",
+      "advantageBottomThirdHeadline":"Skupnost",
+      "advantageBottomThirdDescription":"Delite svoje programe s prijatelji in iskanje novih prijateljev.",
+      "joinText":"Pridružite se <span className=\"u-emphasized\">the community</span> učencev",
+      "facebookRegister":"Registrirajte se zdaj, to je BREZPLAČNO!"
+    },
+    "notFoundPage":{
+      "title":"Strani Ni Mogoče Najti",
+      "explanation":"Žal mi je, ampak stran, ki ste jo poskušali pogled ne obstaja.",
+      "descriptionPartFirst":"Poskusite postavka za",
+      "descriptionPartSecond":"glavni strani",
+      "descriptionPartThird":"namesto tega."
+    },
+    "programChangePage":{
+      "titleOfEditPage":"Uredite ${userName}/${title} program",
+      "editProgramHeadline":"Urejanje program",
+      "editProgramButton":"Urejanje Program",
+      "titleOfCreatePage":"Ustvarite nov program",
+      "newProgramHeadline":"Ustvarite nov program",
+      "submitProgramButton":"Predložiti Program",
+      "programContent":"Program vsebuje vse informacije o vaši kodo.",
+      "name":"Ime",
+      "programNameForm":"Odličen program imena so kratki in nepozabno, kot <b>hello-world</b>.",
+      "titleOfProgram":"Naslov",
+      "description":"Opis",
+      "validationError":"Potrditev napake",
+      "errorTextForNameLength":"Dolžina <b>name</b> bi bilo več kot 0 in manj kot 32, sestavljena mora biti iz latinske simboli in črtice.",
+      "errorTextForName":"To ime vira je že v uporabi z vami.",
+      "errorTextForTitle":"Dolžina <b>title</b> bi bilo več kot 0 in manj kot 128.",
+      "errorTextForDescription":"Dolžina <b>description</b> bi bilo več kot 0 in manj nato 5120.",
+      "errorTextForSource":"Dolžina <b>source</b> bi bilo več kot 0 in manj nato 10240."
+    },
+    "programs":{
+      "title":"Programi"
+    },
+    "settingsPage":{
+      "title":"Nastavitve",
+      "publicProfile":"Javni profil",
+      "validationError":"Potrditev napake",
+      "username":"Uporabniško ime",
+      "yourUsername":"Uporabniško ime",
+      "usernameWasAlreadyUsed":"Uporabniško ime je že v uporabi",
+      "usernameWasReserved":"Uporabniško ime bila rezervirana",
+      "usernameValidation":"Dolžina <b>username</b> bi moralo biti manj kot 24 in vsebujejo majhne črke iz latinske in številke.",
+      "name":"Ime",
+      "yourFirstNameAndLastName":"Vaš ime in priimek",
+      "nameValidation":"Dolžina <b>name</b> bi moralo biti več kot 0 in manj kot 24",
+      "bio":"Bio",
+      "tellALittleAboutYourself":"Povem malo o sebi",
+      "bioValidation":"Dolžina <b>bio</b> bi morala biti manj kot 128.",
+      "country":"Država",
+      "select":"izberite",
+      "countryValidation":"Izberite katerokoli od držav,",
+      "updateProfile":"Profil posodobitev"
+    }
+  },
+  "modals":{
+    "loginRequiredModal":{
+      "signInTitle":"Prijavite se v",
+      "signInDescription":"Delovanje je možno le, ko ste prijavljeni."
+    },
+    "programDeleteModal":{
+      "programDeleteConfirmation":"Ali ste prepričani, da želite izbrisati program ?",
+      "answerYes":"da,",
+      "answerNo":"št."
+    },
+    "syntaxInfoModal":{
+      "cheatSheet":{
+        "outputName":"Izhod",
+        "outputNameValue":"``linguacode\nizhod(X)\n``",
+        "outputDescription":"Natisne vse X vrednost: števila, operacije, besedilo in vrednosti spremenljivk. Za primer",
+        "outputDescriptionValue":"``linguacode\nizhod(4) # 4\nizhod(\"Zdravo\") # Zdravo\nizhod(1+2) # 3\n``",
+        "inputName":"Vhod",
+        "inputNameValue":"``linguacode\nvhod(X)\n``",
+        "inputDescription":"Vsaka spremenljivka X vrednost, ki razglaša za uporabnika. Za primer",
+        "inputDescriptionValue":"``linguacode\nvhod(a)\n``",
+        "ifElseStatementName":"Preverjanje izjavo",
+        "ifElseStatementNameValue":"``linguacode\nče <condition N1> nato\n<operation N1>\ndrugače, če <condition N2> nato\n<operation N2>\nostalo\n<operation N3>\n``",
+        "ifElseStatementDescription":"Operacije se bodo izvajale na podlagi navedeni pogoj pa res. Za primer",
+        "ifElseStatementDescriptionValue":"``linguacode\na = 5\nb = 5\nče je a > b, potem\nizhod(\"a > b\")\nsicer pa je a < b, potem\nizhod (\"< b\")\nostalo\nizhod(\"b ==\") # b == a\n``",
+        "loopForName":"Omejena ponovitev",
+        "loopForNameValue":"``linguacode\nponovite <N> krat\n<operation>\n``",
+        "loopForDescription":"Izvaja blok kode, večkrat. Za primer",
+        "loopForDescriptionValue":"``linguacode\nponovite 10-krat\nizhod(\"Zdravo\")\n``",
+        "loopWhileDoName":"Zanke \", Čeprav Ne\"",
+        "loopWhileDoNameValue":"``linguacode\nmedtem ko <condition> nato\n<operation>\n``",
+        "loopWhileDoDescription":"\"Pa Ne\" zanke izvaja skozi blok kode, tako dolgo, kot je določen pogoj je izpolnjen. Za primer",
+        "loopWhileDoDescriptionValue":"``linguacode\na = 1\nmedtem ko je a < 5 nato\nizhod(a)\na = a + 1\n``",
+        "loopDoWhileName":"Zanke \"Ali Ko\"",
+        "loopDoWhileNameValue":"``linguacode\nne\n<operation>\nmedtem ko <condition>\n``",
+        "loopDoWhileDescription":"Zanke \"Ali Pa\" bo ponovitev zanke dokler je pogoj izpolnjen. Za primer",
+        "loopDoWhileDescriptionValue":"``linguacode\na = 1\nne \nizhod(a)\na = a + 1\nmedtem ko je a < 5\n``",
+        "piName":"pi matematična konstanta",
+        "piNameValue":"``linguacode\nizhodni(pi)\n``",
+        "piDescription":"Natisne matematična konstanta <b>pi</b>. Za primer",
+        "piDescriptionValue":"``linguacode\nizhodni(pi) # 3.141592653589793\n``",
+        "eNumberName":"e matematična konstanta",
+        "eNumberNameValue":"``linguacode\nizhod(e)\n``",
+        "eNumberDescription":"Natisne matematična konstanta <b>e</b>. Za primer",
+        "eNumberDescriptionValue":"``linguacode\nizhod(e) # 2.718281828459045\n``",
+        "sqrName":"Kvadrat število",
+        "sqrNameValue":"``linguacode\nsqr(X)\n``",
+        "sqrDescription":"Vrne kvadrat <b>X</b> številko vloženega za uporabnika. Za primer",
+        "sqrDescriptionValue":"``linguacode\nX = 5 \nY = sqr(X) \noutput(Y) # 25\n``",
+        "powName":"Moč število",
+        "powNameValue":"``linguacode\npow(X,Y)\n``",
+        "powDescription":"Vrne vrednost <b>X</b> moči <b>Y</b>. Za primer",
+        "powDescriptionValue":"``linguacode\nX = 2 \nY = 5 \nZ = pow(X, Y) \nizhod(Z) # 32\n``",
+        "sqrtName":"Kvadratni koren števila",
+        "sqrtNameValue":"``linguacode\nsqrt(X)\n``",
+        "sqrtDescription":"Vrne kvadratni koren <b>X</b> številko vloženega za uporabnika. Za primer",
+        "sqrtDescriptionValue":"``linguacode\nX = 9 \nY = sqrt(X) \noutput(Y) # 3\n``",
+        "absName":"Absolutna vrednost števila",
+        "absNameValue":"``linguacode\nabs(X)\n``",
+        "absDescription":"Vrne absolutno vrednost <b>X</b> številko vloženega za uporabnika. Za primer՝",
+        "absDescriptionValue":"``linguacode\nX = -5 \nY = abs(X) \noutput(Y) # 5\n``",
+        "roundName":"Število zaokroževanja.",
+        "roundNameValue":"``linguacode\nkrog(X)\n``",
+        "roundDescription":"Krogih je <b>X</b> število na najbližje celo število in vrne vrednosti. Za primer",
+        "roundDescriptionValue":"``linguacode\nX = 2.3 \na = round(X) \nizhod(a) # 2\n``",
+        "floorName":"Število nadstropje",
+        "floorNameValue":"``linguacode\nnadstropju(X)\n``",
+        "floorDescription":"Krogih je <b>X</b> število <b>downwards</b> na najbližje celo število in vrne vrednosti. Za primer",
+        "floorDescriptionValue":"``linguacode\nX = 2.6 \na = floor(X) \nizhod(a) # 2\n``",
+        "ceilName":"Število ceil",
+        "ceilNameValue":"``linguacode\nceil(X)\n``",
+        "ceilDescription":"Krog je <b>X</b> število <b>upwards</b> svoje najbližje celo število in vrne vrednost",
+        "ceilDescriptionValue":"``linguacode\nX = 2.2 \na = ceil(X) \nizhod(a) # 3\n``",
+        "sinName":"Sine",
+        "sinNameValue":"``linguacode\nsin(X)\n``",
+        "sinDescription":"Vrne vrednost <b>sine</b> z <b>X</b> številko. Za primer",
+        "sinDescriptionValue":"``linguacode\nX = sin(pi) \nizhod(X) # 0\n``",
+        "cosName":"Kosinus",
+        "cosNameValue":"``linguacode\ncos(X)\n``",
+        "cosDescription":"Vrne vrednost <b>cosine</b> z <b>X</b> številko. Za primer",
+        "cosDescriptionValue":"``linguacode\nX = cos(pi) \nizhod(X) # -1\n``",
+        "tanName":"Tangens",
+        "tanNameValue":"``linguacode\ntan(X)\n``",
+        "tanDescription":"Vrne vrednost <b>tangent</b> z <b>X</b> številko. Za primer՝",
+        "tanDescriptionValue":"``linguacode\nX = tan(pi) \nizhod(X) # 0\n``",
+        "ctgName":"Kotangens",
+        "ctgNameValue":"``linguacode\nctg(X)\n``",
+        "ctgDescription":"Vrne vrednost <b>cotangent</b> z <b>X</b> številko. Za primer՝",
+        "ctgDescriptionValue":"``linguacode\nX = ctg(pi/4) \nizhod(X) # 1\n``",
+        "arcSinName":"Sinus",
+        "arcSinNameValue":"``linguacode\narcsin(X)\n``",
+        "arcSinDescription":"Vrne vrednost, če je sine dobi isto vrednost kot <b>X</b>. Za primer",
+        "arcSinDescriptionValue":"``linguacode\na = arcsin(1) \nizhod(a) # pi/2 \n``",
+        "arcCosName":"Kosinus",
+        "arcCosNameValue":"``linguacode\narccos(X)\n``",
+        "arcCosDescription":"Vrne vrednost, če je kosinus dobi isto vrednost kot <b>X</b>. Za primer",
+        "arcCosDescriptionValue":"``linguacode\na = arccos(1) \nizhod(a) # 0\n``",
+        "arcTanName":"Arctangent",
+        "arcTanNameValue":"``linguacode\narctan(X)\n``",
+        "arcTanDescription":"Vrne vrednost, kjer tangenta dobi isto vrednost kot <b>X</b>. Za primer",
+        "arcTanDescriptionValue":"``linguacode\na = arctan(0) \nizhod(a) # 0\n``",
+        "arcCtgName":"Arccotangent",
+        "arcCtgNameValue":"``linguacode\narcctg(X)\n``",
+        "arcCtgDescription":"Vrne vrednost, če je kotangens dobi isto vrednost kot <b>X</b>. Za primer",
+        "arcCtgDescriptionValue":"``linguacode\na = arcctg(1) \nizhod(a) # pi/4\n``",
+        "logName":"Logaritem",
+        "logNameValue":"``linguacode\nlog(X,Y)\n``",
+        "logDescription":"Vrne vrednost logaritem <b>X</b> osnove <b>Y</b>. Za primer",
+        "logDescriptionValue":"``linguacode\na = log(3,27) \nizhod(a) # 3\n``",
+        "lgName":"Skupna logaritem",
+        "lgNameValue":"``linguacode\nlg(Y)\n``",
+        "lgDescription":"Vrne vrednost logaritem <b>X</b> osnove <b>10</b>. Za primer",
+        "lgDescriptionValue":"``linguacode\na = lg(100) \nizhod(a) # 10\n``",
+        "lnName":"Naravni logaritem",
+        "lnNameValue":"``linguacode\nln(Y)\n``",
+        "lnDescription":"Vrne vrednost logaritem <b>X</b> osnove <b>e</b>. Za primer",
+        "lnDescriptionValue":"``linguacode\na = ln(e) \nizhod(a) # 1\n``",
+        "randomName":"Naključno število, ki ustvarjajo",
+        "randomNameValue":"``linguacode\nnaključno(X,[Y])\n``",
+        "randomDescription":"Če je parameter <b>Y</b> je podan, program bo naključno generiranje in vrne naključno celo število med range<b>[X, Y]</b>. Vendar brez <b>Y</b> parametra obseg bo <b>[0; X]</b>. Za primer",
+        "randomDescriptionValueFirst":"``linguacode\nX = 10 \na = random(X) # [0; 10]\nizhod(a) # 4 \n``",
+        "randomDescriptionValueSecond":"``linguacode\nX = 5 \nY = 15 \na = random(X,Y) # [5; 15]\nizhod(a) # 12\n``"
+      },
+      "tutorials":{
+        "intro":"Uvod",
+        "output":"Izhod",
+        "variables":"Spremenljivke",
+        "input":"Vhod",
+        "operations":"Operacije",
+        "conditions":"Pogoji",
+        "boolean":"Boolean",
+        "languageAboutLanguageTitle":"O Jeziku",
+        "languageAboutLanguageContent":"LinguaCode je ustvarjena za vse tiste, ki želijo, da se učijo programiranja osnove v bolj udoben način. \nNaučili z LinguaCode to ni bistvenega pomena znanja tujih jezikov ali tehnične spretnosti. Vse, kar potrebujete, je želja, da se naučijo in skrbnosti. \n\n#### Značilnosti:\n- **Večjezični**\n- **Multiplatform**\n- **Preprosta Izvorna koda**\n- **Brezplačno**\n",
+        "languageFeaturesTitle":"Jezikovne Funkcije",
+        "languageFeaturesContent":"LinguaCode temelji na Python, Pascal in JavaScript, ki je enostaven za razumevanje s preprostimi izvorno kodo, nato pa se učijo drug programski jezik hitreje. \n\n**Tukaj so vse osnovne koncepte jezika:**\n\n- **Vsak ukaz se začne novo vrstico.** \nIzvorno kodo bo bolj preprosto in jasno, tako, da je način.\n- **Ukazi lahko zapišemo tako velikimi in malimi črkami.** \nTo pospešuje proces programiranja, vendar je raje pisati z malimi črkami.\n- **Besedilo lahko zapišemo med obema narekovaje in narekovajev.** \nV številnih državah obstajajo brez narekovajev v uporabi, zato tukaj lahko izberete priročno različico za vas.\n- **Besedilo, napisano po znakom \"\\#\" se šteje kot komentar in ne vplivajo na delo izvorne kode.** \nKomentarji so na voljo za opombe.",
+        "outputCommandDefinitionTitle":"Ukaz opredelitev",
+        "outputCommandDefinitionContent":"Vsak program, ki naredi nekaj operacij, naj nam pokaže informacije o rezultata. Zato je vseh programskih sistemov so besedila izhodna možnost, in kraj, kjer lahko vidimo rezultat, ki se imenuje **Terminal**. \n\nUkaz \"*output*\" se uporablja za besedilo izhod. \n\n#### Za primer \nIzvorna koda`za \" linguacode\nizhod(\"Zdravo\")\n``Rezultat`na terminal\nZdravo\n``",
+        "outputPossibleValuesTitle":"Možne vrednosti",
+        "outputPossibleValuesContent":"Ukaz izhod lahko natisnete besedila, številk, matematičnih postopkov in vrednosti spremenljivk.\n\n#### Za primer \nIzvorno kodo \n``linguacode\nizhod(100)\nizhod(5 * 25)\n``Rezultat`na terminal\n100\n125\n``",
+        "variablesDeclaresAndAssignsTitle":"Razglasitev in naloge",
+        "variablesDeclaresAndAssignsContent":"Pogosto moramo shraniti besedilo, število in numeričnih postopkov nekje z namenom, da uporabite znova. Posode, kjer se bomo lahko shranite različne vrednosti, ki se imenujejo **spremenljivk**. Najprej moramo poimenujte spremenljivko, in potem dodelite vrednost. Po tem, ko smo se lahko nanašajo na vrednost preprosto s klicem na spremenljivke z njegovim imenom. \nSpremenljivke so shranjene v Bralno-pisalnega pomnilnika (RAM-a) računalnik in, ko jih uporabljamo spremenljivke, računalnik vrne vrednost, ki ustreza ime spremenljivke iz RAM-a.\n#### Pomembno zapomniti\nSpremenljiva imena \n**1.** Lahko vsebuje črke, simbole ali številk \n**2.** Ne moreš začeti s številko, \n**3.** Ne smejo vsebovati prostor in simboli aritmetične operacije\n#### Za primer \nZa tiskanje število **617** namesto tega \n``linguacode\nizhod(617)\n``\nbomo napisali\n``linguacode\nX = 617\nizhod(X)\n``\nRezultat\n`terminalski\n617\n`` \nIn če želimo, da proizvodnja je enaka vrednosti trikrat, bomo napisali \n``linguacode\nX = 617\nizhod(X)\nizhod(X)\nizhod(X)\n`` \nRezultat \n`terminalski\n617\n617\n617\n``",
+        "variablesPracticalUseTitle":"Praktična uporaba",
+        "variablesPracticalUseContent":"Kot smo videli, smo lahko dodelite tako številčne in besedilo vrednosti za spremenljivke. Toda pogosto smo morali dodeliti spremenljivki nekatere vrednosti, ki je bil dodeljen drugemu. V tem primeru smo lahko dodelite že obstoječe spremenljivke na novega.\n#### Za primer \nIzvorno kodo\n``linguacode\na = 1\nb = 2\nc = a + b\nizhod(c)\n`` \nRezultat\n`terminalski\n3\n``\n",
+        "variablesMultipleUsesTitle":"Več uporabe",
+        "variablesMultipleUsesContent":"Vam ni treba ustvariti novo spremenljivko za nove vrednosti vsak čas. Prav tako lahko spremeni vrednosti, dodeljenih spremenljivk. Bomo izognili nepotrebnih spremenljivk in izvorno kodo, ki bo bolj preprosta, da način.\n#### Za primer\nPredpostavimo, da imamo **100** jabolka in shrani vrednosti v * * *jabolko** spremenljiva. Število jabolk je bila zmanjšuje z **5** vsak dan. \nMoramo izhodno število jabolk za vsak dan. \n\nIzvorno kodo\n``linguacode\napple = 100\nizhod(apple)\n\napple = apple - 5 # 95\nizhod (apple)\n\napple = apple - 5 # 90\nizhod(apple)\n\napple = apple - 5 # 85\nizhod(apple)\n`` \nRezultat\n`terminalski\n100\n95\n90\n85\n``",
+        "inputCommandDefinitionTitle":"Ukaz opredelitev",
+        "inputCommandDefinitionContent":"V programskem potrebujemo tako za izhod in v mnogih primerih, da se vnos podatkov. Potrebujemo jo, ko spremenljivk lahko prejemajo nobene vrednosti. Lahko tudi spremenite izvorno kodo vsakič, in določi novo vrednost za spremenljivke, vendar to ni učinkovito in potrebe predolgo časa. \n\nV tem primeru bomo uporabili ukaz \"*vhod*\". \n\nIn tukaj je preprost primer program, ki je izhodi dvojno število vloženega za uporabnika. ``linguacode\nza vnos(številka)\nizhod(številka (* 2)\n` \", Ko teče ta program bomo videli simbol \"**>**\", kar pomeni, program se je začel in moramo vnesite manjkajoče podatke. Po vnosu koli številko in pritisnete **Vnesite** bomo videli dvojno vloženega številko. `terminalski\n>617\n1234\n``Večinoma potrebujemo za pisanje programov, ki se lahko uporablja za ljudi, ki sploh ne vedo, programiranje.",
+        "inputWorkMechanismTitle":"Delo mehanizem",
+        "inputWorkMechanismContent":"Zdaj nam vidite, kako ukaza input dela. Za primer smo ta program ``linguacode\nizhod(\"Prosimo Vnesite svoje poverilnice:\")\nizhod(\"Ime:\")\nvhod(ime)\nizhod(\"Priimek:\")\nvhod(priimek)\nizhod(\"Hi\" + ime + \"\" + priimek)\n` Je, \" kot smo videli, obstaja 6 linij v naš program. \nPo tem, ko deluje, lahko vidimo, da je program delal, dokler vrstica 3.``terminal\nProsimo vnesite svoje poverilnice:\nIme:\n>\n` \"Po vstopu neodgovorjenih podatkov, bomo videli, da zdaj je delal, dokler vrstici 5.``terminal\nProsimo vnesite svoje poverilnice:\nIme:\n>Marine\nPriimek:\n>\n` \"In na koncu po vstopu v zadnjem zmeden podatkov vam program dela in konca.``terminal\nProsimo vnesite svoje poverilnice:\nIme:\n>Marine\nPriimek:\n>Chamchyan\nHi, Morske Chamchyan\n` In tako smo videli, da s tem ukazom program deluje, del za delom, ki zahteva, da se vnos neodgovorjenih podatkov.",
+        "operationsArithmeticOperatorsTitle":"Aritmetične operacije",
+        "operationsArithmeticOperatorsContent":"V LinguaCode je možno, da se izvajanje računskih operacij, kot so **+**, **-**, **\\***, **/**. \n\nNa primer ta program, ki bo storila vse, aritmetični operatorji **1** in **2** številke. ``linguacode\nizhod(1 + 2) # 3\nizhod(1 - 2) # -1\nizhod(1 * 2) # 2\nizhod(1 / 2) # 0.5\n` ` #### Pomembno zapomniti \nKot vemo iz Matematike, množenje spremenljivko z drugo spremenljivko ali številko lahko zapišemo brez simbol naboja. Za primer *7-krat X* bo napisan **7X** ali *X-krat Y*, kot so: **XY**. \nVendar pri načrtovanju je pomembno, da napišete simbol naboja. Za primer **7 \\* X** ali **X \\* Y**.",
+        "operationsExecutingPriorityTitle":"Operacije, ki izvrši prednost",
+        "operationsExecutingPriorityContent":"Tako v Matematiko in v programiranje, če je delitev ali razmnoževanje, smo najprej jih ne in šele potem, ko naredimo seštevanje in odštevanje. \n\n#### Za primer ``linguacode\nX = 10 + 2 * 4 - 2\n# X = 10 + 8 - 2\n# X = 18 - 2\n# X = 16\n` \"Vendar bomo lahko spremeni izvršilno prednost z uporabo oklepajev. \n#### Za primer ``linguacode\nX = (10 + 2) * (4 - 2)\n# X = 12 * (4 - 2)\n# X = 12 * 2\n# X = 24\n`\"V načrtovanje lahko uporabimo oklepaje, tudi če so nepotrebne. \nNe bo narobe, vendar je zaželeno, da pisati preprosto in jasno izvorno kodo, ki bo enostaven za razumevanje za druge.",
+        "operationsNumbersTitle":"Številke",
+        "operationsNumbersContent":"Kot vemo, <a href=\"https://en.wikipedia.org/wiki/Number\" target=\"_blank\">numbers</a> so matematične predmete, ki se uporabljajo za štetje, merjenje in etiketo. \nObstaja 5 vrst številk. Obravnavali smo vse od njih, razen za kompleksna numbes \n- ** naravnih števil** **1**, **2**, ...``linguacode\nizhod(7 + 4) # 13\n`` \n- **integer številke** ..., **-1**, **0**, **1**, ...``linguacode\nizhod(-6 * 5 + -3) # -33\n`` \n- **racionalna števila** **1/2**, **2/3**, **0.125**, ...``linguacode\nizhod(0.617 * 2 * 1000) # 1234\n`` \n- **realna števila** **√2**, **1.62**, ...``linguacode\nizhod(2/3 + 1/2) # 1\n``",
+        "operationsSumOfStringAndNumberTitle":"Vsota strune in številke",
+        "operationsSumOfStringAndNumberContent":"Kot smo videli, je mogoče dodati številke in besedil med seboj, v katerih rezultat linije so skupaj v eni vrstici. Toda pogosto smo morali dobiti vrstico, v kateri bo uporabljen numeričnih vrednosti. V tem primeru je možno, dodajte besedilo na številko, v katerih rezultat bo število spremenjen in v kombinaciji s besedila kot besedila.``linguacode\nbesedilo = \"obstaja\" + 365 + \"dni v letu\"\n# text = \"obstaja\" + \"365\" + \"dni v letu\"\n# text = \"obstaja 365\" + \"dni v letu\"\n# text = \"tam so 365 dni v letu\"\n` ` #### Pomembno zapomniti \nZ linijami lahko storimo le dodajanje delovanje. Medtem ko delaš druge operacije, ki se bodo zaradi napake.",
+        "conditionsCommandsIfTitle":"Ukaz \"Če\"",
+        "conditionsCommandsIfContent":"Včasih v programskem potrebujemo za izvajanje nekaterih operacij, ki temeljijo na stanju. Za to obstaja pogoj preverjanje ukazi, kot so \"Če\", \"Če-drugega\" in \"Drugega-Če\". \n\nPisni obliki ukaz \"**Če**\" ``linguacode\nče <condition> nato\n<operation>\n` \"Tukaj med ukazi \"Če\" in \"potem\" je vsako stanje, in po tem, ko je iz nove linije in po **4 prostorov,** je napisal delovanje (ali operacije), ki jo bo naredil, če je izjava resnična. \n\n#### Za primer ``linguacode\na = 5\nb = 2\nče je a > b, potem\nizhod(\"a > b\")\n``",
+        "conditionsCommandsIfElseTitle":"Ukaz \"If-Else\"",
+        "conditionsCommandsIfElseContent":"Tako bomo vedeli, kako uporabljati pogojni stavek v programe. Zdaj bomo razpravljali o primeru, ko pogoj je false.\n\nPisanje obliki \"**Če-Ostali**\" izjava ``linguacode\nče <condition> nato\n<operation N1>\nostalo\n<operation N2>\n` \"Tukaj po ukaz \"Če\" je nov ukaz \"Drugega\". In iz nove linije, po 4 prostorov je napisan operacijo, ki bo naredil, če je navedeno stanje je false.\n\n#### Za primer ``linguacode\na = 5\nb = 10\nče je a > b\nizhod(\"a > b\")\nostalo\nizhod(\"b < a\")\n``",
+        "conditionsCommandsElseIfTitle":"Ukaz \"Drugega-Če\"",
+        "conditionsCommandsElseIfContent":"Smo že razpravljali, ki se bo ukaz se izvrši na podlagi pogojem, da true ali false. Ampak včasih smo morali preveriti več kot en pogoj v istem času. \n\nPisanje obliki \"**Če-Drugega-Če**\" izjava``linguacode\nče <condition N1> nato\n<operation N1>\ndrugače, če <condition N2> nato\n<operation N2>\nostalo\n<operation N3>\n` \"Tukaj moramo preveriti več kot en pogoj. V primeru \"Drugega-Če\" pisni obliki, je lahko 1 ali več \"Drugega-Če\" izjave med ukazi \"Če\" in \"Drugega\". \n\n#### Za primer ``linguacode\na = 5\nb = 5\nče je a > b, potem\nizhod(\"a > b\")\nsicer pa je a < b, potem\nizhod (\"< b\")\nostalo\nizhod(\"b ==\")\n``",
+        "booleanTypesBooleanTitle":"Opis",
+        "booleanTypesBooleanContent":"Mi že vemo, kako preveriti izjave, in nekatere od njih lahko *res* (22 > 18) ali *false* (16 > 18). Včasih zato, ker dolžine pogoj preverjanje vrstice, postane težko, da se glasi izvorno kodo. Tukaj gre za pomoč logične vrednosti \n\n- **res** ``linguacode\npogoj = true\nizhod(pogoj) #res\n`` \n\n- **false**``linguacode\npogoj = false\nizhod(pogoj) #false\n` \"Boolean primerjavi znano je, da nam vrne eno od danih vrednosti \n\nExemple *res* primerjavo ``linguacode\npogoj = 1 < 5\nizhod(pogoj) # res\n`` Exemple *false,* primerjavo ``linguacode\npogoj = 10 < 5\nizhod(pogoj) # false\n`` Torej v stanje, preverjanje ukazov lahko uporabimo spremenljivke, logične vrednosti. \n\n#### Za primer ``linguacode\nizhod(\"Napiši številko \"a\":\")\nvhod(a)\n\nizhod(\"Napiši številko \"b\":\")\nvhod(b)\n\ncondition1 = a > b\ncondition2 = a < b\n\nče condition1 nato\nrezultat = \"a > b\"\ndrugače, če condition2 nato\nrezultat = \"< b\"\nostalo\nrezultat = \"a == b\"։\nizhod(\"Rezultat:\" + rezultat)\n``",
+        "booleanOperatorsComparisonTitle":"Primerjava operaterjev",
+        "booleanOperatorsComparisonContent":"V stanju preverjanje ukazov, ki smo jih že uporabljajo simboli \", večjo kot\" > in \"manj\" < primerjavi operaterji. Zdaj pa tukaj smo lahko uporabite kateri koli drugi operaterji znano, da nas. \n\n- **>** primerja numerične vrednosti, v katerih prva je *#večja* od drugega. Za primer ``linguacode\nizhod(5 > 1) # res\nizhod(1 > 5) # false\n`` \n\n- **>=** primerja numerične vrednosti, v katerih prva je *#večja ali enaka* drugo. Za primer ``linguacode\nizhod(5 >= 5) # res\nizhod(1 >= 5) # false\n`` \n\n- **<** primerja numerične vrednosti, v katerih prva je *#manj* od drugega. Za primer ``linguacode\nizhod(1 < 5) # res\nizhod(5 < 1) # false\n`` \n\n- **<=** primerja numerične vrednosti, v katerih prva je *#manjša ali enaka* drugo. Za primer ``linguacode\nizhod(1 <= 5) # res\nizhod(5 <= 1) # false\n`` \n\n- **==** primerja numerične vrednosti ali besedilo, v katerem prvi je *#enaka* drugo. Za primer ``linguacode\nizhod(5 == 5) # res\nizhod(5 == 1) # false\nizhod(\"vojak\" == \"vojak\") # res\nizhod(\"Hello\" == \"Helo\") # false\n`` \n\n- **!=** primerja numerične vrednosti ali besedilo, v katerem prvi je *#ni enaka* drugo. Za primer ``linguacode\nizhod(5 != 1) # res\nizhod(5 != 5) # false\nizhod(\"HelLo\" != \"Helo\") # res\nizhod(\"vojak\" != \"vojak\") # false\n`` \n\n- **ne()** vrne obrnil rezultat vseh numeričnih ali besedilo primerjavo. Za primer ``linguacode\nizhod(ni(1 > 5)) # res\nizhod(ne(5 == 5)) # false\nizhod(ni(false)) # res\nizhod(ni(true)) # false\n``",
+        "booleanOperatorsLogicalTitle":"Boolovi operatorji",
+        "booleanOperatorsLogicalContent":"Tako vemo, kako, da napišete vse pogojni stavek, pogosto pa moramo združiti več pogojev, na eni, in glede na to izvajanje nekaterih dejavnosti. S kombinacijo pogojev, ki poteka po boolovi operatorji. \n\n- Ukaz \"**in**\" združuje dva pogoja v enega, ki se imenuje **res** pri obeh so pogoji *res* in **false** ko je vsaj eden od pogojev je *false*. Za primer ``linguacode\nizhod(5 > 1 և 10 < 100) # res\nizhod(20 < 100 և 1 > 5) # false\n`` \n\n- Ukaz \"**ali**\" združuje dva pogoja v enega, ki se imenuje **res** ko je vsaj eden od pogojev je *res* in **false** ko sta se pogoji *false*. Za primer ``linguacode\nizhod(5 > 1 ali 100 < 10) # res\nizhod(20 > 100 ali 1 > 5) # false\n``",
+        "booleanOperatorsExecutingPriorityTitle":"Izvršitveni prednost",
+        "booleanOperatorsExecutingPriorityContent":"Smo se naučili, kako združiti 2 pogoji, vendar pa se lahko več kot 2, ki temelji na programu vsebine. V tem primeru pogoji, ki bodo v kombinaciji s seboj iz *z leve proti desni*, dokler se ne tvorijo en pogoj.\n\n#### Za primer ``linguacode\nizhod(5 < 1 և 1 < 7 ali 1 >= 3 ali 9 == 9)\n` \"to je enako kot ``linguacode\nizhod(false և true ali false ali res)\n` \"naj se združite **1.** in **2th** \"**false in velja:**\" pogoji v enem․ ``linguacode\nizhod(napačne ali lažne ali resnične)\n`\"in nato **1+2** stanje **3th** bo \"**napačne ali lažne**\" ``linguacode\nizhod(lažne ali resnične)\n` \"in končno **1+2+3** stanje **4.** bo \"**lažne ali resnične**\"․ ``linguacode\nizhod(true)\n` \"In tako združimo 4 pogoji v enem. Smo lahko združite več pogoji, na ta način. \n\nVčasih smo morali spremeniti leve proti desni združuje prednost z uporabo oklepajev. \n\n#### Za primer ``linguacode\nizhod(5 < 1 և (1 < 7 (1 >= 3 ali 9 == 9)))\n`` \n\nto je enako kot ``linguacode\nizhod(false և (true ali false ali res)))\n` \"naj se združite **3th** in **4.** \"**lažne ali resnične**\" pogoji v enem ``linguacode\nizhod(napačne ali lažne ali resnične))\n` \"potem, ko je **2th** stanje **3+4** pogoj bo \"**lažne ali resnične**\" ``linguacode\nizhod(false և res)\n` \"in na koncu naj združite **1.** stanje **2+(3+4)**. Bo \"**false in velja:**\" ``linguacode\nizhod(false)\n` \"In tako, smo videli, da rezultat se je spremenilo s spremembo združuje prednost."
+      },
+      "syntaxInfo":{
+        "modalTitle":"Ukaz vodnika",
+        "cheatSheetTitle":"Cheat sheet",
+        "lesson":"Vaje"
+      }
+    }
+  },
+  "modules":{
+    "ide":{
+      "title":"<b> Hotkeys</b>",
+      "undo":"Razveljaviti",
+      "redo":"Redo",
+      "selectAll":"Izberite vse",
+      "run":"Teči",
+      "terminal":"Terminal"
+    },
+    "program":{
+      "program":"Program",
+      "sourceCode":"Izvorno kodo",
+      "functionArgumentSyntaxError":"Funkcija argumenta sintaksa napaka v ${line} linije.",
+      "undefinedVariable":"\"${variable}\" spremenljivka ni definirana v ${line} linije.",
+      "indentError":"Prostora za napake v ${line} linije.",
+      "hackAttempt":"Kramp poskus. Vaš \"${ip}\" ip naslov je bil shranjene v naši bazi podatkov.",
+      "syntaxError":"Sintaksa napaka",
+      "timeout":"Prevajanje timeout. Prepričajte se, da je koda nima neskončno zanko.",
+      "true":"res",
+      "false":"false",
+      "NaN":"neznan",
+      "null":"neznan",
+      "Infinity":"infinity",
+      "undefined":"undefined"
+    },
+    "programListGroup":{
+      "programs":"Programi"
+    },
+    "terminal":{
+      "hotkeys":"<b> Hotkeys</b>",
+      "undo":"Razveljaviti",
+      "redo":"Redo",
+      "selectAll":"Izberite vse",
+      "terminal":"Terminal"
+    }
+  },
+  "buttons":{
+    "loginButton":{
+      "signIn":"Prijavite se v"
+    },
+    "menuButton":{
+      "settings":"Nastavitve",
+      "logOut":"Izpis"
+    }
+  },
+  "panels":{
+    "header":{
+      "title":"Doma"
+    }
+  },
+  "elements":{
+    "emptyProgramListForOthersComponent":{
+      "programNotFoundForOthers":"Uporabnik nima nobenih programov še ni."
+    },
+    "emptyProgramListForOwnerComponent":{
+      "programNotFoundListForOwner":"Nimate nobenih programov še ni.",
+      "programNotFoundClickPartFirst":"Kliknite",
+      "programNotFoundClickPartSecond":"tukaj",
+      "programNotFoundClickPartThird":"če želite ustvariti nov program."
+    },
+    "loading":{
+      "loading":"Nakladanje"
+    }
+  }
+}

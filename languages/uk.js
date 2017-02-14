@@ -2,79 +2,79 @@ const COMMAND = require('linguacode-constants').COMMAND;
 
 module.exports = [{
   command: COMMAND.INPUT,
-  definition: 'գրել'
+  definition: 'вхід'
 }, {
   command: COMMAND.OUTPUT,
-  definition: 'տպել'
+  definition: 'вихід'
 }, {
   command: COMMAND.IF,
-  definition: 'եթե'
+  definition: 'якщо'
 }, {
   command: COMMAND.ELSE,
-  definition: 'այլապես'
+  definition: 'ще'
 }, {
   command: COMMAND.THEN,
-  definition: 'ապա'
+  definition: 'тоді'
 }, {
   command: COMMAND.OR,
-  definition: 'կամ'
+  definition: 'або'
 }, {
   command: COMMAND.AND,
-  definition: 'և|եւ'
+  definition: 'і'
 }, {
   command: COMMAND.NOT,
-  definition: 'ոչ'
+  definition: 'не'
 }, {
   command: COMMAND.FALSE,
-  definition: 'սխալ'
+  definition: 'помилкові'
 }, {
   command: COMMAND.TRUE,
-  definition: 'ճիշտ'
+  definition: 'правда'
 }, {
   command: COMMAND.DO,
-  definition: 'կատարել'
+  definition: 'робити'
 }, {
   command: COMMAND.WHILE,
-  definition: 'մինչ'
+  definition: 'а'
 }, {
   command: COMMAND.REPEAT,
-  definition: 'կրկնել'
+  definition: 'повторити'
 }, {
   command: COMMAND.TIMES,
-  definition: 'անգամ'
+  definition: 'раз'
 }, {
   command: COMMAND.BREAK,
-  definition: 'ընդհատել'
+  definition: 'перерва'
 }, {
   command: COMMAND.CONTINUE,
-  definition: 'շարունակել'
+  definition: 'далі'
 }, {
   command: COMMAND.FUNCTION,
-  definition: 'ֆունկցիա'
+  definition: 'функція'
 }, {
   command: COMMAND.RANDOM,
-  definition: 'պատահականություն'
+  definition: 'випадковий'
 }, {
   command: COMMAND.POW,
-  definition: 'աստիճան'
+  definition: 'потужність'
 }, {
   command: COMMAND.SQR,
-  definition: 'քառակուսի'
+  definition: 'площа'
 }, {
   command: COMMAND.SQRT,
-  definition: 'արմատ'
+  definition: 'square_root'
 }, {
   command: COMMAND.ROUND,
-  definition: 'կլորացում'
+  definition: 'круглий'
 }, {
   command: COMMAND.FLOOR,
-  definition: 'ամբողջացնել_ներքև|ամբողջացնել_ներքեւ'
+  definition: 'підлога'
 }, {
   command: COMMAND.CEIL,
-  definition: 'ամբողջացնել_վերև|ամբողջացնել_վերեւ'
+  definition: 'підшити'
 }, {
   command: COMMAND.ABS,
-  definition: 'մոդուլ'
+  definition: 'absolute_value'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'
@@ -113,5 +113,5 @@ module.exports = [{
   definition: 'pi'
 }, {
   command: COMMAND.E,
-  definition: 'e'
+  definition: 'е'
 }];

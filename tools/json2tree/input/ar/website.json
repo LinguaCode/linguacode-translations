@@ -1,0 +1,362 @@
+{
+  "blocks":{
+    "controlPanelBlock":{
+      "edit":"تحرير",
+      "delete":"حذف"
+    },
+    "lovePanelBlock":{
+      "like":"مثل",
+      "liked":"أحب",
+      "star":"نجوم",
+      "starred":"تألق"
+    },
+    "moreFromUserBlock":{
+      "viewAll":"عرض جميع",
+      "moreFromFirst":"أكثر من",
+      "moreFromLast":""
+    },
+    "programListFilterBlock":{
+      "sortBy":"فرز حسب",
+      "recent":"الأخيرة",
+      "views":"الآراء",
+      "stars":"النجوم",
+      "likes":"يحب",
+      "random":"عشوائية"
+    },
+    "shareBlock":{
+      "link":"الرابط",
+      "share":"حصة",
+      "tweet":"سقسقة",
+      "textTwitter":"برنامج \"${programTitle}\" ${userName} على #LinguaCode ${userPageLink}",
+      "descriptionVK":"LinguaCode الاجتماعية الترميز منصة صممت خصيصا للأطفال حيث يمكنهم تعلم البرمجة وتبادل رموز لغتهم الأم و دون الحاجة إلى معرفة اللغة الإنجليزية."
+    },
+    "userPrimaryInfoBlock":{
+      "editProfile":"تعديل الملف الشخصي"
+    },
+    "userSecondaryInfoBlock":{
+      "joinedOn":"انضم على"
+    }
+  },
+  "pages":{
+    "errorPage":{
+      "title":"خطأ",
+      "explanation":"آسف, وهو خطأ فادح وقعت على هذه الصفحة."
+    },
+    "landingPage":{
+      "title":"LinguaCode: التعلم عن طريق الترميز",
+      "learningByCoding":"التعلم <span className=\"masthead--lora-italic\">by Coding</span>",
+      "explanation":"نحن جعل تعلم البرمجة والترميز بهذا الفرح والحياة ، عليك أن تضحك بصوت عال.",
+      "facebookSignIn":"تسجيل الدخول مع Facebook",
+      "or":"أو",
+      "seeTheListOfPrograms":"انظر قائمة البرامج موجودة",
+      "descriptionHead":"أفضل طريقة لتعلم البرمجة.",
+      "descriptionBody":"LinguaCode الاجتماعية الترميز منصة صممت خصيصا للأطفال حيث يمكنهم تعلم البرمجة وتبادل رموز لغتهم الأم و دون الحاجة إلى معرفة اللغة الإنجليزية.",
+      "advantagesHeadline":"LinguaCode يساعدك على <span className=\"u-emphasized\">learn أفضل </span>",
+      "advantageTopFirstHeadline":"متعدد اللغات",
+      "advantageTopFirstDescription":"كتابة البرامج على اللغات الأصلية ، وليس فقط.",
+      "advantageTopSecondHeadline":"أنه مجاني!",
+      "advantageTopSecondDescription":"كل شيء مجانا.",
+      "advantageTopThirdHeadline":"بداية سريعة",
+      "advantageTopThirdDescription":"الابتداء هو أسهل بكثير مما كنت أعتقد!",
+      "advantageBottomFirstHeadline":"الخيال",
+      "advantageBottomFirstDescription":"تعلم, محاولة, خلق!",
+      "advantageBottomSecondHeadline":"التعليم",
+      "advantageBottomSecondDescription":"تعلم البرمجة, فضلا عن مواضيع أخرى.",
+      "advantageBottomThirdHeadline":"المجتمع",
+      "advantageBottomThirdDescription":"حصة البرامج الخاصة بك مع الأصدقاء والعثور على أصدقاء جدد.",
+      "joinText":"الانضمام إلى <span className=\"u-emphasized\">the community</span> من المتعلمين",
+      "facebookRegister":"سجل الآن مجانا!"
+    },
+    "notFoundPage":{
+      "title":"لم يتم العثور على الصفحة",
+      "explanation":"آسف, ولكن الصفحة التي تحاول عرض لا وجود لها.",
+      "descriptionPartFirst":"حاول التوجه إلى",
+      "descriptionPartSecond":"الصفحة الرئيسية",
+      "descriptionPartThird":"بدلا من ذلك."
+    },
+    "programChangePage":{
+      "titleOfEditPage":"تحرير ${userName}/${title} البرنامج",
+      "editProgramHeadline":"تحرير برنامج",
+      "editProgramButton":"تحرير البرنامج",
+      "titleOfCreatePage":"إنشاء برنامج جديد",
+      "newProgramHeadline":"إنشاء برنامج جديد",
+      "submitProgramButton":"يقدم برنامج",
+      "programContent":"برنامج يحتوي على جميع المعلومات حول التعليمات البرمجية الخاصة بك.",
+      "name":"اسم",
+      "programNameForm":"برنامج رائع أسماء قصيرة لا تنسى ، مثل <b>hello-world</b>.",
+      "titleOfProgram":"العنوان",
+      "description":"الوصف",
+      "validationError":"خطأ التحقق من صحة",
+      "errorTextForNameLength":"طول <b>name</b> أن أكثر من 0 أقل من 32 ، يجب أن تتكون من اللاتينية والرموز شرطات.",
+      "errorTextForName":"هذا اسم المصدر يستخدم بالفعل من قبل.",
+      "errorTextForTitle":"طول <b>title</b> أن أكثر من 0 أقل من 128.",
+      "errorTextForDescription":"طول <b>description</b> أن أكثر من 0 وأقل ثم 5120.",
+      "errorTextForSource":"طول <b>source</b> أن أكثر من 0 وأقل ثم 10240."
+    },
+    "programs":{
+      "title":"برامج"
+    },
+    "settingsPage":{
+      "title":"الإعدادات",
+      "publicProfile":"الملف الشخصي العام",
+      "validationError":"خطأ التحقق من صحة",
+      "username":"اسم المستخدم",
+      "yourUsername":"اسم المستخدم الخاص بك",
+      "usernameWasAlreadyUsed":"اسم المستخدم هو مستخدم بالفعل",
+      "usernameWasReserved":"كان اسم المستخدم محجوز",
+      "usernameValidation":"طول <b>username</b> يجب أن يكون أقل من 24 صغيرة تحتوي على الأحرف اللاتينية والأرقام.",
+      "name":"اسم",
+      "yourFirstNameAndLastName":"اسمك الأول والاسم الأخير",
+      "nameValidation":"طول <b>name</b> ينبغي أن يكون أكثر من 0 ، وبعد أقل من 24",
+      "bio":"Bio",
+      "tellALittleAboutYourself":"أقول قليلا عن نفسك",
+      "bioValidation":"طول <b>bio</b> يجب أن يكون أقل من 128.",
+      "country":"البلد",
+      "select":"حدد",
+      "countryValidation":"حدد أي من البلدان",
+      "updateProfile":"تحديث الملف الشخصي"
+    }
+  },
+  "modals":{
+    "loginRequiredModal":{
+      "signInTitle":"تسجيل الدخول",
+      "signInDescription":"وهذه العملية ممكنة فقط عند تسجيل الدخول."
+    },
+    "programDeleteModal":{
+      "programDeleteConfirmation":"هل أنت متأكد أنك تريد حذف البرنامج ؟ ",
+      "answerYes":"نعم",
+      "answerNo":"لا"
+    },
+    "syntaxInfoModal":{
+      "cheatSheet":{
+        "outputName":"الإخراج",
+        "outputNameValue":"``linguacode\nالإخراج(X)\n``",
+        "outputDescription":"يطبع أي قيمة س: الأرقام والعمليات ، النص و قيم المتغيرات. على سبيل المثال",
+        "outputDescriptionValue":"``linguacode\nالإخراج(4) # 4\nالإخراج(\"مرحبا\") # مرحبا\nالإخراج(1+2) # 3\n``",
+        "inputName":"المدخلات",
+        "inputNameValue":"``linguacode\nالمدخلات(X)\n``",
+        "inputDescription":"أي المتغير X قيمة معلنا من قبل المستخدم. على سبيل المثال",
+        "inputDescriptionValue":"``linguacode\nالمدخلات(أ)\n``",
+        "ifElseStatementName":"التحقق من البيان",
+        "ifElseStatementNameValue":"``linguacode\nإذا <condition N1> ثم\n<operation N1>\nآخر إذا <condition N2> ثم\n<operation N2>\nآخر\n<operation N3>\n``",
+        "ifElseStatementDescription":"العمليات المنفذة على أساس تحديد حالة كونه صحيحا. على سبيل المثال",
+        "ifElseStatementDescriptionValue":"``linguacode\na = 5\nب = 5\nإذا كان أ > ب ثم\nالإخراج(\"a > b\")\nآخر إذا كان a < b ثم\nالإخراج (\"<b\")\nآخر\nالإخراج(\"b ==\") # ب == \n``",
+        "loopForName":"محدودة تكرار",
+        "loopForNameValue":"``linguacode\nكرر <N> مرات\n<operation>\n``",
+        "loopForDescription":"ينفذ كتلة من التعليمات البرمجية عدة مرات. على سبيل المثال",
+        "loopForDescriptionValue":"``linguacode\nكرر 10 مرات\nالإخراج(\"مرحبا\")\n``",
+        "loopWhileDoName":"حلقة \"بينما\"",
+        "loopWhileDoNameValue":"``linguacode\nفي حين <condition> ثم\n<operation>\n``",
+        "loopWhileDoDescription":"\"بينما فعل\" الحلقة من خلال كتلة من التعليمات البرمجية طالما محدد الشرط صحيحا. على سبيل المثال",
+        "loopWhileDoDescriptionValue":"``linguacode\nأ = 1\nفي حين < 5 ثم\nالإخراج(أ)\na = a + 1\n``",
+        "loopDoWhileName":"حلقة \"حين\"",
+        "loopDoWhileNameValue":"``linguacode\nهل\n<operation>\nفي حين <condition>\n``",
+        "loopDoWhileDescription":"حلقة \"حين\" تكرار loop طالما كان الشرط صحيحا. على سبيل المثال",
+        "loopDoWhileDescriptionValue":"``linguacode\nأ = 1\nهل \nالإخراج(أ)\na = a + 1\nفي حين < 5\n``",
+        "piName":"بي ثابت رياضي",
+        "piNameValue":"``linguacode\nالإخراج(pi)\n``",
+        "piDescription":"يطبع ثابت رياضي <b>pi</b>. على سبيل المثال",
+        "piDescriptionValue":"``linguacode\nالإخراج(pi) # 3.141592653589793\n``",
+        "eNumberName":"ه ثابت رياضي",
+        "eNumberNameValue":"``linguacode\nالإخراج(e)\n``",
+        "eNumberDescription":"يطبع ثابت رياضي <b>e</b>. على سبيل المثال",
+        "eNumberDescriptionValue":"``linguacode\nالإخراج(e) # 2.718281828459045\n``",
+        "sqrName":"مربع عدد",
+        "sqrNameValue":"``linguacode\nsqr(X)\n``",
+        "sqrDescription":"يعود مربع من <b>X</b> عدد إدخالها من قبل المستخدم. على سبيل المثال",
+        "sqrDescriptionValue":"``linguacode\nX = 5 \nY = sqr(X) \nالإخراج(Y) # 25\n``",
+        "powName":"قوة عدد",
+        "powNameValue":"``linguacode\npow(X,Y)\n``",
+        "powDescription":"ترجع قيمة <b>X</b> إلى قوة <b>Y</b>. على سبيل المثال",
+        "powDescriptionValue":"``linguacode\nX = 2 \nY = 5 \nZ = pow(X, Y) \nالإخراج(Z) # 32\n``",
+        "sqrtName":"الجذر التربيعي عدد",
+        "sqrtNameValue":"``linguacode\nsqrt(X)\n``",
+        "sqrtDescription":"إرجاع الجذر التربيعي <b>X</b> عدد إدخالها من قبل المستخدم. على سبيل المثال",
+        "sqrtDescriptionValue":"``linguacode\nX = 9 \nY = sqrt(X) \nالإخراج(Y) # 3\n``",
+        "absName":"القيمة المطلقة من عدد",
+        "absNameValue":"``linguacode\nabs(X)\n``",
+        "absDescription":"إرجاع القيمة المطلقة <b>X</b> عدد إدخالها من قبل المستخدم. على سبيل المثال՝",
+        "absDescriptionValue":"``linguacode\nX = -5 \nY = abs(X) \nالإخراج(Y) # 5\n``",
+        "roundName":"عدد التقريب",
+        "roundNameValue":"``linguacode\nالجولة(X)\n``",
+        "roundDescription":"جولات وهو <b>X</b> عدد إلى أقرب عدد صحيح إرجاع قيمة. على سبيل المثال",
+        "roundDescriptionValue":"``linguacode\nX = 2.3 \n= round(X) \nالإخراج(أ) # 2\n``",
+        "floorName":"عدد الكلمة",
+        "floorNameValue":"``linguacode\nالكلمة(X)\n``",
+        "floorDescription":"جولات وهو <b>X</b> عدد <b>downwards</b> إلى أقرب عدد صحيح إرجاع قيمة. على سبيل المثال",
+        "floorDescriptionValue":"``linguacode\nX = 2.6 \n= الكلمة(X) \nالإخراج(أ) # 2\n``",
+        "ceilName":"عدد سقف",
+        "ceilNameValue":"``linguacode\nسقف(X)\n``",
+        "ceilDescription":"جولة <b>X</b> عدد <b>upwards</b> إلى أقرب عدد صحيح إرجاع القيمة",
+        "ceilDescriptionValue":"``linguacode\nX = 2.2 \n= سقف(X) \nالإخراج(أ) # 3\n``",
+        "sinName":"شرط",
+        "sinNameValue":"``linguacode\nsin(X)\n``",
+        "sinDescription":"بإرجاع قيمة <b>sine</b> من <b>X</b>. على سبيل المثال",
+        "sinDescriptionValue":"``linguacode\nX = sin(pi) \nالإخراج(X) # 0\n``",
+        "cosName":"جيب التمام",
+        "cosNameValue":"``linguacode\ncos(X)\n``",
+        "cosDescription":"بإرجاع قيمة <b>cosine</b> من <b>X</b>. على سبيل المثال",
+        "cosDescriptionValue":"``linguacode\nX = cos(pi) \nالإخراج(X) # -1\n``",
+        "tanName":"الظل",
+        "tanNameValue":"``linguacode\nتان(خ)\n``",
+        "tanDescription":"بإرجاع قيمة <b>tangent</b> من <b>X</b>. على سبيل المثال՝",
+        "tanDescriptionValue":"``linguacode\nX = tan(pi) \nالإخراج(X) # 0\n``",
+        "ctgName":"وظل التمام",
+        "ctgNameValue":"``linguacode\nctg(X)\n``",
+        "ctgDescription":"بإرجاع قيمة <b>cotangent</b> من <b>X</b>. على سبيل المثال՝",
+        "ctgDescriptionValue":"``linguacode\nX = ctg(pi/4) \nالإخراج(X) # 1\n``",
+        "arcSinName":"Arcsine",
+        "arcSinNameValue":"``linguacode\narcsin(X)\n``",
+        "arcSinDescription":"إرجاع القيمة حيث جيب يحصل على نفس قيمة <b>X</b>. على سبيل المثال",
+        "arcSinDescriptionValue":"``linguacode\n= arcsin(1) \nالإخراج(أ) # pi/2 \n``",
+        "arcCosName":"Arccosine",
+        "arcCosNameValue":"``linguacode\nقوس جيب تمام الزاوية(X)\n``",
+        "arcCosDescription":"إرجاع القيمة حيث جيب التمام يحصل على نفس قيمة <b>X</b>. على سبيل المثال",
+        "arcCosDescriptionValue":"``linguacode\n= قوس جيب تمام الزاوية(1) \nالإخراج(أ) # 0\n``",
+        "arcTanName":"قوس الظل",
+        "arcTanNameValue":"``linguacode\nظل الزاوية القوسي(X)\n``",
+        "arcTanDescription":"إرجاع القيمة حيث ظل يحصل على نفس قيمة <b>X</b>. على سبيل المثال",
+        "arcTanDescriptionValue":"``linguacode\n= ظل الزاوية القوسي(0) \nالإخراج(أ) # 0\n``",
+        "arcCtgName":"Arccotangent",
+        "arcCtgNameValue":"``linguacode\narcctg(X)\n``",
+        "arcCtgDescription":"إرجاع القيمة حيث وظل التمام يحصل على نفس قيمة <b>X</b>. على سبيل المثال",
+        "arcCtgDescriptionValue":"``linguacode\n= arcctg(1) \nالإخراج(أ) # pi/4\n``",
+        "logName":"اللوغاريتم",
+        "logNameValue":"``linguacode\nlog(X,Y)\n``",
+        "logDescription":"بإرجاع قيمة اللوغاريتم من <b>X</b> إلى قاعدة <b>Y</b>. على سبيل المثال",
+        "logDescriptionValue":"``linguacode\n= log(3,27) \nالإخراج(أ) # 3\n``",
+        "lgName":"المشتركة اللوغاريتم",
+        "lgNameValue":"``linguacode\nlg(Y)\n``",
+        "lgDescription":"بإرجاع قيمة اللوغاريتم من <b>X</b> إلى قاعدة <b>10</b>. على سبيل المثال",
+        "lgDescriptionValue":"``linguacode\n= lg(100) \nالإخراج(أ) # 10\n``",
+        "lnName":"اللوغاريتم الطبيعي",
+        "lnNameValue":"``linguacode\nln(Y)\n``",
+        "lnDescription":"بإرجاع قيمة اللوغاريتم من <b>X</b> إلى قاعدة <b>e</b>. على سبيل المثال",
+        "lnDescriptionValue":"``linguacode\na = ln(e) \nالإخراج(أ) # 1\n``",
+        "randomName":"توليد رقم عشوائي",
+        "randomNameValue":"``linguacode\nالعشوائي(X,[Y])\n``",
+        "randomDescription":"إذا كانت المعلمة <b>Y</b> يعطى البرنامج سوف تولد عشوائيا و العودة عشوائية عدد صحيح من range<b>[X; Y]</b>. ولكن من دون <b>Y</b> المعلمة مجموعة سوف تكون <b>[0; X]</b>. على سبيل المثال",
+        "randomDescriptionValueFirst":"``linguacode\nX = 10 \n= عشوائي(X) # [0; 10]\nالإخراج(أ) # 4 \n``",
+        "randomDescriptionValueSecond":"``linguacode\nX = 5 \nY = 15 \n= عشوائي(X,Y) # [5; 15]\nالإخراج(أ) # 12\n``"
+      },
+      "tutorials":{
+        "intro":"مقدمة",
+        "output":"الإخراج",
+        "variables":"المتغيرات",
+        "input":"المدخلات",
+        "operations":"العمليات",
+        "conditions":"شروط",
+        "boolean":"منطقية",
+        "languageAboutLanguageTitle":"حول اللغة",
+        "languageAboutLanguageContent":"LinguaCode يتم إنشاء جميع أولئك الذين يرغبون في تعلم أساسيات برمجة بطريقة مريحة أكثر. \nتعلم مع LinguaCode ليس من الضروري معرفة اللغات الأجنبية أو المهارات التقنية. كل ما تحتاجه هو ترغب في معرفة والاجتهاد. \n\n#### الميزات:\n- **متعدد اللغات**\n- **المتعدد**\n- **بسيطة البرمجية المصدر**\n- **مجانا**\n",
+        "languageFeaturesTitle":"ميزات اللغة",
+        "languageFeaturesContent":"LinguaCode يقوم على الثعبان, باسكال و جافا سكريبت, مما يجعل من السهل أن نفهم بسيطة مع التعليمات البرمجية المصدر ثم تعلم لغة البرمجة بسرعة أكبر. \n\n**هنا جميع المفاهيم الأساسية في اللغة:**\n\n- **كل أمر يبدأ من سطر جديد.** \nالمصدر مدونة سوف تكون أكثر بسيطة وواضحة من قبل بهذه الطريقة.\n- **الأوامر يمكن كتابة كل من الأحرف الكبيرة والصغيرة.** \nفإنه يسرع عملية البرمجة, لكنه يفضل كتابة أحرف صغيرة.\n- **يمكن أن يكون النص مكتوب بين علامتي اقتباس و الفواصل العليا.** \nفي كثير من البلدان لا توجد علامات اقتباس في الاستخدام, لذلك هنا يمكنك اختيار مناسب الإصدار.\n- **نص مكتوب بعد الرمز \"\\#\" يعتبر التعليق و لا يؤثر على عمل البرمجية المصدر.** \nيتم توفير التعليقات لتدوين الملاحظات.",
+        "outputCommandDefinitionTitle":"تعريف القيادة",
+        "outputCommandDefinitionContent":"كل برنامج ، والتي لا بعض العمليات ، ينبغي أن تظهر لنا معلومات حول النتيجة. هذا هو السبب في جميع برمجة أنظمة إخراج النص إمكانية مكان حيث يمكننا أن نرى النتيجة ، وهو ما يسمى **محطة**. \n\nقيادة \"*الانتاج*\" يستخدم من أجل إخراج النص. \n\n#### على سبيل المثال \nالتعليمات البرمجية المصدر``linguacode\nالإخراج(\"مرحبا\")\n````محطة\nمرحبا\n``",
+        "outputPossibleValuesTitle":"القيم الممكنة",
+        "outputPossibleValuesContent":"إخراج الأمر يمكن طباعة النص والأرقام العمليات الحسابية و قيم المتغيرات.\n\n#### على سبيل المثال \nالتعليمات البرمجية المصدر \n``linguacode\nالناتج(100)\nالإخراج(5 * 25)\n````محطة\n100\n125\n``",
+        "variablesDeclaresAndAssignsTitle":"معلنا والتنازل",
+        "variablesDeclaresAndAssignsContent":"كثيرا ما نحتاج إلى حفظ النص ، وعدد العمليات العددية في مكان ما مع الغرض من استخدامها مرة أخرى. الحاويات ، حيث يمكننا حفظ قيم مختلفة تسمى **المتغيرات**. في البداية يجب أن نعطي اسم المتغير ثم تعيين قيمة إلى ذلك. بعد ذلك يمكن أن نشير إلى قيمة ببساطة عن طريق استدعاء متغير مع اسمها. \nالمتغيرات المخزنة في ذاكرة الوصول العشوائي (RAM) من الكمبيوتر عندما نستخدم متغير, الكمبيوتر بإرجاع القيمة المقابلة إلى أن اسم المتغير من ذاكرة الوصول العشوائي.\n#### من المهم أن نتذكر\nأسماء المتغيرات \n**1.** يمكن أن تحتوي على حروف أو رموز أو أرقام \n**2.** لا يمكن أن تبدأ مع عدد \n**3.** لا يمكن أن تحتوي على مساحة رموز العمليات الحسابية\n#### على سبيل المثال \nلطباعة عدد **617** بدلا من هذا \n``linguacode\nالإخراج(617)\n``\nسوف نكتب\n``linguacode\nX = 617\nالإخراج(X)\n``\nنتيجة\n``محطة\n617\n`` \nوإذا أردنا أن إخراج القيمة نفسها ثلاث مرات ، سوف نكتب \n``linguacode\nX = 617\nالإخراج(X)\nالإخراج(X)\nالإخراج(X)\n`` \nنتيجة \n``محطة\n617\n617\n617\n``",
+        "variablesPracticalUseTitle":"الاستخدام العملي",
+        "variablesPracticalUseContent":"كما نرى أننا يمكن تعيين كل العددية و نص قيم المتغيرات. ولكن في كثير من الأحيان نحن بحاجة إلى تعيين إلى متغير بعض القيمة التي تم تعيينها إلى واحد آخر. في هذه الحالة يمكنك تعيين القائمة بالفعل متغير إلى واحدة جديدة.\n#### على سبيل المثال \nالتعليمات البرمجية المصدر\n``linguacode\nأ = 1\nب = 2\nc = a + b\nالإخراج(ج)\n`` \nنتيجة\n``محطة\n3\n``\n",
+        "variablesMultipleUsesTitle":"متعددة الاستخدام",
+        "variablesMultipleUsesContent":"ليس لديك لإنشاء متغير جديد قيمة جديدة في كل مرة. يمكننا أيضا تغيير القيم المسندة إلى المتغيرات. وسوف تجنب لا لزوم لها من المتغيرات البرمجية المصدر سوف تكون أكثر بساطة من هذا الطريق.\n#### على سبيل المثال\nدعونا نفترض أن لدينا **100** التفاح و حفظ هذه القيمة في **أبل** متغير. عدد التفاح في تناقص من قبل **5** كل يوم. \nيجب إخراج عدد من التفاح كل يوم. \n\nالتعليمات البرمجية المصدر\n``linguacode\nالتفاح = 100\nالإخراج(أبل)\n\nالتفاح = أبل - 5 # 95\nالإخراج (أبل)\n\nالتفاح = أبل - 5 # 90\nالإخراج(أبل)\n\nالتفاح = أبل - 5 # 85\nالإخراج(أبل)\n`` \nنتيجة\n``محطة\n100\n95\n90\n85\n``",
+        "inputCommandDefinitionTitle":"تعريف القيادة",
+        "inputCommandDefinitionContent":"في البرمجة نحن بحاجة إلى الإخراج في حالات كثيرة إلى إدخال البيانات. نحن في حاجة إليها عندما المتغيرات يمكن أن تتلقى أي قيمة. نحن أيضا يمكن تغيير التعليمات البرمجية المصدر في كل مرة و تعيين قيم جديدة إلى متغير, ولكنها ليست فعالة و يحتاج وقتا طويلا. \n\nفي هذه الحالة يمكننا استخدام الأمر \"*إدخال*\". \n\nو هنا مثال بسيط من البرنامج الذي مخرجات ضعف عدد إدخالها من قبل المستخدم. ``linguacode\nالمدخلات(عدد)\nالإخراج (*2)\n`` بعد تشغيل هذا البرنامج سوف نرى الرمز \"**>**\" مما يعني أن البرنامج قد بدأت ونحن بحاجة إلى إدخال البيانات المفقودة. بعد إدخال أي رقم ثم الضغط على **أدخل** سوف نرى مزدوجة من إدخالها. ``محطة\n>617\n1234\n``في الغالب نحن بحاجة لكتابة البرامج التي يمكن استخدامها من قبل الناس الذين لا يعرفون حتى البرمجة.",
+        "inputWorkMechanismTitle":"آلية العمل",
+        "inputWorkMechanismContent":"الآن دعونا نرى كيف الأمر إدخال يعمل. على سبيل المثال لدينا هذا البرنامج ``linguacode\nالإخراج(\"الرجاء إدخال بيانات الاعتماد الخاصة بك:\")\nالإخراج(\"Name:\")\nالمدخلات(اسم)\nالإخراج(\"اللقب:\")\nالمدخلات(اللقب)\nالإخراج(\"مرحبا\" + name + \"\" + اسم العائلة)\n`` كما نرى هناك 6 خطوط في برنامجنا. \nبعد تشغيله يمكننا أن نرى أن البرنامج يعمل حتى خط 3.``محطة\nيرجى إدخال بيانات الاعتماد الخاصة بك:\nالاسم:\n>\n`` بعد دخول غاب البيانات ، وسوف نرى الآن أن يعمل حتى خط 5.``محطة\nيرجى إدخال بيانات الاعتماد الخاصة بك:\nالاسم:\n>البحرية\nاللقب:\n>\n` و أخيرا بعد دخول الأخير افسدت بيانات برنامج العمل.``محطة\nيرجى إدخال بيانات الاعتماد الخاصة بك:\nالاسم:\n>البحرية\nاللقب:\n>Chamchyan\nمرحبا البحرية Chamchyan\n` لذا رأينا أن هذا الأمر يعمل البرنامج جزءا جزءا تتطلب إدخال البيانات المفقودة.",
+        "operationsArithmeticOperatorsTitle":"العمليات الحسابية",
+        "operationsArithmeticOperatorsContent":"في LinguaCode من الممكن تنفيذ عمليات حسابية بسيطة مثل **+**, **-**, **\\***, **/**. \n\nعلى سبيل المثال هذا البرنامج سوف تفعل كل العوامل الحسابية مع **1** و **2** الأرقام. ``linguacode\nالإخراج(1 + 2) # 3\nالإخراج(1 - 2) # -1\nالإخراج(1 * 2) # 2\nالإخراج(1 / 2) # 0.5\n` ` #### من المهم أن نتذكر \nكما نعلم في الرياضيات الضرب من متغير مع متغير آخر أو رقم يمكن أن تكون مكتوبة بدون رمز الضرب. على سبيل المثال *7 مرات X* سوف تكون مكتوبة **7X** أو *X × Y* مثل **XY**. \nولكن في البرمجة من المهم أن تكتب رمز الضرب. على سبيل المثال **7 \\* X** أو **س \\* Y**.",
+        "operationsExecutingPriorityTitle":"العمليات المنفذة ذات الأولوية",
+        "operationsExecutingPriorityContent":"سواء في الرياضيات و في البرمجة إذا كان هناك تقسيم أو الضرب ، علينا أولا القيام بها إلا بعد أن تفعل الجمع والطرح. \n\n#### على سبيل المثال ``linguacode\nX = 10 + 2 * 4 - 2\n# X = 10 + 8 - 2\n# X = 18 - 2\n# X = 16\n`` ولكن يمكننا تغيير المنفذة الأولوية باستخدام الأقواس. \n#### على سبيل المثال ``linguacode\nX = (10 + 2) * (4 - 2)\n# X = 12 * (4 - 2)\n# X = 12 * 2\n# X = 24\n``في البرمجة يمكننا استخدام الأقواس حتى لو كانت غير ضرورية. \nفإنه لن يكون من الخطأ لكنه يفضل كتابة بسيطة وواضحة شفرة المصدر, والتي سوف يكون من السهل أن نفهم الآخرين.",
+        "operationsNumbersTitle":"أرقام",
+        "operationsNumbersContent":"كما نعلم <a href=\"https://en.wikipedia.org/wiki/Number\" target=\"_blank\">numbers</a> الرياضية الأشياء المستخدمة لحساب وقياس التسمية. \nهناك 5 أنواع من الأرقام. وسوف نتعامل مع كل منهم ، باستثناء مجمع numbes \n- ** الأعداد الطبيعية** **1**, **2**, ...``linguacode\nالإخراج(7 + 4) # 13\n`` \n- **أرقام صحيحة** ..., **-1**, **0**, **1**, ...``linguacode\nالإخراج(-6 * 5 + -3) # -33\n`` \n- **الأعداد الكسرية** **1/2**, **2/3**, **0.125**, ...``linguacode\nالإخراج(0.617 * 2 * 1000) # 1234\n`` \n- **الأعداد الحقيقية** **√2**, **1.62**, ...``linguacode\nالإخراج(2/3 + 1/2) # 1\n``",
+        "operationsSumOfStringAndNumberTitle":"مجموع سلاسل الأرقام",
+        "operationsSumOfStringAndNumberContent":"كما نرى انه من الممكن إضافة كل الأرقام والنصوص بعضها البعض ، مما ينتج خطوط جنبا إلى جنب في خط واحد. ولكن في كثير من الأحيان نحن بحاجة للحصول على الخط ، والتي سوف يكون هناك استخدام القيمة العددية. في هذه الحالة فمن الممكن لإضافة نص إلى رقم في النتيجة عدد سيتم تعديل و جنبا إلى جنب مع النص كنص.``linguacode\ntext = \"\"+ 365 + \"أيام في السنة\"\n# text = \"\" + \"365\" + \"أيام في السنة\"\n# text = \"365\" + \"أيام في السنة\"\n# text = \"هناك 365 يوما في السنة\"\n` ` #### من المهم أن نتذكر \nمع خطوط يمكننا القيام به فقط مضيفا العملية. أثناء القيام بعمليات أخرى سيؤدي إلى خطأ.",
+        "conditionsCommandsIfTitle":"الأمر \"إذا\"",
+        "conditionsCommandsIfContent":"في بعض الأحيان في البرمجة نحن بحاجة إلى تنفيذ بعض العمليات على أساس الشرط. لذلك هناك حالة التحقق من الأوامر مثل \"إذا\" و \"إذا كان آخر\" و \"آخر-إذا\". \n\nالكتابة شكل من أشكال القيادة \"**إن**\" ``linguacode\nإذا <condition> ثم\n<operation>\n`` هنا بين الأوامر \"إذا\" و \"إذن\" ليس هناك أي شرط ، و بعد ذلك من خط جديد وبعد **4 مسافات** هو مكتوب العملية (أو العمليات) الذي سيتم القيام به إذا كانت العبارة صحيحة. \n\n#### على سبيل المثال ``linguacode\na = 5\nب = 2\nإذا كان أ > ب ثم\nالإخراج(\"a > b\")\n``",
+        "conditionsCommandsIfElseTitle":"الأمر \"إذا كان آخر\"",
+        "conditionsCommandsIfElseContent":"لذلك نحن نعرف كيفية استخدام عبارة شرطية في البرامج. الآن سوف نناقش القضية عند الشرط باطل.\n\nالكتابة شكل من أشكال \"**إذا كان آخر**\" البيان ``linguacode\nإذا <condition> ثم\n<operation N1>\nآخر\n<operation N2>\n`` هنا بعد الأمر \"إن\" هناك أمر جديد \"آخر\". و من سطر جديد بعد 4 مواقف مكتوبة العملية التي سيتم القيام به ، إذا ذكر شرط باطل.\n\n#### على سبيل المثال ``linguacode\na = 5\nب = 10\nإذا كان أ > ب\nالإخراج(\"a > b\")\nآخر\nالإخراج(\"ب <\")\n``",
+        "conditionsCommandsElseIfTitle":"قيادة \"آخر-إذا\"",
+        "conditionsCommandsElseIfContent":"وقد سبق الأمر الذي سيتم تنفيذه على أساس حالة كونها صحيحة أو خاطئة. ولكن في بعض الأحيان نحتاج أن تحقق أكثر من شرط واحد في نفس الوقت. \n\nالكتابة شكل من أشكال \"**إذا كان آخر إذا**\" البيان``linguacode\nإذا <condition N1> ثم\n<operation N1>\nآخر إذا <condition N2> ثم\n<operation N2>\nآخر\n<operation N3>\n` هنا يجب أن تحقق أكثر من شرط واحد. في حالة \"آخر-إن\" الكتابة شكل من الأشكال لا يمكن أن يكون 1 أو أكثر \"آخر-إن\" التصريحات بين الأوامر \"إذا\" و \"آخر\". \n\n#### على سبيل المثال ``linguacode\na = 5\nب = 5\nإذا كان أ > ب ثم\nالإخراج(\"a > b\")\nآخر إذا كان a < b ثم\nالإخراج (\"<b\")\nآخر\nالإخراج(\"b ==\")\n``",
+        "booleanTypesBooleanTitle":"الوصف",
+        "booleanTypesBooleanContent":"نحن نعلم بالفعل كيفية التحقق من البيانات و بعض منهم يمكن أن يكون *صحيح* (22 > 18) أو *false* (16 > 18). في بعض الأحيان بسبب طول حالة التحقق من خط ، يصبح من الصعب قراءة التعليمات البرمجية المصدر. يأتي هنا للمساعدة القيم المنطقية \n\n- **صحيح** ``linguacode\nالشرط = true\nالإخراج(الشرط) #حقيقة\n`` \n\n- **false**``linguacode\nالحالة = false\nالإخراج(الشرط) #كاذبة\n`` أي منطقية المقارنة معروفة لنا عودة واحد من معين القيم \n\nعلى سبيل المثال *صحيح* المقارنة ``linguacode\nالحالة = 1 < 5\nالإخراج(الشرط) # حقيقة\n`` على سبيل المثال *false* المقارنة ``linguacode\nالحالة = 10 < 5\nالإخراج(الشرط) # كاذبة\n`` حتى في حالة التحقق من الأوامر يمكننا استخدام المتغيرات مع قيم منطقية. \n\n#### على سبيل المثال ``linguacode\nالإخراج(\"كتابة رقم \"\":\")\nالمدخلات(أ)\n\nالإخراج(\"كتابة رقم \"ب\":\")\nالمدخلات(ب)\n\ncondition1 = > ب\ncondition2 = a < b\n\nإذا condition1 ثم\nالنتيجة = \"a > b\"\nآخر إذا condition2 ثم\nالنتيجة = \"< b\"\nآخر\nالنتيجة = \"a == b\"։\nالإخراج(\"النتيجة:\" + النتيجة)\n``",
+        "booleanOperatorsComparisonTitle":"عوامل المقارنة",
+        "booleanOperatorsComparisonContent":"في حالة التحقق من أوامر لدينا بالفعل تستخدم رموز من \"أكبر من\" > \"أقل من\" < عوامل المقارنة. ولكن الآن هنا يمكننا استخدام أي شركات أخرى معروفة لنا. \n\n- **>** يقارن بين القيم العددية التي أول واحد هو *#أكبر* من ثانية واحدة. على سبيل المثال ``linguacode\nالإخراج(5 > 1) # حقيقة\nالإخراج(1 > 5) # كاذبة\n`` \n\n- **>=** يقارن بين القيم العددية التي أول واحد هو *#أكبر أو يساوي* الثانية. على سبيل المثال ``linguacode\nالإخراج(5 >= 5) # حقيقة\nالإخراج(1 >= 5) # كاذبة\n`` \n\n- **<** يقارن بين القيم العددية التي أول واحد هو *#أقل* من ثانية واحدة. على سبيل المثال ``linguacode\nالإخراج(1 < 5) # حقيقة\nالإخراج(5 < 1) # كاذبة\n`` \n\n- **<=** يقارن بين القيم العددية التي أول واحد هو *#أقل أو يساوي* الثانية. على سبيل المثال ``linguacode\nالإخراج(1 <= 5) # حقيقة\nالإخراج(5 <= 1) # كاذبة\n`` \n\n- **==** يقارن العددية أو القيم النصية التي أول واحد هو *#مساوية* الثانية. على سبيل المثال ``linguacode\nالإخراج(5 == 5) # حقيقة\nالإخراج(5 == 1) # كاذبة\nالإخراج(\"الجندي\" == \"الجندي\") # حقيقة\nالإخراج(\"مرحبا\" == \"هيلو\") # كاذبة\n`` \n\n- **!=** يقارن العددية أو القيم النصية التي أول واحد هو *#لا يساوي* الثانية. على سبيل المثال ``linguacode\nالإخراج(5 != 1) # حقيقة\nالإخراج(5 != 5) # كاذبة\nالإخراج(\"مرحبا\" != \"هيلو\") # حقيقة\nالإخراج(\"الجندي\" != \"الجندي\") # كاذبة\n`` \n\n- **ليس()** إرجاع عكس النتيجة من أي عددية أو نصية المقارنة. على سبيل المثال ``linguacode\nالإخراج(لا(1 > 5)) # حقيقة\nالإخراج(لا(5 == 5)) # كاذبة\nالإخراج(لا(false)) # حقيقة\nخرج ((صحيح)) # كاذبة\n``",
+        "booleanOperatorsLogicalTitle":"العوامل المنطقية",
+        "booleanOperatorsLogicalContent":"لذلك نحن نعرف كيفية كتابة أي عبارة شرطية ، ولكن في كثير من الأحيان نحتاج إلى الجمع بين عدد من الشروط في واحد ، وعلى أساس ذلك تنفيذ بعض العمليات. الجمع بين الشروط التي تتم بها المعاملات المنطقية. \n\n- قيادة \"****\" يجمع بين شرطين في واحد ، وهو ما يسمى **صحيح** عند كل الظروف *صحيح* **false** عند واحد على الأقل من الشروط *مزورة*. على سبيل المثال ``linguacode\nالإخراج(5 > 1 և 10 < 100) # حقيقة\nالإخراج(20 < 100 և 1 > 5) # كاذبة\n`` \n\n- قيادة \"**أو**\" يجمع بين شرطين في واحد ، وهو ما يسمى **صحيح** عند واحد على الأقل من الشروط *صحيح* **false** عندما الشرطين *مزورة*. على سبيل المثال ``linguacode\nالإخراج(5 > 1 أو 100 < 10) # حقيقة\nالإخراج(20 > 100 أو 1 > 5) # كاذبة\n``",
+        "booleanOperatorsExecutingPriorityTitle":"تنفيذ الأولوية",
+        "booleanOperatorsExecutingPriorityContent":"تعلمنا كيفية الجمع بين 2 الظروف ، ولكن يمكن أن تكون أكثر من 2 ، استنادا إلى محتوى البرنامج. في هذه الحالة الشروط سوف تكون مجتمعة مع بعضها البعض من *من اليسار إلى اليمين*, حتى أنها تشكل شرط واحد.\n\n#### على سبيل المثال ``linguacode\nالإخراج(5 < 1 և 1 < 7 أو 1 >= 3 أو 9 == 9)\n`` هذا هو نفس ``linguacode\nالإخراج(كاذبة և true أو false أو true)\n`` دعونا الجمع بين **1ال** **2ال** \"**كاذبة وحقيقية**\" الأوضاع في واحد․ ``linguacode\nالإخراج(كاذبة أو خاطئة أو صحيحة)\n``ثم **1+2** حالة **3** \"**كاذبة أو خاطئة**\" ``linguacode\nالإخراج (\"خطأ\" أو \"صواب\")\n` و أخيرا **1+2+3** حالة **4** \"**خطأ أو صواب**\"․ ``linguacode\nالإخراج(صحيح)\n` و لذلك نحن بين 4 شروط. يمكننا الجمع بين أكثر من شروط بهذه الطريقة. \n\nفي بعض الأحيان نحن بحاجة إلى تغيير اليسار إلى اليمين الجمع بين الأولوية باستخدام الأقواس. \n\n#### على سبيل المثال ``linguacode\nالإخراج(5 < 1 և (1 < 7 أو (1 >= 3 أو 9 == 9)))\n`` \n\nهذا هو نفس ``linguacode\nالإخراج(كاذبة և (صحيح أو (false أو true)))\n`` دعونا الجمع بين **3** **4** \"**خطأ أو صواب**\" الأوضاع في واحد ``linguacode\nالإخراج(كاذبة أو (false أو true))\n` بعد ذلك **2ال** الشرط مع **3+4** شرط أن يكون \"**خطأ أو صواب**\" ``linguacode\nالإخراج(كاذبة և صحيح)\n`` وأخيرا دعونا الجمع بين **1ال** الشرط مع **2+(3+4)**. سيكون \"**كاذبة وحقيقية**\" ``linguacode\nالإخراج(كاذبة)\n`` لقد رأينا أن النتيجة تغيرت مع تغيير الجمع بين الأولويات."
+      },
+      "syntaxInfo":{
+        "modalTitle":"الأمر دليل",
+        "cheatSheetTitle":"ورقة الغش",
+        "lesson":"البرنامج التعليمي"
+      }
+    }
+  },
+  "modules":{
+    "ide":{
+      "title":"<b> Hotkeys</b>",
+      "undo":"التراجع",
+      "redo":"إعادة",
+      "selectAll":"حدد كافة",
+      "run":"تشغيل",
+      "terminal":"محطة"
+    },
+    "program":{
+      "program":"البرنامج",
+      "sourceCode":"التعليمات البرمجية المصدر",
+      "functionArgumentSyntaxError":"وظيفة حجة خطأ في بناء الجملة في ${line} خط.",
+      "undefinedVariable":"\"${variable}\" متغير لم يعرف في ${line} خط.",
+      "indentError":"مساحة الخطأ في ${line} خط.",
+      "hackAttempt":"محاولة الإختراق. \"${ip}\" عنوان ip تم حفظها في قاعدة البيانات الخاصة بنا.",
+      "syntaxError":"خطأ في بناء الجملة",
+      "timeout":"ترجمة المهلة. تأكد من أن التعليمات البرمجية لا يملك ما لا نهاية الحلقة.",
+      "true":"صحيح",
+      "false":"كاذبة",
+      "NaN":"غير معروف",
+      "null":"غير معروف",
+      "Infinity":"اللانهاية",
+      "undefined":"غير معرف"
+    },
+    "programListGroup":{
+      "programs":"برامج"
+    },
+    "terminal":{
+      "hotkeys":"<b> Hotkeys</b>",
+      "undo":"التراجع",
+      "redo":"إعادة",
+      "selectAll":"حدد كافة",
+      "terminal":"محطة"
+    }
+  },
+  "buttons":{
+    "loginButton":{
+      "signIn":"تسجيل الدخول"
+    },
+    "menuButton":{
+      "settings":"الإعدادات",
+      "logOut":"تسجيل الخروج"
+    }
+  },
+  "panels":{
+    "header":{
+      "title":"المنزل"
+    }
+  },
+  "elements":{
+    "emptyProgramListForOthersComponent":{
+      "programNotFoundForOthers":"المستخدم لا يملك أي برامج حتى الآن."
+    },
+    "emptyProgramListForOwnerComponent":{
+      "programNotFoundListForOwner":"لم يكن لديك أي برامج حتى الآن.",
+      "programNotFoundClickPartFirst":"انقر",
+      "programNotFoundClickPartSecond":"هنا",
+      "programNotFoundClickPartThird":"إنشاء برنامج جديد."
+    },
+    "loading":{
+      "loading":"تحميل"
+    }
+  }
+}

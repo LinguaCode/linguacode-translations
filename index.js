@@ -1,4 +1,4 @@
-const languageList = ['en', 'hy', 'ru', 'it'];
+const languageList = require('./languageList');
 
 var languages = {};
 languageList.forEach((language) => {

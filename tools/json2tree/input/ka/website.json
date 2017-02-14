@@ -1,0 +1,362 @@
+{
+  "blocks":{
+    "controlPanelBlock":{
+      "edit":"რედაქტირება",
+      "delete":"წაშლა"
+    },
+    "lovePanelBlock":{
+      "like":"როგორიცაა",
+      "liked":"მომეწონა",
+      "star":"Star",
+      "starred":"ვარსკვლავით"
+    },
+    "moreFromUserBlock":{
+      "viewAll":"იხილეთ ყველა",
+      "moreFromFirst":"მეტი",
+      "moreFromLast":""
+    },
+    "programListFilterBlock":{
+      "sortBy":"Sort by",
+      "recent":"ბოლო",
+      "views":"ნახვა",
+      "stars":"ვარსკვლავები",
+      "likes":"მოსწონს",
+      "random":"შემთხვევითი"
+    },
+    "shareBlock":{
+      "link":"ლინკი",
+      "share":"Share",
+      "tweet":"Tweet",
+      "textTwitter":"პროგრამა \"${programTitle}\" მიერ ${userName} #LinguaCode ${userPageLink}",
+      "descriptionVK":"LinguaCode არის სოციალური კოდირების პლატფორმა და განკუთვნილია განსაკუთრებით ბავშვებისათვის, სადაც მათ შეუძლიათ ისწავლონ პროგრამირება და გაუზიაროს მათი კოდები მათი მშობლიური ენა და რეგისტრაციის აუცილებლობა იცის ინგლისური."
+    },
+    "userPrimaryInfoBlock":{
+      "editProfile":"პროფილის რედაქტირება"
+    },
+    "userSecondaryInfoBlock":{
+      "joinedOn":"შეუერთდა"
+    }
+  },
+  "pages":{
+    "errorPage":{
+      "title":"შეცდომა",
+      "explanation":"უკაცრავად, კრიტიკული შეცდომა მოხდა ამ გვერდზე."
+    },
+    "landingPage":{
+      "title":"LinguaCode: სწავლის მიერ კოდირება",
+      "learningByCoding":"სწავლის <span className=\"masthead--lora-italic\">by Coding</span>",
+      "explanation":"ჩვენ, რათა სწავლის პროგრამირების და კოდირების ასე რომ, სრული სიხარული და ცხოვრება, თქვენ სიცილი ხმამაღლა.",
+      "facebookSignIn":"Sign in with Facebook",
+      "or":"ან",
+      "seeTheListOfPrograms":"იხილეთ სია არსებობს პროგრამები",
+      "descriptionHead":"საუკეთესო ახალი გზა უნდა ვისწავლოთ პროგრამირება.",
+      "descriptionBody":"LinguaCode არის სოციალური კოდირების პლატფორმა და განკუთვნილია განსაკუთრებით ბავშვებისათვის, სადაც მათ შეუძლიათ ისწავლონ პროგრამირება და გაუზიაროს მათი კოდები მათი მშობლიური ენა და რეგისტრაციის აუცილებლობა იცის ინგლისური.",
+      "advantagesHeadline":"LinguaCode დაგეხმარებათ <span className=\"u-emphasized\">learn უკეთესი </span>",
+      "advantageTopFirstHeadline":"მრავალენოვანი",
+      "advantageTopFirstDescription":"დაწერეთ პროგრამების თქვენს მშობლიურ ენაზე, და არა მხოლოდ.",
+      "advantageTopSecondHeadline":"ეს არის უფასო!",
+      "advantageTopSecondDescription":"ყველაფერი უფასოდ.",
+      "advantageTopThirdHeadline":"სწრაფი დაწყება",
+      "advantageTopThirdDescription":"ნაცნობობა ბევრად უფრო ადვილია, ვიდრე ფიქრობთ!",
+      "advantageBottomFirstHeadline":"ფანტაზია",
+      "advantageBottomFirstDescription":"ვისწავლოთ, ვცდილობთ, შევქმნათ!",
+      "advantageBottomSecondHeadline":"განათლება",
+      "advantageBottomSecondDescription":"ვისწავლოთ პროგრამირება, ისევე, როგორც სხვა საგნები.",
+      "advantageBottomThirdHeadline":"საზოგადოების",
+      "advantageBottomThirdDescription":"თქვენი პროგრამების მეგობრები და იპოვოთ ახალი მეგობრები.",
+      "joinText":"რეგ <span className=\"u-emphasized\">the community</span>, მოსწავლეთა",
+      "facebookRegister":"რეგისტრაცია, უფასოა!"
+    },
+    "notFoundPage":{
+      "title":"გვერდი ვერ მოიძებნა",
+      "explanation":"უკაცრავად, მაგრამ გვერდზე თქვენ ცდილობთ ნახოთ არ არსებობს.",
+      "descriptionPartFirst":"სცადეთ სასაქონლო",
+      "descriptionPartSecond":"მთავარი გვერდი",
+      "descriptionPartThird":"ნაცვლად."
+    },
+    "programChangePage":{
+      "titleOfEditPage":"რედაქტირება ${userName}/${title} პროგრამა",
+      "editProgramHeadline":"რედაქტირება პროგრამა",
+      "editProgramButton":"რედაქტირება პროგრამა",
+      "titleOfCreatePage":"შექმნა ახალი პროგრამა",
+      "newProgramHeadline":"შექმნა ახალი პროგრამა",
+      "submitProgramButton":"წარუდგინოს პროგრამა",
+      "programContent":"პროგრამა შეიცავს ყველა ინფორმაცია თქვენი კოდი.",
+      "name":"დასახელება",
+      "programNameForm":"დიდი პროგრამა სახელები მოკლე და დასამახსოვრებელი, როგორიცაა <b>hello-world</b>.",
+      "titleOfProgram":"სათაური",
+      "description":"აღწერა",
+      "validationError":"უზუსტობა",
+      "errorTextForNameLength":"ხანგრძლივობა <b>name</b> უნდა, უფრო მეტი ვიდრე 0 და ნაკლები მაშინ 32, იგი უნდა შედგებოდეს ლათინური სიმბოლოები და dashes.",
+      "errorTextForName":"ეს სახელი წყარო არის უკვე გამოყენებული თქვენ.",
+      "errorTextForTitle":"ხანგრძლივობა <b>title</b> უნდა, უფრო მეტი ვიდრე 0 და ნაკლები, მაშინ 128.",
+      "errorTextForDescription":"ხანგრძლივობა <b>description</b> უნდა, უფრო მეტი ვიდრე 0 და ნაკლები მაშინ 5120.",
+      "errorTextForSource":"ხანგრძლივობა <b>source</b> უნდა, უფრო მეტი ვიდრე 0 და ნაკლები მაშინ 10240."
+    },
+    "programs":{
+      "title":"გადაცემები"
+    },
+    "settingsPage":{
+      "title":"პარამეტრები",
+      "publicProfile":"საჯარო ნახვა",
+      "validationError":"უზუსტობა",
+      "username":"მომხმარებლის სახელი",
+      "yourUsername":"თქვენი სახელი",
+      "usernameWasAlreadyUsed":"სახელი უკვე იყო გამოყენებული",
+      "usernameWasReserved":"სახელი დაცულია",
+      "usernameValidation":"ხანგრძლივობა <b>username</b> უნდა იყოს არანაკლებ 24 და შეიცავდეს პატარა ასოები ლათინური და ნომრები.",
+      "name":"დასახელება",
+      "yourFirstNameAndLastName":"თქვენი სახელი და გვარი",
+      "nameValidation":"ხანგრძლივობა <b>name</b> უნდა იყოს მეტი ვიდრე 0 და ნაკლები შემდეგ 24",
+      "bio":"Bio",
+      "tellALittleAboutYourself":"გითხრათ, ცოტა თავს",
+      "bioValidation":"ხანგრძლივობა <b>bio</b> უნდა იყოს არანაკლებ 128.",
+      "country":"ქვეყანა",
+      "select":"აირჩიეთ",
+      "countryValidation":"აირჩიეთ რომელიმე ქვეყნიდან",
+      "updateProfile":"პროფილის განახლება"
+    }
+  },
+  "modals":{
+    "loginRequiredModal":{
+      "signInTitle":"შესვლა",
+      "signInDescription":"ოპერაცია შესაძლებელია მხოლოდ მაშინ, როდესაც თქვენ ხელი მოაწერა."
+    },
+    "programDeleteModal":{
+      "programDeleteConfirmation":"დარწმუნებული ხართ, რომ გსურთ წაშალოთ პროგრამა ?",
+      "answerYes":"დიახ",
+      "answerNo":"არა"
+    },
+    "syntaxInfoModal":{
+      "cheatSheet":{
+        "outputName":"გამოშვება",
+        "outputNameValue":"``linguacode\noutput(X)\n``",
+        "outputDescription":"ნამუშევარი ნებისმიერი X ღირებულება: ნომრები, ოპერაციების, ტექსტი და ცვლადი ღირებულებების. მაგალითად",
+        "outputDescriptionValue":"``linguacode\noutput(4) # 4\noutput(\"Howdy\") # Howdy\noutput(1+2) # 3\n``",
+        "inputName":"შეყვანის",
+        "inputNameValue":"``linguacode\nშეყვანის(X)\n``",
+        "inputDescription":"ნებისმიერი X ცვლადის მნიშვნელობა გამოცხადების შესახებ. მაგალითად",
+        "inputDescriptionValue":"``linguacode\nშეყვანის(a)\n``",
+        "ifElseStatementName":"შემოწმების განცხადება",
+        "ifElseStatementNameValue":"``linguacode\nთუ <condition N1> მაშინ\n<operation N1>\nსხვას თუ <condition N2> მაშინ\n<operation N2>\nსხვა\n<operation N3>\n``",
+        "ifElseStatementDescription":"ოპერაციები შესრულდება საფუძველზე განსაზღვრული პირობით, რომ ჭეშმარიტი. მაგალითად",
+        "ifElseStatementDescriptionValue":"``linguacode\na = 5\nb = 5\nთუ a > b, მაშინ\noutput(\"a > b\")\nსხვას თუ a < b, მაშინ\noutput (\"< b\")\nსხვა\noutput(\"b == a\") # b == a\n``",
+        "loopForName":"შეზღუდული ვიმეორებ",
+        "loopForNameValue":"``linguacode\nვიმეორებ <N> ჯერ\n<operation>\n``",
+        "loopForDescription":"გაუშვებს ბლოკი კოდი რაოდენობის ჯერ. მაგალითად",
+        "loopForDescriptionValue":"``linguacode\nგაიმეორეთ 10-ჯერ\noutput(\"Howdy\")\n``",
+        "loopWhileDoName":"Loop \"მიუხედავად იმისა, რომ ამის გაკეთება\"",
+        "loopWhileDoNameValue":"``linguacode\nმიუხედავად იმისა, რომ <condition> მაშინ\n<operation>\n``",
+        "loopWhileDoDescription":"\"მიუხედავად იმისა, რომ ნუ\" მარყუჟის მეშვეობით ახორციელებს ბლოკი კოდი, რადგან მითითებული პირობა არის ჭეშმარიტი. მაგალითად",
+        "loopWhileDoDescriptionValue":"``linguacode\na = 1\nმიუხედავად იმისა, რომ a < 5 მაშინ\noutput(a)\na = a + 1\n``",
+        "loopDoWhileName":"Loop \"ნუ მიუხედავად იმისა, რომ\"",
+        "loopDoWhileNameValue":"``linguacode\nნუ\n<operation>\nმიუხედავად იმისა, რომ <condition>\n``",
+        "loopDoWhileDescription":"Loop \"ნუ, ხოლო\" ვიმეორებ loop რადგან პირობა არის ჭეშმარიტი. მაგალითად",
+        "loopDoWhileDescriptionValue":"``linguacode\na = 1\nნუ \noutput(a)\na = a + 1\nმიუხედავად იმისა, რომ a < 5\n``",
+        "piName":"pi მათემატიკური მუდმივი",
+        "piNameValue":"``linguacode\noutput(pi)\n``",
+        "piDescription":"ნამუშევარი მათემატიკური მუდმივი <b>pi</b>. მაგალითად",
+        "piDescriptionValue":"``linguacode\noutput(pi) # 3.141592653589793\n``",
+        "eNumberName":"e მათემატიკური მუდმივი",
+        "eNumberNameValue":"``linguacode\noutput(e)\n``",
+        "eNumberDescription":"ნამუშევარი მათემატიკური მუდმივი <b>e</b>. მაგალითად",
+        "eNumberDescriptionValue":"``linguacode\noutput(e) # 2.718281828459045\n``",
+        "sqrName":"მოედანზე ნომერი",
+        "sqrNameValue":"``linguacode\nsqr(X)\n``",
+        "sqrDescription":"ბრუნდება მოედანზე <b>X</b> ნომერი inputted შესახებ. მაგალითად",
+        "sqrDescriptionValue":"``linguacode\nX = 5 \nY = sqr(X) \noutput(Y) # 25\n``",
+        "powName":"ძალა ნომერი",
+        "powNameValue":"``linguacode\npow(X,Y)\n``",
+        "powDescription":"ბრუნდება ღირებულება <b>X</b> ძალა <b>Y</b>. მაგალითად",
+        "powDescriptionValue":"``linguacode\nX = 2 \nY = 5 \nZ = pow(X, Y) \noutput(Z) # 32\n``",
+        "sqrtName":"კვადრატული ფესვი ნომერი",
+        "sqrtNameValue":"``linguacode\nsqrt(X)\n``",
+        "sqrtDescription":"ბრუნდება კვადრატული ფესვი <b>X</b> ნომერი inputted შესახებ. მაგალითად",
+        "sqrtDescriptionValue":"``linguacode\nX = 9 \nY = sqrt(X) \noutput(Y) # 3\n``",
+        "absName":"აბსოლუტური ღირებულება ნომერი",
+        "absNameValue":"``linguacode\nabs(X)\n``",
+        "absDescription":"ბრუნდება აბსოლუტური ღირებულება <b>X</b> ნომერი inputted შესახებ. მაგალითად՝",
+        "absDescriptionValue":"``linguacode\nX = -5 \nY = abs(X) \noutput(Y) # 5\n``",
+        "roundName":"ნომერი დამრგვალება",
+        "roundNameValue":"``linguacode\nround(X)\n``",
+        "roundDescription":"რაუნდი არის <b>X</b> ნომერი უახლოეს რიცხვი და ბრუნდება ღირებულება. მაგალითად",
+        "roundDescriptionValue":"``linguacode\nX = 2.3 \na = round(X) \noutput(a) # 2\n``",
+        "floorName":"ნომერი სართული",
+        "floorNameValue":"``linguacode\nსართული(X)\n``",
+        "floorDescription":"რაუნდი არის <b>X</b> ნომერი <b>downwards</b> უახლოეს რიცხვი და ბრუნდება ღირებულება. მაგალითად",
+        "floorDescriptionValue":"``linguacode\nX = 2.6 \na = სართული(X) \noutput(a) # 2\n``",
+        "ceilName":"ნომერი ceil",
+        "ceilNameValue":"``linguacode\nceil(X)\n``",
+        "ceilDescription":"მრგვალი არის <b>X</b> ნომერი <b>upwards</b>, რომ მისი უახლოესი რიცხვი და ბრუნდება ღირებულება",
+        "ceilDescriptionValue":"``linguacode\nX = 2.2 \na = ceil(X) \noutput(a) # 3\n``",
+        "sinName":"Sine",
+        "sinNameValue":"``linguacode\nsin(X)\n``",
+        "sinDescription":"ბრუნდება ღირებულება <b>sine</b> საქართველოს <b>X</b> ნომერი. მაგალითად",
+        "sinDescriptionValue":"``linguacode\nX = sin(pi) \noutput(X) # 0\n``",
+        "cosName":"Cosine",
+        "cosNameValue":"``linguacode\ncos(X)\n``",
+        "cosDescription":"ბრუნდება ღირებულება <b>cosine</b> საქართველოს <b>X</b> ნომერი. მაგალითად",
+        "cosDescriptionValue":"``linguacode\nX = cos(pi) \noutput(X) # -1\n``",
+        "tanName":"Tangent",
+        "tanNameValue":"``linguacode\ntan(X)\n``",
+        "tanDescription":"ბრუნდება ღირებულება <b>tangent</b> საქართველოს <b>X</b> ნომერი. მაგალითად՝",
+        "tanDescriptionValue":"``linguacode\nX = tan(pi) \noutput(X) # 0\n``",
+        "ctgName":"Cotangent",
+        "ctgNameValue":"``linguacode\nctg(X)\n``",
+        "ctgDescription":"ბრუნდება ღირებულება <b>cotangent</b> საქართველოს <b>X</b> ნომერი. მაგალითად՝",
+        "ctgDescriptionValue":"``linguacode\nX = ctg(pi/4) \noutput(X) # 1\n``",
+        "arcSinName":"Arcsine",
+        "arcSinNameValue":"``linguacode\narcsin(X)\n``",
+        "arcSinDescription":"ბრუნდება ღირებულება სადაც sine დგება იგივე ღირებულება, როგორც <b>X</b>. მაგალითად",
+        "arcSinDescriptionValue":"``linguacode\na = arcsin(1) \noutput(a) # pi/2 \n``",
+        "arcCosName":"Arccosine",
+        "arcCosNameValue":"``linguacode\narccos(X)\n``",
+        "arcCosDescription":"ბრუნდება ღირებულება სადაც cosine დგება იგივე ღირებულება, როგორც <b>X</b>. მაგალითად",
+        "arcCosDescriptionValue":"``linguacode\na = arccos(1) \noutput(a) # 0\n``",
+        "arcTanName":"Arctangent",
+        "arcTanNameValue":"``linguacode\narctan(X)\n``",
+        "arcTanDescription":"ბრუნდება ღირებულება სადაც მხები დგება იგივე ღირებულება, როგორც <b>X</b>. მაგალითად",
+        "arcTanDescriptionValue":"``linguacode\na = arctan(0) \noutput(a) # 0\n``",
+        "arcCtgName":"Arccotangent",
+        "arcCtgNameValue":"``linguacode\narcctg(X)\n``",
+        "arcCtgDescription":"ბრუნდება ღირებულება სადაც cotangent დგება იგივე ღირებულება, როგორც <b>X</b>. მაგალითად",
+        "arcCtgDescriptionValue":"``linguacode\na = arcctg(1) \noutput(a) # pi/4\n``",
+        "logName":"ლოგარითმი",
+        "logNameValue":"``linguacode\nlog(X,Y)\n``",
+        "logDescription":"ბრუნდება ღირებულება ლოგარითმი <b>X</b> ბაზა <b>Y</b>. მაგალითად",
+        "logDescriptionValue":"``linguacode\na = log(3,27) \noutput(a) # 3\n``",
+        "lgName":"საერთო ლოგარითმი",
+        "lgNameValue":"``linguacode\nlg(Y)\n``",
+        "lgDescription":"ბრუნდება ღირებულება ლოგარითმი <b>X</b> ბაზა <b>10</b>. მაგალითად",
+        "lgDescriptionValue":"``linguacode\na = lg(100) \noutput(a) # 10\n``",
+        "lnName":"ნატურალური ლოგარითმი",
+        "lnNameValue":"``linguacode\nln(Y)\n``",
+        "lnDescription":"ბრუნდება ღირებულება ლოგარითმი <b>X</b> ბაზა <b>e</b>. მაგალითად",
+        "lnDescriptionValue":"``linguacode\na = ln(e) \noutput(a) # 1\n``",
+        "randomName":"შემთხვევითი რიცხვების გენერაცია",
+        "randomNameValue":"``linguacode\nშემთხვევითი(X,[Y])\n``",
+        "randomDescription":"თუ პარამეტრი <b>Y</b> ეძლევა, პროგრამა, შემთხვევით გენერირება და დაბრუნების შემთხვევითი რიცხვი ნომერი range<b>[X; Y]</b>. მაგრამ გარეშე <b>Y</b> პარამეტრის დიაპაზონი იქნება <b>[0; X]</b>. მაგალითად",
+        "randomDescriptionValueFirst":"``linguacode\nX = 10 \na = random(X) # [0; 10]\noutput(a) # 4 \n``",
+        "randomDescriptionValueSecond":"``linguacode\nX = 5 \nY = 15 \na = random(X,Y) # [5; 15]\noutput(a) # 12\n``"
+      },
+      "tutorials":{
+        "intro":"შესავალი",
+        "output":"გამოშვება",
+        "variables":"ცვლადები",
+        "input":"შეყვანის",
+        "operations":"ოპერაციების",
+        "conditions":"პირობები",
+        "boolean":"ლოგიკური",
+        "languageAboutLanguageTitle":"ენის შესახებ",
+        "languageAboutLanguageContent":"LinguaCode არის შექმნილი ყველა ის, ვისაც სურს ისწავლოს პროგრამირების საფუძვლები უფრო კომფორტული გზა. \nვისწავლოთ ერთად LinguaCode ეს არ არის აუცილებელი, რომ უცხო ენების ცოდნა ან ტექნიკური უნარ-ჩვევები. ყველაფერი რაც თქვენ გჭირდებათ არის სურვილი, ისწავლონ და შრომისმოყვარეობა. \n\n#### თვისებები:\n- **მრავალენოვანი**\n- **სათავგადასავლო**\n- **მარტივი Source code**\n- **უფასო**\n",
+        "languageFeaturesTitle":"ენის თვისებები",
+        "languageFeaturesContent":"LinguaCode ეფუძნება Python, პასკალ და JavaScript, რაც მას ადვილად გასაგები და მარტივი წყარო კოდი და მერე ისწავლოს სხვა პროგრამირების ენა უფრო სწრაფად. \n\n**აქ არის ყველა ძირითადი ცნებები ენა:**\n\n- **თითოეული ბრძანება იწყება ახალი ხაზი.** \nწყარო კოდი იქნება უფრო მარტივი და გასაგებია, რომ გზა.\n- **ბრძანებები შეიძლება იყოს წერილობითი ორივე ზედა და ამას.** \nეს აჩქარებს პროცესს პროგრამირების, მაგრამ ეს ამჯობინა წერენ ამას.\n- **ტექსტური შეიძლება იყოს წერილობითი შორის ორივე ბრჭყალებში და apostrophes.** \nბევრ ქვეყანაში არ არსებობს ციტატა ნიშნების გამოყენება, ასე რომ, აქ თქვენ შეგიძლიათ აირჩიოთ მოსახერხებელი ვერსია თქვენთვის.\n- **დაწერილი ტექსტი მას შემდეგ, რაც სიმბოლო \"\\ n\" ითვლება კომენტარი და არ აქვს იმოქმედებს მუშაობის წყარო კოდი.** \nკომენტარები გათვალისწინებული აღების აღნიშნავს.",
+        "outputCommandDefinitionTitle":"ბრძანება განმარტება",
+        "outputCommandDefinitionContent":"თითოეული პროგრამა, რომელიც ჯერ გარკვეული ოპერაციები, უნდა გვაჩვენებს ინფორმაციას შედეგი. სწორედ ამიტომ, ყველა პროგრამირების სისტემები აქვს ტექსტი გამოყვანის შესაძლებლობა და ადგილი, სადაც ჩვენ ვხედავთ, შედეგი, რომელიც არის ე. წ. **Terminal**. \n\nბრძანება \"*გამომავალი*\" გამოიყენება ტექსტის გამომუშავება. \n\n#### მაგალითად \nკოდის``linguacode\noutput(\"Howdy\")\n``შედეგი` \" ტერმინალი\nHowdy\n``",
+        "outputPossibleValuesTitle":"შესაძლებელია ღირებულებები",
+        "outputPossibleValuesContent":"ბრძანება გამომავალი შეგიძლიათ ამობეჭდოთ ტექსტი, ნომრები, მათემატიკური ოპერაციები და ცვლადი ღირებულებების.\n\n#### მაგალითად \nწყარო კოდი \n``linguacode\noutput(100)\noutput(5 * 25)\n``შედეგი` \" ტერმინალი\n100\n125\n``",
+        "variablesDeclaresAndAssignsTitle":"გამოცხადების და დავალება",
+        "variablesDeclaresAndAssignsContent":"ხშირად ჩვენ უნდა შეინახოთ ტექსტური, ნომერი და რიცხვითი ოპერაციების სადღაც მიზნით გამოიყენოს იგი კვლავ. კონტეინერების, სადაც ჩვენ შეგიძლიათ შეინახოთ სხვადასხვა ღირებულებების უწოდებენ **ცვლადები**. პირველ რიგში, ჩვენ უნდა მისცეს სახელი ცვლადი და მაშინ მივანიჭოთ მნიშვნელობა. მას შემდეგ, რაც ჩვენ შეგვიძლია ეხება არც უბრალოდ დარეკვით ცვლადი, მისი სახელი. \nცვლადები ინახება Random-access memory (RAM) კომპიუტერული და როდესაც ჩვენ ვიყენებთ ცვლადი, კომპიუტერული ბრუნდება ღირებულების შესაბამისი, რომ ცვლადის სახელი RAM.\n#### მნიშვნელოვანია გვახსოვდეს,\nცვლადი სახელები \n**1.** შეიძლება შეიცავდეს ასოები, სიმბოლოები და ციფრები \n**2.** არ შეიძლება დაიწყოს ნომერი \n**3.** არ შეიძლება შეიცავდეს ფართი და სიმბოლოები არითმეტიკული ოპერაციების\n#### მაგალითად \nბეჭდვის ნომერი **617** იმის ნაცვლად, რომ ეს \n``linguacode\noutput(617)\n``\nჩვენ წერენ\n``linguacode\nX = 617\noutput(X)\n``\nშედეგი\n`\"ტერმინალი\n617\n`` \nდა თუ ჩვენ გვინდა, რომ გამომავალი იგივე ღირებულება სამჯერ, ჩვენ დაწერს \n``linguacode\nX = 617\noutput(X)\noutput(X)\noutput(X)\n`` \nშედეგი \n`\"ტერმინალი\n617\n617\n617\n``",
+        "variablesPracticalUseTitle":"პრაქტიკული გამოყენება",
+        "variablesPracticalUseContent":"როგორც ვხედავთ, ჩვენ შეგვიძლია მივუთითოთ როგორც რიცხვითი და ტექსტი ღირებულებების ცვლადები. მაგრამ ხშირად ჩვენ უნდა მივანიჭოთ ცვლადი გარკვეული მნიშვნელობა, რომელიც იყო დანიშნული კიდევ ერთი. ამ შემთხვევაში ჩვენ შეგვიძლია მივანიჭოთ უკვე არსებული ცვლადი ახალი.\n#### მაგალითად \nწყარო კოდი\n``linguacode\na = 1\nb = 2\nc = a + b\nგამოშვება(c)\n`` \nშედეგი\n`\"ტერმინალი\n3\n``\n",
+        "variablesMultipleUsesTitle":"მრავალჯერადი გამოყენების",
+        "variablesMultipleUsesContent":"თქვენ არ უნდა შექმნათ ახალი ცვლადი ახალი ღირებულება ყოველ ჯერზე. ჩვენ ასევე შეგიძლიათ შეცვალოთ ღირებულებებს ენიჭება ცვლადები. ჩვენ თავიდან ავიცილოთ ზედმეტი ცვლადები და კოდის იქნება უფრო მარტივი, რომ გზა.\n#### მაგალითად\nმოდით ვივარაუდოთ, რომ ჩვენ **100** ვაშლი და გადავარჩინოთ ეს ღირებულება **apple** ცვლადი. რაოდენობის ვაშლი იყო მცირდება მიერ **5** ყოველ დღე. \nჩვენ უნდა გამომავალი ითვლიან ვაშლი ყოველ დღე. \n\nწყარო კოდი\n``linguacode\nვაშლის = 100\noutput(apple)\n\nვაშლის = apple - 5 # 95\noutput (apple)\n\nვაშლის = apple - 5 # 90\noutput(apple)\n\nვაშლის = apple - 5 # 85\noutput(apple)\n`` \nშედეგი\n`\"ტერმინალი\n100\n95\n90\n85\n``",
+        "inputCommandDefinitionTitle":"ბრძანება განმარტება",
+        "inputCommandDefinitionContent":"პროგრამირების ჩვენ გვჭირდება ორივე გამომავალი და ხშირ შემთხვევაში შეყვანის მონაცემები. ჩვენ გვჭირდება იგი, როდესაც ცვლადები შეიძლება მიიღოს ნებისმიერი მნიშვნელობა. ჩვენ ასევე შეიძლება შეცვლა source code ყველა დროის და დანიშნოს ახალი ღირებულებების ცვლადი, მაგრამ ეს არ არის ეფექტური და სჭირდება ძალიან დიდი ხნის განმავლობაში. \n\nამ შემთხვევაში ჩვენ გამოვიყენებთ command \"*input*\". \n\nდა აქ არის მარტივი მაგალითი პროგრამა, რომელიც მასალები ორმაგი რაოდენობის inputted შესახებ. ``linguacode\nშეყვანა(ნომერი)\noutput(ნომერი * 2)\n` \"მას შემდეგ, რაც მიმდინარე ამ პროგრამის ვნახავთ სიმბოლო \"**>**\" რაც იმას ნიშნავს, რომ პროგრამა უკვე დაიწყო და ჩვენ უნდა შეყვანის დაკარგული მონაცემები. მას შემდეგ, რაც შესაყვანი ნებისმიერი ნომერი და დაჭერით **შეიყვანეთ** ჩვენ ვხედავთ, ორმაგი inputted ნომერი. `\"ტერმინალი\n>617\n1234\n``, ძირითადად, ჩვენ უნდა დაწეროთ პროგრამები, რომელიც შეიძლება იქნას გამოყენებული ხალხის მიერ, რომლებმაც არ იციან პროგრამირების.",
+        "inputWorkMechanismTitle":"მუშაობის მექანიზმი",
+        "inputWorkMechanismContent":"ახლა ვნახოთ, თუ როგორ ბრძანება შეყვანის მუშაობს. მაგალითად, ჩვენ გვაქვს ეს პროგრამა ``linguacode\noutput(\"გთხოვთ შეიყვანოთ თქვენი დიპლომები:\")\noutput(\"სახელი:\")\nშეყვანის(სახელი, გვარი)\noutput(\"გვარი:\")\nშეყვანის(გვარი)\noutput(\"Hi\" + name + \"\" + გვარი)\n`` როგორც ვხედავთ, არსებობს 6 ხაზები ჩვენი პროგრამა. \nშემდეგ გაშვებული ბურთი ჩვენ ვხედავთ, რომ პროგრამა მუშაობდა, სანამ ხაზი 3.``ტერმინალი\nგთხოვთ შეიყვანოთ თქვენი დიპლომები:\nსახელი:\n>\n`` შესვლის შემდეგ გაუშვა მონაცემები, ჩვენ ვხედავთ, რომ ახლა იგი მუშაობდა, სანამ line 5.``ტერმინალი\nგთხოვთ შეიყვანოთ თქვენი დიპლომები:\nსახელი:\n>მარინე\nგვარი:\n>\n`` და საბოლოოდ შესვლის შემდეგ, ბოლო არევა მონაცემები პროგრამის მუშაობა და ბოლოს.``ტერმინალი\nგთხოვთ შეიყვანოთ თქვენი დიპლომები:\nსახელი:\n>მარინე\nგვარი:\n>Chamchyan\nHi, მარინე Chamchyan\n`` ასე რომ, ჩვენ ვნახეთ, რომ ეს ბრძანება პროგრამა მუშაობს ნაწილი ნაწილი მოითხოვს შეყვანის გაუშვა მონაცემები.",
+        "operationsArithmeticOperatorsTitle":"არითმეტიკული ოპერაციების",
+        "operationsArithmeticOperatorsContent":"In LinguaCode შესაძლებელია განახორციელოს მარტივი არითმეტიკული ოპერაციები, როგორიცაა **+**, **-**, **\\***, **/**. \n\nმაგალითად ეს პროგრამა გააკეთებს ყველა არითმეტიკული ოპერატორები **1** და **2** ნომრები. ``linguacode\noutput(1 + 2) # 3\noutput(1 - 2) # -1\noutput(1 * 2) # 2\noutput(1 / 2) # 0.5\n` ` #### მნიშვნელოვანია გვახსოვდეს, \nროგორც ვიცით, მათემატიკის გამრავლება ცვლადი კიდევ ერთი ცვლადი ან ნომერი შეიძლება იყოს წერილობითი გარეშე სიმბოლო გამრავლება. მაგალითად *7-ჯერ X* დაიწერება **7X** ან *X ჯერ Y* მომწონს **XY**. \nმაგრამ პროგრამირების მნიშვნელოვანია, რომ დაწერეთ სიმბოლო გამრავლება. მაგალითად **7 \\* X** ან **X \\* Y**.",
+        "operationsExecutingPriorityTitle":"ოპერაციების შესრულებაში პრიორიტეტი",
+        "operationsExecutingPriorityContent":"როგორც მათემატიკის და პროგრამირების, თუ არსებობს გაყოფა ან გამრავლება, ჩვენ, პირველ რიგში, ნუ მათ და მხოლოდ მას შემდეგ, რაც ჩვენ ნუ მიმატება და გამოკლება. \n\n#### მაგალითად, ``linguacode\nX = 10 + 2 * 4 - 2\n# X = 10 + 8 - 2\n# X = 18 - 2\n# X = 16\n` მაგრამ ჩვენ შეგვიძლია შევცვალოთ შესრულებაში პრიორიტეტი გამოყენებით ფრჩხილებში. \n#### მაგალითად, ``linguacode\nX = (10 + 2) * (4 - 2)\n# X = 12 * (4 - 2)\n# X = 12 * 2\n# X = 24\n`\"პროგრამირების ჩვენ შეგიძლიათ გამოიყენოთ ფრჩხილებში მაშინაც კი, თუ ისინი ზედმეტი. \nეს არ იქნება არასწორი, მაგრამ ეს სასურველი დაწერა მარტივი და გასაგებია კოდის, რომელიც იქნება ადვილი გასაგებია სხვები.",
+        "operationsNumbersTitle":"ნომრები",
+        "operationsNumbersContent":"როგორც ვიცით, <a href=\"https://en.wikipedia.org/wiki/Number\" target=\"_blank\">numbers</a>, რომლებიც მათემატიკური ობიექტების მეორადი ითვლიან, გავზომოთ და ეტიკეტების. \nარსებობს 5 სახის ნომრები. ჩვენ გაუმკლავდეთ ყველა მათგანი, გარდა კომპლექსი numbes \n- ** ნატურალური რიცხვები** **1**, **2**, ...``linguacode\noutput(7 + 4) # 13\n`` \n- **რიცხვი ნომრები** ..., **-1**, **0**, **1**, ...``linguacode\noutput(-6 * 5 + -3) # -33\n`` \n- **რაციონალური რიცხვები** **1/2**, **2/3**, **0.125**, ...``linguacode\noutput(0.617 * 2 * 1000) # 1234\n`` \n- **ნამდვილი ციფრები** **√2**, **1.62**, ...``linguacode\noutput(2/3 + 1/2) # 1\n``",
+        "operationsSumOfStringAndNumberTitle":"თანხა სიმები და ნომრები",
+        "operationsSumOfStringAndNumberContent":"როგორც ვხედავთ, ეს შესაძლებელია, რათა დაამატოთ ორივე ნომრები და ტექსტები ერთმანეთს, რომელშიც შედეგი ხაზები, რომლებიც გაერთიანებულია ერთი ხაზი. მაგრამ ხშირად ჩვენ უნდა მიიღოს ხაზი, რომელიც არ იქნება გამოყენებული რიცხვითი მნიშვნელობა. ამ შემთხვევაში შესაძლებელია, რომ დაამატოთ ტექსტი ნომერი, რომელშიც შედეგი ნომერი იქნება შეცვლილი და შერწყმული ტექსტი, როგორც ტექსტი.``linguacode\ntext = \"არ არის\" + 365 + \"დღის წლის\"\n# text = \"არ არის\" + \"365\" + \"დღის წლის\"\n# text = \"არსებობს 365\" + \"დღის წლის\"\n# text = \"არსებობს 365 დღე წელიწადში\"\n` ` #### მნიშვნელოვანია გვახსოვდეს, \nხაზები ჩვენ შეგვიძლია გავაკეთოთ მხოლოდ და დასძინა ოპერაცია. მიუხედავად იმისა, რომ აკეთებს, სხვა ოპერაციების შედეგად შეცდომა.",
+        "conditionsCommandsIfTitle":"ბრძანება \"თუ\"",
+        "conditionsCommandsIfContent":"ზოგჯერ პროგრამირების ჩვენ უნდა შეასრულოს გარკვეული ოპერაციების საფუძველზე მდგომარეობაში. ეს არის მდგომარეობა, შემოწმების ბრძანებები, როგორიცაა \"თუ\", \"თუ-სხვაგან\" და \"სხვას-თუ\". \n\nწერილობითი ბრძანება \"**თუ**\" ``linguacode\nთუ <condition> მაშინ\n<operation>\n` \"აქ შორის ბრძანებები \"თუ\" და \"შემდეგ\" არ არსებობს რაიმე პირობას, და მას შემდეგ, რაც ეს ახალი ხაზი და შემდეგ **4 ფართები** არის დაწერილი ოპერაციის (ოპერაციების), რომელიც გაკეთდეს, თუ განცხადებაში არ არის ჭეშმარიტი. \n\n#### მაგალითად, ``linguacode\na = 5\nb = 2\nთუ a > b, მაშინ\noutput(\"a > b\")\n``",
+        "conditionsCommandsIfElseTitle":"ბრძანება \", თუ-სხვაგან\"",
+        "conditionsCommandsIfElseContent":"ასე რომ, ჩვენ ვიცით, როგორ გამოვიყენოთ პირობითი განცხადება პროგრამები. ახლა, ჩვენ განვიხილავთ იმ შემთხვევაში, როდესაც მდგომარეობაში, არის ცრუ.\n\nწერის ფორმა \"**თუ-სხვაგან**\" განცხადება ``linguacode\nთუ <condition> მაშინ\n<operation N1>\nსხვა\n<operation N2>\n` \"აქ შემდეგ ბრძანება \"თუ\" არის ახალი ბრძანება \"სხვაგან\". და ეხლა ახალი ხაზი, მას შემდეგ, რაც 4 ფართები არის დაწერილი ოპერაცია, რომელიც გაკეთდეს, თუ აღნიშნული პირობა არის ცრუ.\n\n#### მაგალითად, ``linguacode\na = 5\nb = 10\nთუ a > b\noutput(\"a > b\")\nსხვა\noutput(\"b < a\")\n``",
+        "conditionsCommandsElseIfTitle":"ბრძანება \"სხვას-თუ\"",
+        "conditionsCommandsElseIfContent":"ჩვენ უკვე განვიხილეთ, რომლის ბრძანება იქნება შესრულებული საფუძველზე მდგომარეობაში მყოფი, ჭეშმარიტი ან მცდარი. მაგრამ ზოგჯერ ჩვენ უნდა შეამოწმოს, უფრო მეტია, ვიდრე ერთი პირობით, იმავე დროს. \n\nწერის ფორმა \"**თუ-სხვაგან-თუ**\" განცხადება``linguacode\nთუ <condition N1> მაშინ\n<operation N1>\nსხვას თუ <condition N2> მაშინ\n<operation N2>\nსხვა\n<operation N3>\n` \"აქ ჩვენ უნდა შეამოწმოს, უფრო მეტი, ვიდრე ერთი პირობით. იმ შემთხვევაში, თუ \"სხვას-თუ\" წერილობით ფორმით არსებობს, შეიძლება იყოს 1 ან მეტი \"სხვას-თუ\" განცხადებებს შორის ბრძანებები \"თუ\" და \"სხვას\". \n\n#### მაგალითად, ``linguacode\na = 5\nb = 5\nთუ a > b, მაშინ\noutput(\"a > b\")\nსხვას თუ a < b, მაშინ\noutput (\"< b\")\nსხვა\noutput(\"b == a\")\n``",
+        "booleanTypesBooleanTitle":"აღწერა",
+        "booleanTypesBooleanContent":"ჩვენ უკვე ვიცით, თუ როგორ უნდა შეამოწმოთ განცხადებები და ზოგიერთი მათგანი შეიძლება იყოს *ნამდვილი* (22 > 18) ან *ყალბი* (16 > 18). ზოგჯერ, რადგან სიგრძე მდგომარეობა, შემოწმების ხაზი, ის ხდება რთული, რომ წაიკითხოთ წყარო კოდი. აქ მოდის, რათა დაეხმაროს ლოგიკური ღირებულებები \n\n- **ნამდვილი** ``linguacode\nმდგომარეობა = true\noutput(მდგომარეობა) #ჭეშმარიტი\n`` \n\n- **ყალბი**``linguacode\nმდგომარეობა = false\noutput(მდგომარეობა) #ცრუ\n` \"ნებისმიერი ლოგიკური შედარება ჩვენთვის ცნობილი ბრუნდება ერთი მოცემული ღირებულებები \n\nExemple *ნამდვილი* შედარებით ``linguacode\nმდგომარეობა = 1 < 5\noutput(მდგომარეობა) # ჭეშმარიტი\n`` Exemple *ყალბი* შედარებით ``linguacode\nმდგომარეობა = 10 < 5\noutput(მდგომარეობა) # ცრუ\n`` ასე მდგომარეობა, შემოწმების ბრძანებები, ჩვენ შეგვიძლია გამოვიყენოთ ცვლადის ლოგიკური ღირებულებები. \n\n#### მაგალითად, ``linguacode\noutput(\"დაწერა ნომერი \"\":\")\nშეყვანის(a)\n\noutput(\"დაწერა ნომერი \"ბ\":\")\nშეყვანის(b)\n\ncondition1 = > b\ncondition2 = a < b\n\nთუ condition1 მაშინ\nშედეგი = \"a > b\"\nსხვას თუ condition2 მაშინ\nშედეგი = \"< b\"\nსხვა\nშედეგი = \"a == b\"։\noutput(\"შედეგი:\" + შედეგი)\n``",
+        "booleanOperatorsComparisonTitle":"შედარების ოპერატორები",
+        "booleanOperatorsComparisonContent":"მდგომარეობა შემოწმების ბრძანებები, ჩვენ უკვე გამოიყენება სიმბოლოები \"უფრო მეტი, ვიდრე\" > და \"ნაკლები\" < შედარების ოპერატორები. მაგრამ ახლა აქ ჩვენ შეგვიძლია გამოვიყენოთ ნებისმიერი სხვა ოპერატორები ჩვენთვის ცნობილი. \n\n- **>** ადარებს რიცხვითი ღირებულებებს, რომელიც პირველი არის *#greater* ვიდრე მეორე. მაგალითად, ``linguacode\noutput(5 > 1) # ჭეშმარიტი\noutput(1 > 5) # ცრუ\n`` \n\n- **>=** ადარებს რიცხვითი ღირებულებებს, რომელიც პირველი არის *#მეტია ან ტოლია* მეორე. მაგალითად, ``linguacode\noutput(5 >= 5) # ჭეშმარიტი\noutput(1 >= 5) # ცრუ\n`` \n\n- **<** ადარებს რიცხვითი ღირებულებებს, რომელიც პირველი არის *#ნაკლები* ვიდრე მეორე. მაგალითად, ``linguacode\noutput(1 < 5) # ჭეშმარიტი\noutput(5 < 1) # ცრუ\n`` \n\n- **<=** ადარებს რიცხვითი ღირებულებებს, რომელიც პირველი არის *#ნაკლები ან ტოლია* მეორე. მაგალითად, ``linguacode\noutput(1 <= 5) # ჭეშმარიტი\noutput(5 <= 1) # ცრუ\n`` \n\n- **==** ადარებს რიცხვითი ან ტექსტი ღირებულებები, რომელიც პირველი არის *#ტოლია* მეორე. მაგალითად, ``linguacode\noutput(5 == 5) # ჭეშმარიტი\noutput(5 == 1) # ცრუ\noutput(\"soldier\" == \"ჯარისკაცი\") # ჭეშმარიტი\noutput(\"Hello\" == \"Helo\") # ცრუ\n`` \n\n- **!=** ადარებს რიცხვითი ან ტექსტი ღირებულებები, რომელიც პირველი არის *#არ უდრის* მეორე. მაგალითად, ``linguacode\noutput(5 != 1) # ჭეშმარიტი\noutput(5 != 5) # ცრუ\noutput(\"HelLo\" != \"Helo\") # ჭეშმარიტი\noutput(\"soldier\" != \"ჯარისკაცი\") # ცრუ\n`` \n\n- **არა()** ანაზღაურება შეცვალა შედეგად რაიმე რიცხვითი ან ტექსტის შედარება. მაგალითად, ``linguacode\noutput(არ(1 > 5)) # ჭეშმარიტი\noutput(არ(5 == 5)) # ცრუ\noutput(არ(ცრუ)) # ჭეშმარიტი\noutput(არ(ჭეშმარიტი)) # ცრუ\n``",
+        "booleanOperatorsLogicalTitle":"ლოგიკური ოპერატორები",
+        "booleanOperatorsLogicalContent":"ასე რომ, ჩვენ ვიცით, როგორ უნდა დაწეროთ ნებისმიერი პირობითი განცხადება, მაგრამ ხშირად ჩვენ უნდა დააკავშიროთ რაოდენობის პირობებში, ერთი და მასზე დაფუძნებული შეასრულოს გარკვეული ოპერაციები. აერთიანებს პირობებში ხდება ლოგიკური ოპერატორები. \n\n- ბრძანება \"**და**\" აერთიანებს ორი პირობა ერთი, რომელიც ე. წ. **ნამდვილი** როდესაც ორივე პირობები *ნამდვილი* და **ყალბი** როდესაც მინიმუმ ერთი პირობა არის *ყალბი*. მაგალითად, ``linguacode\noutput(5 > 1 և 10 < 100) # ჭეშმარიტი\noutput(20 < 100 և 1 > 5) # ცრუ\n`` \n\n- ბრძანება \"**ან**\" აერთიანებს ორი პირობა ერთი, რომელიც ე. წ. **ნამდვილი** როდესაც მინიმუმ ერთი პირობა არის *ნამდვილი* და **ყალბი** როდესაც ორი პირობები *ყალბი*. მაგალითად, ``linguacode\noutput(5 > 1 ან 100 < 10) # ჭეშმარიტი\noutput(20 > 100 ან 1 > 5) # ცრუ\n``",
+        "booleanOperatorsExecutingPriorityTitle":"შესრულებაში პრიორიტეტი",
+        "booleanOperatorsExecutingPriorityContent":"ჩვენ ვისწავლეთ, თუ როგორ უნდა დააკავშიროთ 2 პირობებში, მაგრამ ისინი შეიძლება იყოს მეტი, ვიდრე 2 დაყრდნობით პროგრამის შინაარსი. იმ შემთხვევაში, პირობები იქნება შერწყმული ერთმანეთთან *მარცხნიდან მარჯვნივ*, სანამ ისინი ქმნიან ერთი პირობით.\n\n#### მაგალითად, ``linguacode\noutput(5 < 1 և 1 < 7 ან 1 >= 3 ან 9 == 9)\n` \"ეს არის იგივე, რაც ``linguacode\noutput(ცრუ և ჭეშმარიტი ან მცდარი ან ჭეშმარიტი)\n` \"მოდით გაერთიანდება **1ე** და **2** \"**ცრუ და ჭეშმარიტი**\" პირობებში ერთ․ ``linguacode\noutput(ყალბი ან მცდარი ან ჭეშმარიტი)\n`\"მაშინ **1+2** მდგომარეობა **3** იქნება \"**ყალბი ან მცდარი**\" ``linguacode\noutput(ყალბი ან ნამდვილი)\n`` და საბოლოოდ **1+2+3** მდგომარეობა **4** იქნება \"**ცრუ ან ჭეშმარიტი**\"․ ``linguacode\noutput(ნამდვილი)\n`` ასე რომ, ჩვენ აერთიანებს 4 პირობები. ჩვენ ვერ გავაერთიანებთ უფრო პირობები, რომ გზა. \n\nზოგჯერ ჩვენ უნდა შეიცვალოს მარცხნიდან მარჯვნივ აერთიანებს პრიორიტეტი გამოყენებით ფრჩხილებში. \n\n#### მაგალითად, ``linguacode\noutput(5 < 1 և (1 < 7 ან (1 >= 3 ან 9 == 9)))\n`` \n\nეს არის იგივე, რაც ``linguacode\noutput(ცრუ և (ნამდვილი ან (ყალბი ან ნამდვილი)))\n` \"მოდით გაერთიანდება **3** და **4** \"**ცრუ ან ჭეშმარიტი**\" პირობებში ერთი ``linguacode\noutput(ყალბი ან (ყალბი ან ნამდვილი))\n` \"მას შემდეგ, რაც ეს **2** მდგომარეობაში **3+4** მდგომარეობა იქნება \"**ცრუ ან ჭეშმარიტი**\" ``linguacode\noutput(ცრუ և ნამდვილი)\n` \"და ბოლოს, მოდით გაერთიანდება **1ე** მდგომარეობაში **2+(3+4)**. ეს იქნება \"**ცრუ და ჭეშმარიტი**\" ``linguacode\noutput(ცრუ)\n`` ასე რომ, ჩვენ ვნახეთ, რომ შედეგი შეიცვალა შეცვლის აერთიანებს პრიორიტეტი."
+      },
+      "syntaxInfo":{
+        "modalTitle":"ბრძანება სახელმძღვანელო",
+        "cheatSheetTitle":"Cheat sheet",
+        "lesson":"სამეურვეო"
+      }
+    }
+  },
+  "modules":{
+    "ide":{
+      "title":"<b> Hotkeys</b>",
+      "undo":"გაუქმება",
+      "redo":"მომხმარებელი",
+      "selectAll":"აირჩიეთ ყველა",
+      "run":"Run",
+      "terminal":"ტერმინალი"
+    },
+    "program":{
+      "program":"პროგრამა",
+      "sourceCode":"წყარო კოდი",
+      "functionArgumentSyntaxError":"ფუნქციის არგუმენტი სინტაქსური შეცდომა ${line} ხაზი.",
+      "undefinedVariable":"\"${variable}\" ცვლადი არ განისაზღვრება ${line} ხაზი.",
+      "indentError":"ფართი შეცდომა ${line} ხაზი.",
+      "hackAttempt":"Hack მცდელობა. თქვენი \"${ip}\" ip მისამართი იყო შენახული ჩვენს მონაცემთა ბაზაში.",
+      "syntaxError":"სინტაქსის შეცდომა",
+      "timeout":"შეადგინონ დროის. დარწმუნდით, რომ კოდი არ აქვს infinity loop.",
+      "true":"მართალია",
+      "false":"ცრუ",
+      "NaN":"უცნობი",
+      "null":"უცნობი",
+      "Infinity":"infinity",
+      "undefined":"undefined"
+    },
+    "programListGroup":{
+      "programs":"გადაცემები"
+    },
+    "terminal":{
+      "hotkeys":"<b> Hotkeys</b>",
+      "undo":"გაუქმება",
+      "redo":"მომხმარებელი",
+      "selectAll":"აირჩიეთ ყველა",
+      "terminal":"ტერმინალი"
+    }
+  },
+  "buttons":{
+    "loginButton":{
+      "signIn":"შესვლა"
+    },
+    "menuButton":{
+      "settings":"პარამეტრები",
+      "logOut":"Sign out"
+    }
+  },
+  "panels":{
+    "header":{
+      "title":"მთავარი"
+    }
+  },
+  "elements":{
+    "emptyProgramListForOthersComponent":{
+      "programNotFoundForOthers":"მომხმარებელს არ აქვს რაიმე პროგრამების ჯერ."
+    },
+    "emptyProgramListForOwnerComponent":{
+      "programNotFoundListForOwner":"თქვენ არ გაქვთ რაიმე პროგრამების ჯერ.",
+      "programNotFoundClickPartFirst":"დააჭირეთ",
+      "programNotFoundClickPartSecond":"აქ",
+      "programNotFoundClickPartThird":"შექმნა ახალი პროგრამა."
+    },
+    "loading":{
+      "loading":"Loading"
+    }
+  }
+}

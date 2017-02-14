@@ -18,6 +18,13 @@ If you've any kind of suggestions, that can help with the translations (like som
 5. rename language file in *ISO 639-1* standard, like for italian it would be **it.js**.
 6. send that file to ![email address](./email_.png?v=1) email address.
 
+#### to developers
+Until we haven't automatized every peace of $hit, to convert translations into a usable data:
+1. Download the whole archive of the last build translation from the [Crowdin's LinguaCode page](https://translate.linguacode.me/project/linguacode/).
+2. Extract the content into a **tools/json2tree/input/** folder.
+3. Run `npm run json2tree'.
+4. Move all content from **tools/json2tree/output/** into a **languages/**.
+5. Create a pull request.
 
 ##License
 linguacode-constants is [licensed under MIT](https://github.com/linguacode/linguacode-constants/blob/master/LICENSE).

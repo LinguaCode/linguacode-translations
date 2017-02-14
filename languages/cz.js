@@ -1,6 +1,3 @@
-//author: Michal Mareš (Mortician, https://translate.linguacode.me/profile/Mortician)
-//TODO: correct translation after "pow"
-
 const COMMAND = require('linguacode-constants').COMMAND;
 
 module.exports = [{

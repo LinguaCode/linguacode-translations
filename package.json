@@ -1,6 +1,6 @@
 {
   "name": "linguacode-translations",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Constants",
   "main": "./src/index.js",
   "homepage": "https://github.com/linguacode/linguacode-translations",
@@ -23,7 +23,10 @@
     "language"
   ],
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "postinstall": "node tools/languageListGenerate/index.js",
+    "json2tree": "node tools/json2tree/index.js",
+    "tree2json": "node tools/tree2json/index.js"
   },
   "dependencies": {
     "linguacode-constants": "https://github.com/linguacode/linguacode-constants",

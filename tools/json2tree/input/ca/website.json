@@ -1,0 +1,362 @@
+{
+  "blocks":{
+    "controlPanelBlock":{
+      "edit":"Edita",
+      "delete":"Esborrar"
+    },
+    "lovePanelBlock":{
+      "like":"Com",
+      "liked":"Li agradava",
+      "star":"Estrella",
+      "starred":"Destacats"
+    },
+    "moreFromUserBlock":{
+      "viewAll":"Veure tots els",
+      "moreFromFirst":"A més de",
+      "moreFromLast":""
+    },
+    "programListFilterBlock":{
+      "sortBy":"Ordenar per",
+      "recent":"Recent",
+      "views":"Vistes",
+      "stars":"Estrelles",
+      "likes":"Li agrada",
+      "random":"L'atzar"
+    },
+    "shareBlock":{
+      "link":"Enllaç",
+      "share":"Compartir",
+      "tweet":"Tweet",
+      "textTwitter":"Programa \"${programTitle}\" per ${userName} a #LinguaCode ${userPageLink}",
+      "descriptionVK":"LinguaCode és un socials de codificació de la plataforma i està dissenyat especialment per als nens, on es pot aprendre la programació i compartir els seus codis amb la seva llengua materna i sense la necessitat de saber anglès."
+    },
+    "userPrimaryInfoBlock":{
+      "editProfile":"Edita el perfil"
+    },
+    "userSecondaryInfoBlock":{
+      "joinedOn":"Es va unir a"
+    }
+  },
+  "pages":{
+    "errorPage":{
+      "title":"Error",
+      "explanation":"Ho sento, una crítica que s'ha produït l'error en aquesta pàgina."
+    },
+    "landingPage":{
+      "title":"LinguaCode: Aprenentatge a través de la Codificació",
+      "learningByCoding":"Aprenentatge <span className=\"masthead--lora-italic\">by Coding</span>",
+      "explanation":"Vam fer de l'aprenentatge de la programació i la codificació tan ple d'alegria i de vida, vostè riure a riallades.",
+      "facebookSignIn":"Inicieu la sessió al Facebook",
+      "or":"o",
+      "seeTheListOfPrograms":"Veure la llista d'existir programes",
+      "descriptionHead":"La millor manera d'aprendre una programació.",
+      "descriptionBody":"LinguaCode és un socials de codificació de la plataforma i està dissenyat especialment per als nens, on es pot aprendre la programació i compartir els seus codis amb la seva llengua materna i sense la necessitat de saber anglès.",
+      "advantagesHeadline":"LinguaCode ajuda <span className=\"u-emphasized\">learn millor </span>",
+      "advantageTopFirstHeadline":"Multilingüe",
+      "advantageTopFirstDescription":"Escriure programes en el vostre llengües maternes, i no només.",
+      "advantageTopSecondHeadline":"És gratis!",
+      "advantageTopSecondDescription":"Tot és gratis.",
+      "advantageTopThirdHeadline":"Inici ràpid",
+      "advantageTopThirdDescription":"Començar és molt més fàcil que vostè pensa!",
+      "advantageBottomFirstHeadline":"Imaginació",
+      "advantageBottomFirstDescription":"Aprendre, tractar, Crear!",
+      "advantageBottomSecondHeadline":"Educació",
+      "advantageBottomSecondDescription":"Aprendre programació, així com d'altres matèries.",
+      "advantageBottomThirdHeadline":"Comunitat",
+      "advantageBottomThirdDescription":"Compartir els seus programes amb amics i trobar nous amics.",
+      "joinText":"Unir-se a <span className=\"u-emphasized\">the community</span> d'estudiants",
+      "facebookRegister":"Registra't ara, és GRATUÏTA!"
+    },
+    "notFoundPage":{
+      "title":"Pàgina No Trobada",
+      "explanation":"Ho sentim, però la pàgina a la que intenteu veure no existeix.",
+      "descriptionPartFirst":"Proveu d'anar a",
+      "descriptionPartSecond":"pàgina principal",
+      "descriptionPartThird":"en el seu lloc."
+    },
+    "programChangePage":{
+      "titleOfEditPage":"Editar el programa ${userName}/${title}",
+      "editProgramHeadline":"Editar un programa",
+      "editProgramButton":"Edició Del Programa",
+      "titleOfCreatePage":"Crear un nou programa",
+      "newProgramHeadline":"Crear un nou programa",
+      "submitProgramButton":"Presentar El Programa",
+      "programContent":"Un programa que conté tota la informació sobre el vostre codi.",
+      "name":"Nom",
+      "programNameForm":"Gran programa noms són curts i memorables, com <b>hello-world</b>.",
+      "titleOfProgram":"Títol",
+      "description":"Descripció",
+      "validationError":"Error de validació",
+      "errorTextForNameLength":"Longitud de la <b>name</b> ha més de 0 a menys de 32, hauria de consistir en llatí símbols i guions.",
+      "errorTextForName":"Aquest nom de la font que ja és utilitzat per vostè.",
+      "errorTextForTitle":"Longitud de la <b>title</b> ha més de 0 a menys de 128.",
+      "errorTextForDescription":"Longitud de la <b>description</b> ha més de 0 a menys de 5120.",
+      "errorTextForSource":"Longitud de la <b>source</b> ha més de 0 a menys de 10240."
+    },
+    "programs":{
+      "title":"Programes"
+    },
+    "settingsPage":{
+      "title":"Configuració",
+      "publicProfile":"Perfil públic",
+      "validationError":"Error de validació",
+      "username":"Nom d'usuari",
+      "yourUsername":"El vostre nom d'usuari",
+      "usernameWasAlreadyUsed":"Nom d'usuari ja era utilitzat",
+      "usernameWasReserved":"Nom d'usuari va ser reservats",
+      "usernameValidation":"Longitud de la <b>username</b> ha de ser de menys de 24 i contenir lletres minúscules de llatí i números.",
+      "name":"Nom",
+      "yourFirstNameAndLastName":"El teu nom i cognom",
+      "nameValidation":"Longitud de la <b>name</b> ha de ser de més de 0 a menys de 24",
+      "bio":"Bio",
+      "tellALittleAboutYourself":"Dir una mica sobre tu",
+      "bioValidation":"Longitud de la <b>bio</b> ha de ser de menys a continuació, 128.",
+      "country":"País",
+      "select":"seleccioneu",
+      "countryValidation":"Seleccioneu qualsevol dels països",
+      "updateProfile":"Actualització del perfil"
+    }
+  },
+  "modals":{
+    "loginRequiredModal":{
+      "signInTitle":"Sessió",
+      "signInDescription":"L'operació és possible només quan inicieu la sessió."
+    },
+    "programDeleteModal":{
+      "programDeleteConfirmation":"Esteu segur que voleu suprimir el programa ?",
+      "answerYes":"sí",
+      "answerNo":"no"
+    },
+    "syntaxInfoModal":{
+      "cheatSheet":{
+        "outputName":"Sortida",
+        "outputNameValue":"``linguacode\nde sortida(X)\n``",
+        "outputDescription":"Imprimeix qualsevol valor X: nombres, les operacions, el text i la variable valors. Per exemple",
+        "outputDescriptionValue":"``linguacode\nde sortida(4) # 4\nde sortida(\"Howdy\") # Howdy\nproducció(1+2) # 3\n``",
+        "inputName":"D'entrada",
+        "inputNameValue":"``linguacode\nd'entrada(X)\n``",
+        "inputDescription":"Qualsevol variable X valor a declarar per part de l'usuari. Per exemple",
+        "inputDescriptionValue":"``linguacode\nd'entrada(a)\n``",
+        "ifElseStatementName":"Comprovació de la declaració",
+        "ifElseStatementNameValue":"``linguacode\nsi <condition N1> a continuació\n<operation N1>\nelse if <condition N2> a continuació\n<operation N2>\nmés\n<operation N3>\n``",
+        "ifElseStatementDescription":"Les operacions s'executaran basada en la condició indicada ser veritat. Per exemple",
+        "ifElseStatementDescriptionValue":"``linguacode\na = 5\nb = 5\nsi a > b llavors\nde sortida(\"a > b\")\nmés si a < b llavors\nde sortida(\"a < b\")\nmés\nde sortida(\"b ==\") # b == \n``",
+        "loopForName":"Limitat a repetir",
+        "loopForNameValue":"``linguacode\nrepetir <N> vegades\n<operation>\n``",
+        "loopForDescription":"Executa un bloc de codi a un nombre de vegades. Per exemple",
+        "loopForDescriptionValue":"``linguacode\nrepetir 10 vegades\nde sortida(\"Howdy\")\n``",
+        "loopWhileDoName":"Loop \", Mentre Que Fer\"",
+        "loopWhileDoNameValue":"``linguacode\nmentre <condition> a continuació\n<operation>\n``",
+        "loopWhileDoDescription":"El \"Mentre No\" bucle s'executa a través d'un bloc de codi com a molt de temps com a condició indicada és cert. Per exemple",
+        "loopWhileDoDescriptionValue":"``linguacode\nun = 1\nmentre que a < 5 llavors\nde sortida(a)\nun = un + 1\n``",
+        "loopDoWhileName":"Loop \"Fer Mentre\"",
+        "loopDoWhileNameValue":"``linguacode\nfer\n<operation>\nmentre <condition>\n``",
+        "loopDoWhileDescription":"Loop \"Fer Mentre\" es repeteix el bucle mentre la condició és certa. Per exemple",
+        "loopDoWhileDescriptionValue":"``linguacode\nun = 1\nfer \nde sortida(a)\nun = un + 1\nmentre que a < 5\n``",
+        "piName":"constant matemàtica pi",
+        "piNameValue":"``linguacode\nde sortida(pi)\n``",
+        "piDescription":"Gravats constant matemàtica <b>pi</b>. Per exemple",
+        "piDescriptionValue":"``linguacode\nde sortida(pi) # 3.141592653589793\n``",
+        "eNumberName":"e constant matemàtica",
+        "eNumberNameValue":"``linguacode\nde sortida(e)\n``",
+        "eNumberDescription":"Gravats constant matemàtica <b>e</b>. Per exemple",
+        "eNumberDescriptionValue":"``linguacode\nde sortida(e) # 2.718281828459045\n``",
+        "sqrName":"Plaça de nombre",
+        "sqrNameValue":"``linguacode\nsqr(X)\n``",
+        "sqrDescription":"Torna a la plaça de la <b>X</b> nombre introduït per l'usuari. Per exemple",
+        "sqrDescriptionValue":"``linguacode\nX = 5 \nY = sqr(X) \noutput(Y) # 25\n``",
+        "powName":"El poder de nombre",
+        "powNameValue":"``linguacode\npow(X,Y)\n``",
+        "powDescription":"Retorna el valor de <b>X</b> a la potència de <b>Y</b>. Per exemple",
+        "powDescriptionValue":"``linguacode\nX = 2 \nY = 5 \nZ = pow(X, Y) \nde sortida(Z) # 32\n``",
+        "sqrtName":"L'arrel quadrada del nombre",
+        "sqrtNameValue":"``linguacode\nsqrt(X)\n``",
+        "sqrtDescription":"Retorna l'arrel quadrada de <b>X</b> nombre introduït per l'usuari. Per exemple",
+        "sqrtDescriptionValue":"``linguacode\nX = 9 \nY = sqrt(X) \noutput(Y) # 3\n``",
+        "absName":"Valor absolut del nombre",
+        "absNameValue":"``linguacode\nabs(X)\n``",
+        "absDescription":"Retorna el valor absolut de <b>X</b> nombre introduït per l'usuari. Per exemple՝",
+        "absDescriptionValue":"``linguacode\nX = -5 \nY = abs(X) \noutput(Y) # 5\n``",
+        "roundName":"Nombre d'arrodoniment",
+        "roundNameValue":"``linguacode\nround(X)\n``",
+        "roundDescription":"Rondes un <b>X</b> nombre al nombre enter més proper i retorna el valor. Per exemple",
+        "roundDescriptionValue":"``linguacode\nX = 2.3 \na = round(X) \nde sortida(a) # 2\n``",
+        "floorName":"Número de planta",
+        "floorNameValue":"``linguacode\nplanta(X)\n``",
+        "floorDescription":"Rondes un <b>X</b> nombre <b>downwards</b> al nombre enter més proper i retorna el valor. Per exemple",
+        "floorDescriptionValue":"``linguacode\nX = 2.6 \na = floor(X) \nde sortida(a) # 2\n``",
+        "ceilName":"Nombre ceil",
+        "ceilNameValue":"``linguacode\nceil(X)\n``",
+        "ceilDescription":"Ronda un <b>X</b> nombre <b>upwards</b> seu nombre enter més proper i retorna el valor",
+        "ceilDescriptionValue":"``linguacode\nX = 2.2 \na = ceil(X) \nde sortida(a) # 3\n``",
+        "sinName":"Sine",
+        "sinNameValue":"``linguacode\nsin(X)\n``",
+        "sinDescription":"Retorna el valor de la <b>sine</b> d'un <b>X</b> nombre. Per exemple",
+        "sinDescriptionValue":"``linguacode\nX = sin(pi) \nde sortida(X) # 0\n``",
+        "cosName":"Cosinus",
+        "cosNameValue":"``linguacode\ncos(X)\n``",
+        "cosDescription":"Retorna el valor de la <b>cosine</b> d'un <b>X</b> nombre. Per exemple",
+        "cosDescriptionValue":"``linguacode\nX = cos(pi) \nde sortida(X) # -1\n``",
+        "tanName":"Tangent",
+        "tanNameValue":"``linguacode\ntan(X)\n``",
+        "tanDescription":"Retorna el valor de la <b>tangent</b> d'un <b>X</b> nombre. Per exemple՝",
+        "tanDescriptionValue":"``linguacode\nX = tan(pi) \nde sortida(X) # 0\n``",
+        "ctgName":"Cotangent",
+        "ctgNameValue":"``linguacode\nctg(X)\n``",
+        "ctgDescription":"Retorna el valor de la <b>cotangent</b> d'un <b>X</b> nombre. Per exemple՝",
+        "ctgDescriptionValue":"``linguacode\nX = ctg(pi/4) \nde sortida(X) # 1\n``",
+        "arcSinName":"Arcsine",
+        "arcSinNameValue":"``linguacode\narcsin(X)\n``",
+        "arcSinDescription":"Retorna el valor on el sinus obté el mateix valor que <b>X</b>. Per exemple",
+        "arcSinDescriptionValue":"``linguacode\na = arcsin(1) \nde sortida(a) # pi/2 \n``",
+        "arcCosName":"Arccosine",
+        "arcCosNameValue":"``linguacode\narccos(X)\n``",
+        "arcCosDescription":"Retorna el valor on el cosinus s'obté el mateix valor que <b>X</b>. Per exemple",
+        "arcCosDescriptionValue":"``linguacode\na = arccos(1) \nde sortida(a) # 0\n``",
+        "arcTanName":"Arctangent",
+        "arcTanNameValue":"``linguacode\narctan(X)\n``",
+        "arcTanDescription":"Retorna el valor en el qual la tangent obté el mateix valor que <b>X</b>. Per exemple",
+        "arcTanDescriptionValue":"``linguacode\na = arctan(0) \nde sortida(a) # 0\n``",
+        "arcCtgName":"Arccotangent",
+        "arcCtgNameValue":"``linguacode\narcctg(X)\n``",
+        "arcCtgDescription":"Retorna el valor on la cotangent obté el mateix valor que <b>X</b>. Per exemple",
+        "arcCtgDescriptionValue":"``linguacode\na = arcctg(1) \nde sortida(a) # pi/4\n``",
+        "logName":"Logaritme",
+        "logNameValue":"``linguacode\nlog(X,Y)\n``",
+        "logDescription":"Retorna el valor del logaritme de <b>X</b> a la base <b>Y</b>. Per exemple",
+        "logDescriptionValue":"``linguacode\na = log(3,27) \nde sortida(a) # 3\n``",
+        "lgName":"Comú de logaritmes",
+        "lgNameValue":"``linguacode\nlg(Y)\n``",
+        "lgDescription":"Retorna el valor del logaritme de <b>X</b> a la base <b>10</b>. Per exemple",
+        "lgDescriptionValue":"``linguacode\na = lg(100) \nde sortida(a) # 10\n``",
+        "lnName":"Logaritme Natural",
+        "lnNameValue":"``linguacode\nln(Y)\n``",
+        "lnDescription":"Retorna el valor del logaritme de <b>X</b> a la base <b>e</b>. Per exemple",
+        "lnDescriptionValue":"``linguacode\na = ln(e) \nde sortida(a) # 1\n``",
+        "randomName":"Generació de nombres aleatoris",
+        "randomNameValue":"``linguacode\naleatori(X,[Y])\n``",
+        "randomDescription":"Si el paràmetre <b>Y</b> és donada, programa d'atzar generar i tornar aleatori nombre enter de range<b>[X, Y]</b>. Però sense <b>Y</b> paràmetre de la gamma serà <b>[0; X]</b>. Per exemple",
+        "randomDescriptionValueFirst":"``linguacode\nX = 10 \nun = random(X) # [0; 10]\nde sortida(a) # 4 \n``",
+        "randomDescriptionValueSecond":"``linguacode\nX = 5 \nY = 15 \na = aleatori(X,Y) # [5; 15]\nde sortida(a) # 12\n``"
+      },
+      "tutorials":{
+        "intro":"Introducció",
+        "output":"Sortida",
+        "variables":"Variables",
+        "input":"D'entrada",
+        "operations":"Operacions",
+        "conditions":"Condicions",
+        "boolean":"Boolean",
+        "languageAboutLanguageTitle":"Sobre La Llengua",
+        "languageAboutLanguageContent":"LinguaCode és creat per a tots aquells que volen aprendre programació bàsica en forma més còmoda. \nPer aprendre amb LinguaCode no és imprescindible el coneixement de llengües estrangeres o habilitats tècniques. Tot el que necessita és voluntat d'aprendre i diligència. \n\n#### Característiques:\n- **Multilingüe**\n- **Multiplataforma**\n- **Simple codi Font**\n- **Lliure**\n",
+        "languageFeaturesTitle":"Llengua Característiques",
+        "languageFeaturesContent":"LinguaCode es basa en Python, Pascal i JavaScript, de manera que és fàcil d'entendre amb un simple codi font i després aprendre un altre llenguatge de programació més ràpidament. \n\n**Aquí hi ha tots els conceptes bàsics del llenguatge:**\n\n- **A cada ordre comença de nou la línia.** \nEl codi font serà més senzilla i clara per aquella manera.\n- **Ordres pot ser escrit tant en les majúscules i les minúscules.** \nS'accelera el procés de programació, però és preferible d'escriure amb minúscules.\n- **De Text pot ser escrit entre cometes i apòstrofs.** \nEn molts països no hi ha cometes en ús, perquè aquí vostè pot triar convenient versió per a vostè.\n- **Text escrit després del símbol \"\\#\" es considera com a comentari i no té cap efecte en el treball del codi font.** \nEls comentaris són sempre per a prendre notes.",
+        "outputCommandDefinitionTitle":"Ordre definició",
+        "outputCommandDefinitionContent":"Cada programa, el qual fa algunes operacions, hauria de mostrar-nos informació sobre el resultat. Per això, tota la programació dels sistemes de sortida de text possibilitat i el lloc on podem veure el resultat, que es diu **Terminal**. \n\nOrdre \"*sortida*\" s'utilitza per a la sortida de text. \n\n#### Per exemple \nCodi font``linguacode\nde sortida(\"Howdy\")\n`El resultat`,`terminal\nHowdy\n``",
+        "outputPossibleValuesTitle":"Els valors possibles",
+        "outputPossibleValuesContent":"Sortida de l'ordre pot imprimir el text, números, operacions matemàtiques i valors de la variable.\n\n#### Per exemple \nCodi font \n``linguacode\nde sortida(100)\nde sortida(5 * 25)\n`El resultat`,`terminal\n100\n125\n``",
+        "variablesDeclaresAndAssignsTitle":"Declarant i assignació",
+        "variablesDeclaresAndAssignsContent":"Sovint ens necessiten per salvar el text, el nombre i numèrica de les operacions a algun lloc amb la finalitat d'utilitzar-lo de nou. Els contenidors, on podem desar valors diferents s'anomenen **variables**. Al principi ens ha de donar un nom a la variable i després assignar un valor. Després es pot fer referència al valor simplement trucant a la variable amb el seu nom. \nLes Variables són emmagatzemats en Random-access memory (RAM) de l'ordinador i quan s'utilitza la variable ordinador retorna el valor corresponent a aquesta variable nom de RAM.\n#### És Important recordar\nEls noms de Variable \n**1.** Pot contenir lletres, símbols, dígits o \n**2.** No es pot començar amb un nombre \n**3.** No pot contenir l'espai i símbols d'operacions aritmètiques\n#### Per exemple \nPer a la impressió nombre **617** en lloc d'això, \n``linguacode\nde sortida(617)\n``\nanem a escriure\n``linguacode\nX = 617\nde sortida(X)\n``\nResultat\n``terminal\n617\n`` \nI si volem que a la sortida el mateix valor tres vegades, escriurem \n``linguacode\nX = 617\nde sortida(X)\nde sortida(X)\nde sortida(X)\n`` \nResultat \n``terminal\n617\n617\n617\n``",
+        "variablesPracticalUseTitle":"Ús pràctic",
+        "variablesPracticalUseContent":"Com podem veure, podem assignar numèriques i de text, els valors de les variables. Però sovint ens cal assignar a la variable algun valor, que havia estat assignat a un altre. En aquest cas podem assignar ja existent de la variable a la nova.\n#### Per exemple \nCodi font\n``linguacode\nun = 1\nb = 2\nc = a + b\nla sortida(c)\n`` \nResultat\n``terminal\n3\n``\n",
+        "variablesMultipleUsesTitle":"Múltiples ús",
+        "variablesMultipleUsesContent":"No heu de crear una nova variable per a un valor de nou cada vegada. També podem canviar els valors assignats a les variables. Podem evitar de innecessaris variables i codi font serà més senzill d'aquesta manera.\n#### Per exemple\nSuposem que tenim **100** pomes i desar el valor d' **poma** variable. El nombre de pomes va disminuint per **5** cada dia. \nHem de sortida comte de pomes per a cada dia. \n\nCodi font\n``linguacode\napple = 100\nde sortida(apple)\n\napple = apple - 5 # 95\nde sortida (apple)\n\napple = apple - 5 # 90\nde sortida(apple)\n\napple = apple - 5 # 85\nde sortida(apple)\n`` \nResultat\n``terminal\n100\n95\n90\n85\n``",
+        "inputCommandDefinitionTitle":"Ordre definició",
+        "inputCommandDefinitionContent":"En la programació cal tant a la sortida i en molts casos a dades d'entrada. Necessitem que quan les variables poden rebre cap tipus de valor. També podem canviar el codi font de tots els temps i assignar nous valors a la variable, però no és eficaç i necessitats també molt de temps. \n\nEn aquest cas fem servir el comandament \"*entrada*\". \n\nI aquí és un simple exemple de programa que emet el doble de la xifra introduïda per l'usuari. ``linguacode\nd'entrada(número)\nde sortida(nombre * 2)\n`` Després d'executar aquest programa veurem el símbol \"**>**\", que significa que el programa ha començat i hem d'introduir una falta de dades. Després de la introducció de qualsevol nombre i prement **Introduir** veurem doble de introdueixen nombre. ``terminal\n>617\n1234\n``La majoria que necessitem per escriure programes que poden ser utilitzats per les persones, que fins i tot no saben programació.",
+        "inputWorkMechanismTitle":"Obra mecanisme",
+        "inputWorkMechanismContent":"Ara anem a veure com ordre d'entrada de les obres. Per exemple, tenim aquest programa ``linguacode\nde sortida(\"si us Plau, Introdueixi les seves credencials:\")\nde sortida(\"Nom:\")\nl'entrada de(nom)\nde sortida(\"Cognoms:\")\nd'entrada(cognom)\nde sortida(\"Hola\" + nom + \"\" + cognom)\n`` Com podem veure hi ha 6 línies en el nostre programa. \nDesprés d'executar-lo, podem veure que el programa ha treballat fins a la línia 3.``terminal\nSi us plau, introdueixi les seves credencials:\nNom:\n>\n`` Després d'entrar a la perduda de dades, veurem que ara va funcionar fins a la línia 5.``terminal\nSi us plau, introdueixi les seves credencials:\nNom:\n>Marina\nCognoms:\n>\n`` I, finalment, després d'introduir l'últim en mal estat de dades programa funcioni i final.``terminal\nSi us plau, introdueixi les seves credencials:\nNom:\n>Marina\nCognoms:\n>Chamchyan\nHola, Marina Chamchyan\n` Perquè vam veure que amb aquest comandament programa funciona part per la part que requereixen per a l'entrada de perdre les dades.",
+        "operationsArithmeticOperatorsTitle":"Operacions aritmètiques",
+        "operationsArithmeticOperatorsContent":"En LinguaCode és possible implementar operacions aritmètiques simples com **+**, **-**, **\\***, **/**. \n\nPer exemple, aquest programa farà tots els operadors d'aritmètica amb **1** i **2** els números. ``linguacode\nproducció(1 + 2) # 3\nde sortida(1 - 2) # -1\nde sortida(1 * 2) # 2\nde sortida(1 / 2) # 0.5\n` ` #### És Important recordar \nCom sabem en Matemàtiques multiplicació de variable amb una altra variable o el nombre es pot escriure sense símbol de la multiplicació. Per exemple *7 vegades X* s'escriurà **7X** o *X vegades Y* com **XY**. \nPerò en la programació és important per escriure el símbol de la multiplicació. Per exemple **7 \\* X**, o **X \\* Y**.",
+        "operationsExecutingPriorityTitle":"Les operacions d'execució de prioritat",
+        "operationsExecutingPriorityContent":"Tant en Matemàtiques com en la programació si no hi ha una divisió o una multiplicació, ens en primer lloc fer-los i només després de fer l'addició i sostracció. \n\n#### Per exemple ``linguacode\nX = 10 + 2 * 4 - 2\n# X = 10 + 8 - 2\n# X = 18 - 2\n# X = 16\n` \", Però podem canviar l'execució de prioritat mitjançant l'ús de parèntesis. \n#### Per exemple ``linguacode\nX = (10 + 2) * (4 - 2)\n# X = 12 * (4 - 2)\n# X = 12 * 2\n# X = 24\n``En la programació podem utilitzar claudàtors fins i tot si són innecessaris. \nNo serà incorrecte, però és preferible escriure senzilla i clara codi font, que serà fàcil d'entendre per als altres.",
+        "operationsNumbersTitle":"Nombres",
+        "operationsNumbersContent":"Com sabem <a href=\"https://en.wikipedia.org/wiki/Number\" target=\"_blank\">numbers</a> són objectes matemàtics utilitzats per comptar, mesurar i etiqueta. \nHi ha 5 tipus de nombres. Lluitarem amb totes elles, excepte complex numbes \n- ** nombres naturals** **1**, **2**, ...``linguacode\nde sortida(7 + 4) # 13\n`` \n- **els números enters** ..., **-1**, **0**, **1**, ...``linguacode\nde sortida(-6 * 5 + -3) # -33\n`` \n- **nombres racionals** **1/2**, **2/3**, **0.125**, ...``linguacode\nde sortida(0.617 * 2 * 1000) # 1234\n`` \n- **nombres reals** **√2**, **1.62**, ...``linguacode\nde sortida(2/3 + 1/2) # 1\n``",
+        "operationsSumOfStringAndNumberTitle":"Suma de les cadenes i els números",
+        "operationsSumOfStringAndNumberContent":"Com podem veure, és possible afegir números i textos a l'altre, en el qual resultat línies es combinen en una sola línia. Però sovint ens haureu de fer arribar una línia, en la qual hi haurà utilitzat valor numèric. En aquest cas, és possible afegir un text a la sèrie, en què resultat el nombre serà modificat i combinada amb el text com a text.``linguacode\ntext = \"hi ha\" + 365 + \"dies a l'any\"\n# text = \"hi ha\" + \"365\" + \"dies a l'any\"\n# text = \"hi ha 365\" + \"dies a l'any\"\n# text = \"hi ha 365 dies a l'any\"\n` ` #### És Important recordar \nAmb les línies que podem fer, només afegir operació. Mentre que fer altres operacions, el resultat serà un error.",
+        "conditionsCommandsIfTitle":"Ordre \"Si\"",
+        "conditionsCommandsIfContent":"De vegades en la programació cal executar algunes operacions basades en la condició. Per això hi ha estat comprovar ordres com \"Si\", \"Si bé\" i \"Bé-Si\". \n\nEscrit formulari de comanda \"**Si**\" ``linguacode\nsi <condition> a continuació\n<operation>\n` \"Aquí entre ordres \"Si\" i el \"després\" no hi ha cap condició, i després des de nova línia i després d' **4 espais.** està escrit operació (o operacions), que es farà si l'afirmació és certa. \n\n#### Per exemple ``linguacode\na = 5\nb = 2\nsi a > b llavors\nde sortida(\"a > b\")\n``",
+        "conditionsCommandsIfElseTitle":"Ordre \"If-Else\"",
+        "conditionsCommandsIfElseContent":"Per tal de saber com utilitzar sentència condicional en els programes. Ara tractarem el cas quan la condició és falsa.\n\nEscrit la forma de \"**If-Else**\" declaració ``linguacode\nsi <condition> a continuació\n<operation N1>\nmés\n<operation N2>\n` \"Aquí després d'ordre \"Si\" hi ha un nou ordre \"Altres\". I de nou la línia, després de 4 espais està escrit l'operació, que es farà, si l'esmentada condició és falsa.\n\n#### Per exemple ``linguacode\na = 5\nb = 10\nsi a > b\nde sortida(\"a > b\")\nmés\nde sortida(\"b <\")\n``",
+        "conditionsCommandsElseIfTitle":"Ordre \"Més-Si\"",
+        "conditionsCommandsElseIfContent":"Ja hem discutit quin ordre s'executarà en base a condició de ser true o false. Però de vegades cal comprovar més d'una condició en el mateix temps. \n\nEscrit la forma de \"**Si-a Més-Si**\" declaració``linguacode\nsi <condition N1> a continuació\n<operation N1>\nelse if <condition N2> a continuació\n<operation N2>\nmés\n<operation N3>\n` \"Aquí hem de comprovar més d'una condició. En el cas de \"Més-Si\" escrit la forma no pot ser 1 o major \"Més-Si\" declaracions entre ordres \"Si\" i \"Altres\". \n\n#### Per exemple ``linguacode\na = 5\nb = 5\nsi a > b llavors\nde sortida(\"a > b\")\nmés si a < b llavors\nde sortida(\"a < b\")\nmés\nde sortida(\"b ==\")\n``",
+        "booleanTypesBooleanTitle":"Descripció",
+        "booleanTypesBooleanContent":"Ja sabem com és per comprovar les declaracions i algun d'ells pot ser *veritat* (22 > 18) o *false* (16 > 18). De vegades, a causa de la longitud de la condició de comprovació de la línia, es fa difícil de llegir el codi font. D'aquí ve a ajudar els valors booleans \n\n- **cert** ``linguacode\ncondició = true\nde sortida(condició) #true\n`` \n\n- **false**``linguacode\nestat = false\nde sortida(condició) #false\n`` Qualsevol boolean comparació conegut ens torna un dels valors donats \n\nExemple de *cert* comparació ``linguacode\nestat = 1 < 5\nde sortida(condició) # true\n`` Exemple de *false* comparació ``linguacode\ncondició = 10 < 5\nde sortida(condició) # false\n` Perquè en la condició de comprovació de les ordres podem utilitzar variables amb valors booleans. \n\n#### Per exemple ``linguacode\nde sortida(\"Escriu un nombre \"a\":\")\nd'entrada(a)\n\nde sortida(\"Escriu un nombre \"b\":\")\nd'entrada(b)\n\ncondition1 = a > b\ncondition2 = a < b\n\nsi condition1 a continuació\nresultat = \"a > b\"\nelse if condition2 a continuació\nresultat = \"a < b\"\nmés\nresultat = \"a == b\"։\nde sortida(\"Resultat:\" + resultat)\n``",
+        "booleanOperatorsComparisonTitle":"Els operadors de comparació",
+        "booleanOperatorsComparisonContent":"En la condició de comprovació de les ordres ja hem utilitzat símbols de \"superior\" > i \"menys\" < operadors de comparació. Però ara aquí podem utilitzar qualsevol altres operadors coneguts per a nosaltres. \n\n- **>** compara valors numèrics, en la qual la primera és *#major* de la segona. Per exemple ``linguacode\nde sortida(5 > 1) # true\nde sortida(1 > 5) # false\n`` \n\n- **>=** compara valors numèrics, en la qual la primera és *#superior o igual a* la segona. Per exemple ``linguacode\nde sortida(5 >= 5) # true\nde sortida(1 >= 5) # false\n`` \n\n- **<** compara valors numèrics, en la qual la primera és *#menys* que la segona. Per exemple ``linguacode\nde sortida(1 < 5) # true\nde sortida(5 < 1) # false\n`` \n\n- **<=** compara valors numèrics, en la qual la primera és *#menor o igual a* la segona. Per exemple ``linguacode\nde sortida(1 <= 5) # true\nde sortida(5 <= 1) # false\n`` \n\n- **==** compara numèric o de text valors, en la qual la primera és *#igual a* la segona. Per exemple ``linguacode\nde sortida(5 == 5) # true\nde sortida(5 == 1) # false\nde sortida(\"soldat\" == \"soldat\") # true\nde sortida(\"Hola\" == \"Helo\") # false\n`` \n\n- **!=** compara numèric o de text valors, en la qual la primera és *#no és igual a* la segona. Per exemple ``linguacode\nde sortida(5 != 1) # true\nde sortida(5 != 5) # false\nde sortida(\"Hola\" != \"Helo\") # true\nde sortida(\"soldat\" != \"soldat\") # false\n`` \n\n- **no()** retorna invertir resultat de qualsevol càlcul numèric o de text de comparació. Per exemple ``linguacode\nde sortida(no(1 > 5)) # true\nde sortida(no(5 == 5)) # false\nde sortida(no(fals)) # true\nde sortida(no(true)) # false\n``",
+        "booleanOperatorsLogicalTitle":"Operadors booleans",
+        "booleanOperatorsLogicalContent":"Per tal de saber com escriure cap sentència condicional, però sovint cal combinar una sèrie de condicions, i basada en executar les operacions. La combinació de les condicions es realitza mitjançant operadors booleans. \n\n- Ordre \"**i**\" combina dues condicions, que es diu **cert** quan les dues condicions són *cert* i **false** quan almenys una de les condicions és *false*. Per exemple ``linguacode\nde sortida(5 > 1 և 10 < 100) # true\nde sortida(20 < 100 և 1 > 5) # false\n`` \n\n- Ordre \"**o**\" combina dues condicions, que es diu **cert** quan almenys una de les condicions és *cert* i **false** quan les dues condicions són *false*. Per exemple ``linguacode\nde sortida(5 > 1 o 100 < 10) # true\nde sortida(20 > 100 o 1 > 5) # false\n``",
+        "booleanOperatorsExecutingPriorityTitle":"L'execució de prioritat",
+        "booleanOperatorsExecutingPriorityContent":"Hem après a combinar 2 condicions, però poden ser més de 2, basat en el programa de continguts. En aquest cas, les condicions, es poden combinar amb els altres des de *d'esquerra a dreta*, fins que es forma una condició.\n\n#### Per exemple ``linguacode\nde sortida(5 < 1 և 1 < 7 o 1 >= 3 o 9 == 9)\n`` això és el mateix que ``linguacode\nde sortida(fals և true o false o true)\n`` anem a combinar **1** i **2** \"**fals i cert**\" les condicions en un․ ``linguacode\nde sortida(fals o false o true)\n``a continuació **1+2** condició d' **3** \"**falsos o false (fals)**\" ``linguacode\nde sortida(false o true)\n`` i, finalment,**1+2+3** condició d' **4** \"**false o true**\"․ ``linguacode\nde sortida(true)\n`` I ho combinem 4 condicions. Podem combinar més de les condicions d'aquesta manera. \n\nDe vegades cal canviar d'esquerra a dreta, la combinació de prioritat mitjançant l'ús de parèntesis. \n\n#### Per exemple ``linguacode\nde sortida(5 < 1 և (1 < 7 o (1 >= 3 o 9 == 9)))\n`` \n\naixò és el mateix que ``linguacode\nde sortida(fals և (true o false o true)))\n`` anem a combinar **3** i **4** \"**false o true**\" en condicions ``linguacode\nde sortida(fals (false o true))\n`` després de que **2** condició d'**3+4** condició serà \"**false o true**\" ``linguacode\nde sortida(fals և cert)\n`` i, finalment, anem a combinar **1** condició d'**2+(3+4)**. Serà \"**fals i cert**\" ``linguacode\nde sortida(false)\n`` I així, hem vist que el resultat és canviat amb el canvi de la combinació de prioritat."
+      },
+      "syntaxInfo":{
+        "modalTitle":"Ordre guia",
+        "cheatSheetTitle":"Cheat sheet",
+        "lesson":"Tutorial"
+      }
+    }
+  },
+  "modules":{
+    "ide":{
+      "title":"<b> Hotkeys</b>",
+      "undo":"Desfer",
+      "redo":"Refés",
+      "selectAll":"Seleccionar tots",
+      "run":"Executar",
+      "terminal":"Terminal"
+    },
+    "program":{
+      "program":"Programa",
+      "sourceCode":"Codi font",
+      "functionArgumentSyntaxError":"Funció argument error de sintaxi en ${line} línia.",
+      "undefinedVariable":"La \"${variable}\" variable no definit en ${line} línia.",
+      "indentError":"Espai error en ${line} línia.",
+      "hackAttempt":"Hack intent. El seu \"${ip}\" adreça ip es guarda a la nostra base de dades.",
+      "syntaxError":"Error de sintaxi",
+      "timeout":"Compilar el temps d'espera. Assegureu-vos que el codi no té l'infinit loop.",
+      "true":"true",
+      "false":"fals",
+      "NaN":"desconegut",
+      "null":"desconegut",
+      "Infinity":"l'infinit",
+      "undefined":"undefined"
+    },
+    "programListGroup":{
+      "programs":"Programes"
+    },
+    "terminal":{
+      "hotkeys":"<b> Hotkeys</b>",
+      "undo":"Desfer",
+      "redo":"Refés",
+      "selectAll":"Seleccionar tots",
+      "terminal":"Terminal"
+    }
+  },
+  "buttons":{
+    "loginButton":{
+      "signIn":"Sessió"
+    },
+    "menuButton":{
+      "settings":"Configuració",
+      "logOut":"Tanca la sessió"
+    }
+  },
+  "panels":{
+    "header":{
+      "title":"Casa"
+    }
+  },
+  "elements":{
+    "emptyProgramListForOthersComponent":{
+      "programNotFoundForOthers":"L'usuari no té cap programes encara."
+    },
+    "emptyProgramListForOwnerComponent":{
+      "programNotFoundListForOwner":"No tens cap programes encara.",
+      "programNotFoundClickPartFirst":"Feu clic a",
+      "programNotFoundClickPartSecond":"aquí",
+      "programNotFoundClickPartThird":"per crear un nou programa."
+    },
+    "loading":{
+      "loading":"Càrrega"
+    }
+  }
+}

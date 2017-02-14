@@ -1,0 +1,362 @@
+{
+  "blocks":{
+    "controlPanelBlock":{
+      "edit":"Szerkesztés",
+      "delete":"Törlés"
+    },
+    "lovePanelBlock":{
+      "like":"Mint",
+      "liked":"Tetszett",
+      "star":"Csillag",
+      "starred":"Csillagozott"
+    },
+    "moreFromUserBlock":{
+      "viewAll":"Összes megtekintése",
+      "moreFromFirst":"Több",
+      "moreFromLast":""
+    },
+    "programListFilterBlock":{
+      "sortBy":"Rendezés",
+      "recent":"Legújabb",
+      "views":"Megtekintések",
+      "stars":"Csillagok",
+      "likes":"Szeret",
+      "random":"Véletlen"
+    },
+    "shareBlock":{
+      "link":"Kapcsolat",
+      "share":"Megosztás",
+      "tweet":"Tweet",
+      "textTwitter":"Program \"${programTitle}\" ${userName} a #LinguaCode ${userPageLink}",
+      "descriptionVK":"LinguaCode egy társadalmi kódolás platform célja, főleg a gyerekek számára, ahol lehet tanulni a programozás, valamint részesedése a kódok a saját anyanyelvén, anélkül, hogy szükséges lenne tudni angolul."
+    },
+    "userPrimaryInfoBlock":{
+      "editProfile":"Profil szerkesztése"
+    },
+    "userSecondaryInfoBlock":{
+      "joinedOn":"Csatlakozott a"
+    }
+  },
+  "pages":{
+    "errorPage":{
+      "title":"Hiba",
+      "explanation":"Bocs, egy kritikus hiba történt ezen az oldalon."
+    },
+    "landingPage":{
+      "title":"LinguaCode: Tanulás, a Kódolás",
+      "learningByCoding":"A tanulás <span className=\"masthead--lora-italic\">by Coding</span>",
+      "explanation":"Mi a tanulás programozása, kódolás, így teljes az öröm, az élet, majd hangosan nevetni.",
+      "facebookSignIn":"Jelentkezzen be Facebook",
+      "or":"vagy",
+      "seeTheListOfPrograms":"Lásd a lista létezik programok",
+      "descriptionHead":"A legjobb új módja annak, hogy megtanulják a programozás.",
+      "descriptionBody":"LinguaCode egy társadalmi kódolás platform célja, főleg a gyerekek számára, ahol lehet tanulni a programozás, valamint részesedése a kódok a saját anyanyelvén, anélkül, hogy szükséges lenne tudni angolul.",
+      "advantagesHeadline":"LinguaCode segít <span className=\"u-emphasized\">learn jobb </span>",
+      "advantageTopFirstHeadline":"Többnyelvű",
+      "advantageTopFirstDescription":"Írjon programot a bennszülött nyelven, de nem csak.",
+      "advantageTopSecondHeadline":"Ez ingyenes!",
+      "advantageTopSecondDescription":"Minden ingyenes.",
+      "advantageTopThirdHeadline":"Gyors indítás",
+      "advantageTopThirdDescription":"Az első lépések sokkal könnyebb, mint gondolod!",
+      "advantageBottomFirstHeadline":"Képzelet",
+      "advantageBottomFirstDescription":"Tanulni, próbálja meg, hogy hozzon Létre!",
+      "advantageBottomSecondHeadline":"Oktatás",
+      "advantageBottomSecondDescription":"Tanulni a programozást, valamint egyéb témákról.",
+      "advantageBottomThirdHeadline":"Közösség",
+      "advantageBottomThirdDescription":"Oszd meg a programokat a barátokkal, de találsz új barátokat is.",
+      "joinText":"Csatlakozz, hogy <span className=\"u-emphasized\">the community</span> a tanulók",
+      "facebookRegister":"Regisztráljon most, ez INGYENES!"
+    },
+    "notFoundPage":{
+      "title":"Az Oldal Nem Található",
+      "explanation":"Sajnálom, de az oldal próbált nézet nem létezik.",
+      "descriptionPartFirst":"Próbáld felé",
+      "descriptionPartSecond":"fő oldal",
+      "descriptionPartThird":"helyett."
+    },
+    "programChangePage":{
+      "titleOfEditPage":"Szerkeszteni a ${userName}/${title} program",
+      "editProgramHeadline":"Szerkeszt program",
+      "editProgramButton":"Szerkeszt Program",
+      "titleOfCreatePage":"Hozzon létre egy új program",
+      "newProgramHeadline":"Hozzon létre egy új program",
+      "submitProgramButton":"Küldje Program",
+      "programContent":"A program tartalmazza az összes információt a kódot.",
+      "name":"Név",
+      "programNameForm":"Remek program neve rövid, de emlékezetes, mint <b>hello-world</b>.",
+      "titleOfProgram":"Cím",
+      "description":"Leírás",
+      "validationError":"Érvényesítési hiba",
+      "errorTextForNameLength":"Hossza a <b>name</b> több, mint 0, kevesebb, mint 32, meg kell állnia a latin jelek, vonalak.",
+      "errorTextForName":"Ez a név a forrás által már használt.",
+      "errorTextForTitle":"Hossza a <b>title</b> több, mint 0, kevesebb, mint 128.",
+      "errorTextForDescription":"Hossza a <b>description</b> kell több, mint a 0 vagy kevesebb, akkor 5120.",
+      "errorTextForSource":"Hossza a <b>source</b> kell több, mint a 0 vagy kevesebb, akkor 10240."
+    },
+    "programs":{
+      "title":"Programok"
+    },
+    "settingsPage":{
+      "title":"Beállítások",
+      "publicProfile":"Nyilvános profil",
+      "validationError":"Érvényesítési hiba",
+      "username":"Felhasználónév",
+      "yourUsername":"A felhasználónév",
+      "usernameWasAlreadyUsed":"Felhasználónév már használt",
+      "usernameWasReserved":"Felhasználónév volt fenntartva",
+      "usernameValidation":"Hossza a <b>username</b> kevesebb, akkor 24 tartalmaznak kis betű a latin, majd a számok.",
+      "name":"Név",
+      "yourFirstNameAndLastName":"A vezetéknév",
+      "nameValidation":"Hossza a <b>name</b> kell több, mint 0, kevesebb, mint 24",
+      "bio":"Bio",
+      "tellALittleAboutYourself":"Mondd el magadról egy kicsit",
+      "bioValidation":"Hossza a <b>bio</b> kevesebb, akkor 128.",
+      "country":"Ország",
+      "select":"válassza ki a",
+      "countryValidation":"Válassza ki bármelyik ország",
+      "updateProfile":"Profil frissítése"
+    }
+  },
+  "modals":{
+    "loginRequiredModal":{
+      "signInTitle":"Bejelentkezés",
+      "signInDescription":"A művelet csak akkor lehetséges, ha ön be van jelentkezve."
+    },
+    "programDeleteModal":{
+      "programDeleteConfirmation":"Biztos, hogy törölni akarja a programot ?",
+      "answerYes":"igen",
+      "answerNo":"nem"
+    },
+    "syntaxInfoModal":{
+      "cheatSheet":{
+        "outputName":"Kimenet",
+        "outputNameValue":"``linguacode\nkimenet(X)\n``",
+        "outputDescription":"Ujjlenyomat bármely X érték: számok, műveletek, szöveg, valamint a változó értékek. Például",
+        "outputDescriptionValue":"``linguacode\nkimenet(4) # 4\nkimeneti(\"Helló\") # Üdv\nkimeneti(1+2) # 3\n``",
+        "inputName":"Bemeneti",
+        "inputNameValue":"``linguacode\nbemenet(X)\n``",
+        "inputDescription":"Bármely X változó értékét, amelyben kijelenti, hogy a felhasználó. Például",
+        "inputDescriptionValue":"``linguacode\nbemeneti(a)\n``",
+        "ifElseStatementName":"Ellenőrzése nyilatkozat",
+        "ifElseStatementNameValue":"``linguacode\nha <condition N1> akkor\n<operation N1>\nmég ha <condition N2> akkor\n<operation N2>\nmás\n<operation N3>\n``",
+        "ifElseStatementDescription":"A műveleteket fog végrehajtani alapján meghatározott feltétel igaz. Például",
+        "ifElseStatementDescriptionValue":"``linguacode\na = 5\nb = 5\nha a > b akkor\nkimeneti(\"a > b\")\nmég ha a < b, akkor\nkimeneti (\"< b\")\nmás\nkimeneti(\"b ==\") # b == \n``",
+        "loopForName":"Korlátozott ismétlés",
+        "loopForNameValue":"``linguacode\nismételje meg <N> alkalommal\n<operation>\n``",
+        "loopForDescription":"Végrehajt egy blokk kódot több alkalommal. Például",
+        "loopForDescriptionValue":"``linguacode\nismételje meg 10 alkalommal\nkimeneti(\"Helló\")\n``",
+        "loopWhileDoName":"Hurok\", Miközben\"",
+        "loopWhileDoNameValue":"``linguacode\nmíg <condition> akkor\n<operation>\n``",
+        "loopWhileDoDescription":"A \", Míg A\" loop végrehajtja keresztül blokkolja a kódot, amíg a megadott feltétel igaz. Például",
+        "loopWhileDoDescriptionValue":"``linguacode\na = 1\namíg egy < 5\nkimeneti(a)\na = a + 1\n``",
+        "loopDoWhileName":"Hurok \", Miközben\"",
+        "loopDoWhileNameValue":"``linguacode\ncsinálni\n<operation>\nmíg <condition>\n``",
+        "loopDoWhileDescription":"Hurok \"Amíg\" meg fogja ismételni a hurok, amíg a feltétel igaz. Például",
+        "loopDoWhileDescriptionValue":"``linguacode\na = 1\ncsinálni \nkimeneti(a)\na = a + 1\namíg egy < 5\n``",
+        "piName":"a pi matematikai állandót",
+        "piNameValue":"``linguacode\nkimenet(pi)\n``",
+        "piDescription":"Ujjlenyomat matematikai állandó <b>pi</b>. Például",
+        "piDescriptionValue":"``linguacode\nkimenet(pi) # 3.141592653589793\n``",
+        "eNumberName":"e matematikai állandó,",
+        "eNumberNameValue":"``linguacode\nkimenet(e)\n``",
+        "eNumberDescription":"Ujjlenyomat matematikai állandó <b>e</b>. Például",
+        "eNumberDescriptionValue":"``linguacode\nkimenet(e) # 2.718281828459045\n``",
+        "sqrName":"A négyzet száma",
+        "sqrNameValue":"``linguacode\nsqr(X)\n``",
+        "sqrDescription":"Visszatér tér <b>X</b> szám megadása nélkül a felhasználó által. Például",
+        "sqrDescriptionValue":"``linguacode\nX = 5 \nY = sqr(X) \nkimenet(Y) # 25\n``",
+        "powName":"Ereje száma",
+        "powNameValue":"``linguacode\npow(X,Y)\n``",
+        "powDescription":"A függvény értéke <b>X</b>, hogy a hatalom <b>Y</b>. Például",
+        "powDescriptionValue":"``linguacode\nX = 2 \nY = 5 \nZ = pow(X, Y) \nkimenet(Z) # 32\n``",
+        "sqrtName":"Négyzetgyök száma",
+        "sqrtNameValue":"``linguacode\nsqrt(X)\n``",
+        "sqrtDescription":"Visszatér a négyzetgyök <b>X</b> szám megadása nélkül a felhasználó által. Például",
+        "sqrtDescriptionValue":"``linguacode\nX = 9 \nY = sqrt(X) \nkimenet(Y) # 3\n``",
+        "absName":"Abszolút értéke száma",
+        "absNameValue":"``linguacode\nabs(X)\n``",
+        "absDescription":"Abszolút értékét adja eredményül <b>X</b> szám megadása nélkül a felhasználó által. Például՝",
+        "absDescriptionValue":"``linguacode\nX = -5 \nY = abs(X) \nkimenet(Y) # 5\n``",
+        "roundName":"A szám kerekítése",
+        "roundNameValue":"``linguacode\nkerek(X)\n``",
+        "roundDescription":"Menet egy <b>X</b> a számot a legközelebbi egész számra értékét adja eredményül. Például",
+        "roundDescriptionValue":"``linguacode\nX = 2.3 \na = kerek(X) \nkimenet(egy) # 2\n``",
+        "floorName":"Szám emelet",
+        "floorNameValue":"``linguacode\nemelet(X)\n``",
+        "floorDescription":"Menet egy <b>X</b> száma <b>downwards</b>, hogy a legközelebbi egész számra értékét adja eredményül. Például",
+        "floorDescriptionValue":"``linguacode\nX = 2.6 \n= padló(X) \nkimenet(egy) # 2\n``",
+        "ceilName":"Szám ceil",
+        "ceilNameValue":"``linguacode\nceil(X)\n``",
+        "ceilDescription":"Kerek egy <b>X</b> száma <b>upwards</b>, hogy a legközelebbi egész számra értékét adja eredményül",
+        "ceilDescriptionValue":"``linguacode\nX = 2.2 \na = cella(X) \nkimenet(egy) # 3\n``",
+        "sinName":"Sine",
+        "sinNameValue":"``linguacode\nsin(X)\n``",
+        "sinDescription":"A függvény értéke a <b>sine</b> egy <b>X</b> száma. Például",
+        "sinDescriptionValue":"``linguacode\nX = sin(pi) \nkimenet(X) # 0\n``",
+        "cosName":"Koszinusz",
+        "cosNameValue":"``linguacode\ncos(X)\n``",
+        "cosDescription":"A függvény értéke a <b>cosine</b> egy <b>X</b> száma. Például",
+        "cosDescriptionValue":"``linguacode\nX = cos(pi) \nkimenet(X) # -1\n``",
+        "tanName":"Tangens",
+        "tanNameValue":"``linguacode\ntan(X)\n``",
+        "tanDescription":"A függvény értéke a <b>tangent</b> egy <b>X</b> száma. Például՝",
+        "tanDescriptionValue":"``linguacode\nX = tan(pi) \nkimenet(X) # 0\n``",
+        "ctgName":"A kotangense",
+        "ctgNameValue":"``linguacode\nctg(X)\n``",
+        "ctgDescription":"A függvény értéke a <b>cotangent</b> egy <b>X</b> száma. Például՝",
+        "ctgDescriptionValue":"``linguacode\nX = ctg(pi/4) \nkimenet(X) # 1\n``",
+        "arcSinName":"Arcsine",
+        "arcSinNameValue":"``linguacode\narcsin(X)\n``",
+        "arcSinDescription":"Visszatér az érték, ahol a sine kapja ugyanazt az értéket, mint <b>X</b>. Például",
+        "arcSinDescriptionValue":"``linguacode\na = arcsin(1) \nkimenet(egy) # pi/2 \n``",
+        "arcCosName":"Arccosine",
+        "arcCosNameValue":"``linguacode\narccos(X)\n``",
+        "arcCosDescription":"Visszatér az érték, ahol a koszinusz kapja ugyanazt az értéket, mint <b>X</b>. Például",
+        "arcCosDescriptionValue":"``linguacode\na = arccos(1) \nkimenet(egy) # 0\n``",
+        "arcTanName":"Cotanges",
+        "arcTanNameValue":"``linguacode\narctan(X)\n``",
+        "arcTanDescription":"Visszatér az érték, ahol a tangens kapja ugyanazt az értéket, mint <b>X</b>. Például",
+        "arcTanDescriptionValue":"``linguacode\na = arctan(0) \nkimenet(egy) # 0\n``",
+        "arcCtgName":"Arccotangent",
+        "arcCtgNameValue":"``linguacode\narcctg(X)\n``",
+        "arcCtgDescription":"Visszatér az érték, ahol a kotangens kapja ugyanazt az értéket, mint <b>X</b>. Például",
+        "arcCtgDescriptionValue":"``linguacode\na = arcctg(1) \nkimenet(egy) # pi/4\n``",
+        "logName":"Logaritmusát",
+        "logNameValue":"``linguacode\nlog(X,Y)\n``",
+        "logDescription":"A függvény értéke a logaritmusát <b>X</b>, hogy a bázis <b>Y</b>. Például",
+        "logDescriptionValue":"``linguacode\na = log(3,27) \nkimenet(egy) # 3\n``",
+        "lgName":"Közös logaritmusát",
+        "lgNameValue":"``linguacode\nlg(Y)\n``",
+        "lgDescription":"A függvény értéke a logaritmusát <b>X</b>, hogy a bázis <b>10</b>. Például",
+        "lgDescriptionValue":"``linguacode\na = lg(100) \nkimenet(egy) # 10\n``",
+        "lnName":"Természetes logaritmusát",
+        "lnNameValue":"``linguacode\nln(Y)\n``",
+        "lnDescription":"A függvény értéke a logaritmusát <b>X</b>, hogy a bázis <b>e</b>. Például",
+        "lnDescriptionValue":"``linguacode\na = ln(e) \nkimenet(egy) # 1\n``",
+        "randomName":"Véletlen szám generálása",
+        "randomNameValue":"``linguacode\nvéletlen(X,[Y])\n``",
+        "randomDescription":"Ha a paraméter <b>Y</b> van megadva, a program véletlenszerűen generál, majd vissza, véletlen egész számot range<b>[X, Y]</b>. De anélkül, hogy <b>Y</b> paraméter a tartomány lesz <b>[0; X]</b>. Például",
+        "randomDescriptionValueFirst":"``linguacode\nX = 10 \na = véletlen(X) # a [0; 10]\nkimenet(egy) # 4 \n``",
+        "randomDescriptionValueSecond":"``linguacode\nX = 5 \nY = 15 \na = véletlen(X,Y) # [5; 15]\nkimenet(egy) # 12\n``"
+      },
+      "tutorials":{
+        "intro":"Bevezetés",
+        "output":"Kimenet",
+        "variables":"Változó",
+        "input":"Bemeneti",
+        "operations":"Műveletek",
+        "conditions":"Feltételek",
+        "boolean":"Logikai érték",
+        "languageAboutLanguageTitle":"Körülbelül Nyelv",
+        "languageAboutLanguageContent":"LinguaCode jön létre azok számára, akik meg akarják tanulni a programozás alapjai a kényelmesebb út. \nTanulni LinguaCode nem nélkülözhetetlen a tudás az idegen nyelvek vagy a technikai készségek. Minden amire szükséged van, kívánom, hogy megtanulják, szorgalom. \n\n#### Jellemzők:\n- **Többnyelvű**\n- **Multiplatform**\n- **Egyszerű forráskód**\n- Ingyenes ****\n",
+        "languageFeaturesTitle":"Nyelvi Funkciók",
+        "languageFeaturesContent":"LinguaCode alapul, Python, Pascal, JavaScript, így könnyen érthető, egyszerű forráskód majd tanulni, egy másik programozási nyelv gyorsabban. \n\n**Itt van az összes alapvető fogalmak nyelv:**\n\n- **Minden parancs indul az új sort.** \nA forráskód több lesz egyszerű, világos által.\n- **Parancsokat lehet írásbeli, mind a nagybetűs.** \nEz gyorsítja a folyamatot, a programozás, de inkább írok a kisbetűs.\n- **Szöveget lehet írni, a két idézőjel, múlt időben.** \nSok országban vannak idézőjelek nélkül használja, akkor válassza ki a kényelmes verzió.\n- **Írott szöveg után szimbólum \"\\#\" tekinthető hozzászólás, valamint nem érinti a munka forráskódja.** \nHozzászólások előírt jegyzetelni.",
+        "outputCommandDefinitionTitle":"Parancs definíció",
+        "outputCommandDefinitionContent":"Minden program, ami azonban az egyes műveletek, megmutatja nekünk, hogy információt eredmény. Ezért az összes programozási rendszerek szöveges kimenet lehetőséget, majd a kívánt helyet, ahol láthatjuk az eredményt, amely az úgynevezett **Terminál**. \n\nParancs \"*kimenet*\" használt szöveges kimenet. \n\n#### Például \nForráskód``linguacode\nkimeneti(\"Helló\")\n`Az eredmény a`terminál\nÜdv\n``",
+        "outputPossibleValuesTitle":"Lehetséges értékek",
+        "outputPossibleValuesContent":"Parancs kimenet lehet a nyomtatott szöveg, számok, matematikai műveletek, valamint a változó értékek.\n\n#### Például \nA forráskód \n``linguacode\nkimenet(100)\nkimeneti(5 * 25)\n`Az eredmény a`terminál\n100\n125\n``",
+        "variablesDeclaresAndAssignsTitle":"Nyilvánító, illetve feladat",
+        "variablesDeclaresAndAssignsContent":"Gyakran mentsük el a szöveget, a szám numerikus műveletek valahol, azzal a szándékkal, hogy újra használni. A konténerek, ahol meg tudjuk menteni különböző értékek az úgynevezett **változók**. Először meg kell adnunk egy nevet, hogy a változó aztán rendel értéket. Miután tudjuk lásd az érték egyszerűen hívja a változó névvel. \nVáltozók tárolása Random-access memory (RAM) a számítógép, ha használjuk a változót, a számítógép visszatér a megfelelő érték, hogy a változó neve a RAM.\n#### Fontos megjegyezni,\nVáltozó nevek \n**1.** Tartalmazhat betűk, szimbólumok vagy számok \n**2.** Nem kezdődhet számmal \n**3.** Nem tartalmaz tér-szimbólum aritmetikai műveletek\n#### Például \nA nyomtatási száma **617** ahelyett, hogy ezt a \n``linguacode\nkimenet(617)\n``\nfogjuk írni,\n``linguacode\nX = 617\nkimenet(X)\n``\nEredmény\n`a terminál\n617\n`` \nHa azt akarjuk, hogy a kimeneti ugyanaz az érték három alkalommal fogunk írni \n``linguacode\nX = 617\nkimenet(X)\nkimenet(X)\nkimenet(X)\n`` \nEredmény \n`a terminál\n617\n617\n617\n``",
+        "variablesPracticalUseTitle":"Gyakorlati használat",
+        "variablesPracticalUseContent":"Amint látjuk, lehet rendelni mind a numerikus, szöveges értékeket változók. De gyakran meg kell rendelni, hogy a változó egy értéket, amely már hozzá van rendelve egy másik. Ebben az esetben meg lehet rendelni a már meglévő változó, hogy az új.\n#### Például \nA forráskód\n``linguacode\na = 1\nb = 2\nc = a + b\nkimenet(c)\n`` \nEredmény\n`a terminál\n3\n``\n",
+        "variablesMultipleUsesTitle":"Több használat",
+        "variablesMultipleUsesContent":"Nem kell, hogy hozzon létre egy új változó új értéke minden alkalommal. Azt is, hogy a hozzárendelt értékek a változó. Elkerülhetjük a szükségtelen változókat, illetve a forráskód több lesz egyszerű.\n#### Például\nTegyük fel, hogy van **100** alma megmenteni ezt az értéket **almás** változó. Hány alma volt csökkenő **5** minden nap. \nMeg kell kimeneti gróf alma, minden egyes nap. \n\nA forráskód\n``linguacode\napple = 100\nkimenet(apple)\n\nalma = alma - 5 # 95\nkimenet (apple)\n\nalma = alma - 5 # 90\nkimenet(apple)\n\nalma = alma - 5 # 85\nkimenet(apple)\n`` \nEredmény\n`a terminál\n100\n95\n90\n85\n``",
+        "inputCommandDefinitionTitle":"Parancs definíció",
+        "inputCommandDefinitionContent":"A programozás szükség van mind a kimeneti, illetve sok esetben az input adatok. Szükségünk van rá, amikor változók kaphat bármilyen értéket. Azt is megváltoztathatja a forráskód minden alkalommal, illetve rendelni az új értékek a változó, de ez nem hatékony, szüksége van túl hosszú idő. \n\nEbben az esetben használjuk a következő parancsot: \"*bemenet*\". \n\nMajd itt egy egyszerű példa program, amely kimenetek a kettős szám megadása nélkül a felhasználó által. ``linguacode\nbemenet(szám)\nkimenet(number * 2)\n` A futás után ez a program látni fogjuk, a szimbólum \"**>**\" ami azt jelenti, hogy a program elkezdődött, meg kell, hogy adja meg a hiányzó adatokat. Azután, ha bármilyen számot, majd nyomja **Enter** látni fogjuk, dupla a bevitt számot. `a terminál\n>617\n1234\n`A leginkább szükségünk van, hogy írjon programot, amelyet fel lehet használni az emberek, akik nem is tudják, programozás.",
+        "inputWorkMechanismTitle":"Munka mechanizmus",
+        "inputWorkMechanismContent":"Most nézzük meg, hogyan parancs bemeneti működik. Például itt van ez a program, hogy `linguacode\nkimeneti(\"Kérem, adja meg a hitelesítő:\")\nkimeneti(\"Neve:\")\nbemenet(nevet)\nkimeneti(\"Vezetéknév:\")\nbemenet(vezetéknév)\nkimeneti(\"Szia\" + name + \"\" + vezetéknév)\n` A` mint látjuk 6 vonalak a program. \nFuttatása után láthatjuk, hogy a program működött, amíg a 3-as vonalon.``terminál\nKérjük, adja meg a hitelesítő:\nNév:\n>\n`` Megadása után a fogadott adatok, látni fogjuk, hogy most működött, amíg sor 5.``terminál\nKérjük, adja meg a hitelesítő:\nNév:\n>Tengeri\nVezetéknév:\n>\n`` S végre megadása után az utolsó durva adatok program működni fog a végsőkig.``terminál\nKérjük, adja meg a hitelesítő:\nNév:\n>Tengeri\nVezetéknév:\n>Chamchyan\nSzia, Tengeri Chamchyan\n` Így láttuk, hogy ezzel a paranccsal a program működik, részben részben, amely a bemeneti fogadott adat.",
+        "operationsArithmeticOperatorsTitle":"Aritmetikai műveletek",
+        "operationsArithmeticOperatorsContent":"A LinguaCode lehetséges, hogy végre az egyszerű számtani műveletek, mint **+**, **-**, **\\***, **/**. \n\nPéldául ez a program az összes aritmetikai operátorok a **1** s **2** számok. ``linguacode\nkimeneti(1 + 2) # 3\nkimeneti(1 - 2) # -1\nkimeneti(1 * 2) # 2\nkimenet(1 / 2) # 0.5\n` ` #### Fontos megjegyezni, \nMint tudjuk, a Matek szorzás a változó egy másik változó, vagy szám lehet írni anélkül, hogy a szimbólum a szorzás. Például a *7-szer X* lesz írva **7X** vagy *X-szer Y* tetszik **XY**. \nDe a programozás fontos, hogy írjon szimbóluma szorzás. Például a **7 \\* X** vagy **X \\* Y**.",
+        "operationsExecutingPriorityTitle":"Műveletek végrehajtása kiemelt",
+        "operationsExecutingPriorityContent":"Mind a Matematika, illetve a programozás, ha van egy osztály vagy egy szorzás, először is őket, csak azután tesszük a összeadás, kivonás. \n\n#### Például `a linguacode\nX = 10 + 2 * 4 - 2\n# X = 10 + 8 - 2\n# X = 18 - 2\n# X = 16\n` De mi lehet változtatni végrehajtó kiemelt segítségével zárójelben. \n#### Például `a linguacode\nX = (10 + 2) * (4 - 2)\n# X = 12 * (4 - 2)\n# X = 12 * 2\n# X = 24\n`Programozás használhatjuk zárójelben is, ha szükségtelen. \nNem lesz baj, de ez inkább írni egyszerű, tiszta forráskód, ami könnyű lesz megérteni, hogy mások számára.",
+        "operationsNumbersTitle":"Számok",
+        "operationsNumbersContent":"Mint tudjuk, <a href=\"https://en.wikipedia.org/wiki/Number\" target=\"_blank\">numbers</a> vagy matematikai objektumok számolni, mérni, címke. \nJelenleg 5 féle számok. Foglalkozunk velük, kivéve a komplex numbes \n- ** természetes számok** **1**, **2**, ...``linguacode\nkimenet(7 + 4) # 13\n`` \n- **egész számok** ..., **-1**, **0**, **1**, ...``linguacode\nkimenet(-6 * 5 + -3) # -33\n`` \n- **racionális számok** **1/2**, **2/3**, **0.125**, ...``linguacode\nkimenet(0.617 * 2 * 1000) # 1234\n`` \n- **valós számok** **√2**, **1.62**, ...``linguacode\nkimenet(2/3 + 1/2) # 1\n``",
+        "operationsSumOfStringAndNumberTitle":"Összege a vonósok, a számok",
+        "operationsSumOfStringAndNumberContent":"Mint látjuk, ez lehetséges, hogy adjunk mind a számok, szövegek egymásnak, amelynek eredményeként a vonalak kombinált egy sorban. De gyakran van szükségünk, hogy egy sort, amelyben ott lesz használt numerikus érték. Ebben az esetben lehetséges, hogy a szöveg hozzáadása a száma, amelyek következtében a számot módosítani, kombinálni a szöveg, mint a szöveg.``linguacode\ntext = \"\"+ 365 + \"nap éve\"\n# text = \"\" + \"365\" + \"nap éve\"\n# text = \"365\" + \"nap éve\"\n# text = \"365 nap éve\"\n` ` #### Fontos megjegyezni, \nA vonalak tehetünk, csak az összeadás műveletet. Míg más műveletek eredménye hiba.",
+        "conditionsCommandsIfTitle":"Parancs \"Ha\"",
+        "conditionsCommandsIfContent":"Néha a programozási el kell végezni néhány műveletet alapján állapotban. Ott vagy állapot ellenőrzése parancsokat, mint a \"Ha\", a \"Ha-más\", illetve \"Más-Ha\". \n\nAz írás formája parancs \"**Ha**\" ``linguacode\nha <condition> akkor\n<operation>\n` Itt közötti parancsok \"Ha\", meg \", majd a\" van olyan állapotban, miután az új vonal után, **4 parkolóhely** az írásbeli művelet (vagy műveletek), amely kész, ha az állítás igaz. \n\n#### Például `a linguacode\na = 5\nb = 2\nha a > b akkor\nkimeneti(\"a > b\")\n``",
+        "conditionsCommandsIfElseTitle":"Parancs: \"Ha-Más\"",
+        "conditionsCommandsIfElseContent":"Így tudjuk, hogyan használjuk a feltételes kijelentés a programok. Most megbeszéljük az esetben, ha a feltétel hamis.\n\nAz írás formája a \"**Ha-Más**\" nyilatkozat ``linguacode\nha <condition> akkor\n<operation N1>\nmás\n<operation N2>\n` Itt azután parancsot, hogy \"Ha\" van egy új parancs, hogy \"Más\". Majd új sor, miután 4 parkolóhely van írva a művelet, amely kész, ha az említett feltétel hamis.\n\n#### Például `a linguacode\na = 5\nb = 10\nha a > b\nkimeneti(\"a > b\")\nmás\nkimeneti(\"b <\")\n``",
+        "conditionsCommandsElseIfTitle":"Parancs \"Else-If\"",
+        "conditionsCommandsElseIfContent":"Már beszéltünk arról, melyik parancs kerül végrehajtásra alapján, azzal a feltétellel, hogy igaz vagy hamis. De néha meg kell, hogy ellenőrizze, több feltétel egyidejűleg. \n\nAz írás formája a\"*, *Ha Más, Ha** a\" nyilatkozat``linguacode\nha <condition N1> akkor\n<operation N1>\nmég ha <condition N2> akkor\n<operation N2>\nmás\n<operation N3>\n` Itt meg kell nézni több, mint egy feltétellel. A \"Máshol-Ha az\" írásos formában lehet 1 vagy több \"Más-Ha a\" kimutatások között parancsok \"Ha\", meg hogy \"Más\". \n\n#### Például `a linguacode\na = 5\nb = 5\nha a > b akkor\nkimeneti(\"a > b\")\nmég ha a < b, akkor\nkimeneti (\"< b\")\nmás\nkimeneti(\"b ==\")\n``",
+        "booleanTypesBooleanTitle":"Leírás",
+        "booleanTypesBooleanContent":"Már tudjuk, hogyan kell ellenőrizni nyilatkozatok, valamint néhány közülük lehet *igaz* (22 > 18), vagy *hamis* (16 > 18). Néha azért, mert a hossza a feltétel ellenőrzése vonal válik, nehéz olvasni a forráskód. Itt jön, hogy segítsen logikai értékek \n\n- **igaz** ``linguacode\nállapot = true\nkimenet(feltétel) #true\n`` \n\n- **hamis**``linguacode\nállapot = false\nkimenet(feltétel) #hamis\n` Semmi logikai összehasonlítás ismert, hogy visszatér a megadott értékek \n\nExemple az *igazi* összehasonlítás ``linguacode\nállapot = 1 < 5\nkimenet(feltétel) # true\n`` Exemple *hamis* összehasonlítás ``linguacode\nállapot = 10 < 5\nkimenet(feltétel) # hamis\n` Így a feltétel ellenőrzése parancsokat használhatjuk változók logikai értékek. \n\n#### Például `a linguacode\nkimeneti(\"Írjon egy számot:\")\nbemeneti(a)\n\nkimeneti(\"Írjon egy számot a \"b a\":\")\nbemenet(b)\n\ncondition1 = egy > b\ncondition2 = < b\n\nha condition1 akkor\neredmény = \"> b\"\nmég ha condition2 akkor\neredmény = \"< b\"\nmás\neredmény = \"a == b\"։\nkimeneti(\"az Eredmény:\" + eredmény)\n``",
+        "booleanOperatorsComparisonTitle":"Összehasonlító operátorok",
+        "booleanOperatorsComparisonContent":"Az állapot ellenőrzése parancsok már használt szimbólumok a \"nagyobb, mint\" a>, majd a \"kevesebb, mint\" < összehasonlító operátorok. De most itt használhatunk bármilyen más szereplők ismert számunkra. \n\n- **>** összehasonlítja numerikus értékek, amelyek az első *#nagyobb*, mint a második. Például `a linguacode\nkimeneti(5 > 1) # true\nkimeneti(1 > 5) # hamis\n`` \n\n- **>=** összehasonlítja numerikus értékek, amelyek az első *#nagyobb vagy egyenlő,* a második. Például `a linguacode\nkimeneti(5 >= 5) # true\nkimeneti(1 >= 5) # hamis\n`` \n\n- **<** összehasonlítja numerikus értékek, amelyek az első *#kevesebb,* mint a második. Például `a linguacode\nkimeneti(1 < 5) # true\nkimeneti(5 < 1) # hamis\n`` \n\n- **<=** összehasonlítja numerikus értékek, amelyek az első *#kisebb vagy egyenlő,* a második. Például `a linguacode\nkimeneti(1 <= 5) # true\nkimeneti(5 <= 1) # hamis\n`` \n\n- **==** összehasonlítja numerikus vagy szöveges értékek, amelyek az első *#egyenlő* a második. Például `a linguacode\nkimeneti(5 == 5) # true\nkimeneti(5 == 1) # hamis\nkimeneti(\"katona\" == \"katona\") # true\nkimeneti(\"Hello\" == \"Helo\") # hamis\n`` \n\n- **!=** összehasonlítja numerikus vagy szöveges értékek, amelyek az első *#nem egyenlő* a második. Például `a linguacode\nkimeneti(5 != 1) # true\nkimeneti(5 != 5) # hamis\nkimeneti(\"jó napot\" != \"Helo\") # true\nkimeneti(\"katona\" != \"katona\") # hamis\n`` \n\n- **()** függvény a fordított eredmény bármely numerikus vagy szöveges összehasonlítás. Például `a linguacode\nkimenet(nem(1 > 5)) # true\nkimenet(nem(5 == 5)) # hamis\nkimenet(nem(hamis)) # true\nkimenet(nem(igazi)) # hamis\n``",
+        "booleanOperatorsLogicalTitle":"Logikai operátorok",
+        "booleanOperatorsLogicalContent":"Így tudjuk, hogyan kell írni a feltételes kijelentés, de gyakran van szükségünk, hogy összekapcsolják számos feltételeket, amely alapján végezni néhány műveletet. A egyesíti a feltételeket zajlik a logikai operátorokat. \n\n- Parancs \"****\" egyesíti a két feltételt, amely az úgynevezett **igaz** ha mindkét feltétel *igaz* **hamis**, ha legalább az egyik feltétel *hamis*. Például `a linguacode\nkimeneti(5 > 1 և 10 < 100) # true\nkimenet(20 < 100 և 1 > 5) # hamis\n`` \n\n- Parancs \"**vagy**\" egyesíti a két feltételt, amely az úgynevezett **igaz**, ha legalább az egyik feltétel az *igazi* **hamis** ha a két feltétel *hamis*. Például `a linguacode\nkimeneti(5 > 1 vagy 100 < 10) # true\nkimenet(20 > 100 vagy 1 > 5) # hamis\n``",
+        "booleanOperatorsExecutingPriorityTitle":"Végrehajtó kiemelt",
+        "booleanOperatorsExecutingPriorityContent":"Megtudtuk, hogy hogyan lehet kombinálni 2 feltételeket, de lehet több, mint 2 alapuló program tartalmát. Ebben az esetben a feltételek kombinálható egymással, a *balról jobbra*, amíg ők alkotják az egyik feltétel.\n\n#### Például `a linguacode\nkimeneti(5 < 1 և 1 < 7, illetve 1 >= 3 vagy 9 == 9)\n`` ez ugyanaz, mint `a linguacode\nkimenet(hamis և igaz, vagy hamis, vagy igaz)\n` tegyük össze **1th** **2** \"**hamis, igaz**\" körülmények között egy․ ``linguacode\nkimenet(hamis vagy hamis, vagy igaz)\n``**1+2** állapot **3** \"**hamis vagy hamis**\" ``linguacode\nkimenet(hamis, vagy igaz)\n`` s végre **1+2+3** állapot **4.** \"**hamis vagy igaz**\"․ ``linguacode\nkimenet(igaz)\n` Szóval kombináljuk 4 feltételeket. Mi lehet kombinálni több feltételek. \n\nNéha meg kell változtatni balról jobbra ötvözi kiemelt segítségével zárójelben. \n\n#### Például `a linguacode\nkimeneti(5 < 1 և (1 < 7 vagy (1 >= 3 vagy 9 == 9)))\n`` \n\nez ugyanaz, mint `a linguacode\nkimenet(hamis և (igaz vagy (hamis, vagy igaz)))\n` tegyük össze **3** **4.** \"**hamis vagy igaz**\" feltételek ``linguacode\nkimenet(vagy hamis (false vagy true))\n`` után **2** állapot **3+4** feltétel lesz \"**hamis vagy igaz**\" ``linguacode\nkimenet(hamis և igaz)\n`` s végre, hogy az össze **1th** állapot **2+(3+4)**. Ez lesz a \"**hamis, igaz**\" ``linguacode\nkimenet(hamis)\n` Úgy láttuk, hogy az eredmény változott, a változó ötvözi a legfontosabb."
+      },
+      "syntaxInfo":{
+        "modalTitle":"Parancs útmutató",
+        "cheatSheetTitle":"Cheat sheet",
+        "lesson":"Bemutató"
+      }
+    }
+  },
+  "modules":{
+    "ide":{
+      "title":"<b> Hotkeys</b>",
+      "undo":"Visszavonás",
+      "redo":"Redo",
+      "selectAll":"Összes kijelölése",
+      "run":"Futás",
+      "terminal":"Terminál"
+    },
+    "program":{
+      "program":"Program",
+      "sourceCode":"A forráskód",
+      "functionArgumentSyntaxError":"Funkció érv szintaktikai hiba a ${line} sort.",
+      "undefinedVariable":"A \"${variable}\" változó nem meghatározott ${line} sort.",
+      "indentError":"Tér hiba ${line} sort.",
+      "hackAttempt":"Hack kísérlet. A \"${ip}\" ip-címet menteni az adatbázisunkban.",
+      "syntaxError":"Szintaktikai hiba",
+      "timeout":"Fordítási időt. Győződjön meg róla, hogy a kód nem volna végtelen hurok.",
+      "true":"igaz",
+      "false":"hamis",
+      "NaN":"ismeretlen",
+      "null":"ismeretlen",
+      "Infinity":"infinity",
+      "undefined":"undefined"
+    },
+    "programListGroup":{
+      "programs":"Programok"
+    },
+    "terminal":{
+      "hotkeys":"<b> Hotkeys</b>",
+      "undo":"Visszavonás",
+      "redo":"Redo",
+      "selectAll":"Összes kijelölése",
+      "terminal":"Terminál"
+    }
+  },
+  "buttons":{
+    "loginButton":{
+      "signIn":"Bejelentkezés"
+    },
+    "menuButton":{
+      "settings":"Beállítások",
+      "logOut":"Kijelentkezés"
+    }
+  },
+  "panels":{
+    "header":{
+      "title":"Otthon"
+    }
+  },
+  "elements":{
+    "emptyProgramListForOthersComponent":{
+      "programNotFoundForOthers":"A felhasználó nincs a programok még."
+    },
+    "emptyProgramListForOwnerComponent":{
+      "programNotFoundListForOwner":"Nem kell semmilyen program még.",
+      "programNotFoundClickPartFirst":"Kattintson",
+      "programNotFoundClickPartSecond":"itt",
+      "programNotFoundClickPartThird":"hozzon létre egy új programot."
+    },
+    "loading":{
+      "loading":"Betöltése"
+    }
+  }
+}

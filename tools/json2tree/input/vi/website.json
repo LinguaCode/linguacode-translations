@@ -1,0 +1,362 @@
+{
+  "blocks":{
+    "controlPanelBlock":{
+      "edit":"Chỉnh sửa",
+      "delete":"Xóa"
+    },
+    "lovePanelBlock":{
+      "like":"Như thế",
+      "liked":"Thích",
+      "star":"Sao",
+      "starred":"Đóng vai chính"
+    },
+    "moreFromUserBlock":{
+      "viewAll":"Xem tất cả",
+      "moreFromFirst":"Hơn từ",
+      "moreFromLast":""
+    },
+    "programListFilterBlock":{
+      "sortBy":"Sắp xếp bởi",
+      "recent":"Gần đây",
+      "views":"Xem",
+      "stars":"Sao",
+      "likes":"Thích",
+      "random":"Ngẫu nhiên"
+    },
+    "shareBlock":{
+      "link":"Link",
+      "share":"Chia sẻ",
+      "tweet":"Thấy",
+      "textTwitter":"Chương trình \"${programTitle}\" bởi ${userName} trên #LinguaCode ${userPageLink}",
+      "descriptionVK":"LinguaCode là một xã hội hóa nền tảng và được thiết kế đặc biệt là cho trẻ em, nơi mà họ có thể tìm hiểu các chương trình và chia sẻ mã của họ với tiếng mẹ đẻ và không cần phải biết tiếng anh."
+    },
+    "userPrimaryInfoBlock":{
+      "editProfile":"Chỉnh sửa hồ sơ"
+    },
+    "userSecondaryInfoBlock":{
+      "joinedOn":"Tham gia vào"
+    }
+  },
+  "pages":{
+    "errorPage":{
+      "title":"Lỗi",
+      "explanation":"Xin lỗi, một lỗi nghiêm trọng đã xảy ra trên trang này."
+    },
+    "landingPage":{
+      "title":"LinguaCode: Học bởi Mã hóa",
+      "learningByCoding":"Học <span className=\"masthead--lora-italic\">by Coding</span>",
+      "explanation":"Chúng tôi làm cho chương trình học tập và mã hóa như vậy, đầy niềm vui và cuộc sống, bạn sẽ laugh out loud.",
+      "facebookSignIn":"Đừng với Facebook",
+      "or":"hay",
+      "seeTheListOfPrograms":"Xem danh sách tồn tại chương trình",
+      "descriptionHead":"Cách tốt nhất để tìm hiểu một lập trình.",
+      "descriptionBody":"LinguaCode là một xã hội hóa nền tảng và được thiết kế đặc biệt là cho trẻ em, nơi mà họ có thể tìm hiểu các chương trình và chia sẻ mã của họ với tiếng mẹ đẻ và không cần phải biết tiếng anh.",
+      "advantagesHeadline":"LinguaCode giúp bạn <span className=\"u-emphasized\">learn tốt hơn </span>",
+      "advantageTopFirstHeadline":"Ngôn ngữ",
+      "advantageTopFirstDescription":"Viết chương trình của ngôn ngữ và không chỉ.",
+      "advantageTopSecondHeadline":"Nó miễn phí!",
+      "advantageTopSecondDescription":"Tất cả mọi thứ là miễn phí.",
+      "advantageTopThirdHeadline":"Nhanh chóng bắt đầu",
+      "advantageTopThirdDescription":"Bắt đầu được nhiều hơn anh nghĩ.",
+      "advantageBottomFirstHeadline":"Trí tưởng tượng",
+      "advantageBottomFirstDescription":"Tìm hiểu, cố gắng Tạo ra!",
+      "advantageBottomSecondHeadline":"Giáo dục",
+      "advantageBottomSecondDescription":"Tìm hiểu lập trình, cũng như các đối tượng.",
+      "advantageBottomThirdHeadline":"Cộng đồng",
+      "advantageBottomThirdDescription":"Phần của chương trình với bạn bè và tìm những người bạn mới.",
+      "joinText":"Tham gia vào <span className=\"u-emphasized\">the community</span> của người học",
+      "facebookRegister":"Đăng ký ngay bây giờ, nó là miễn PHÍ!"
+    },
+    "notFoundPage":{
+      "title":"Không Tìm Thấy Trang",
+      "explanation":"Xin lỗi, nhưng trang bạn đang cố gắng để xem không tồn tại.",
+      "descriptionPartFirst":"Thử đi đến",
+      "descriptionPartSecond":"chính trang",
+      "descriptionPartThird":"thay vào đó."
+    },
+    "programChangePage":{
+      "titleOfEditPage":"Chỉnh sửa ${userName}/${title} chương trình",
+      "editProgramHeadline":"Chỉnh sửa một chương trình",
+      "editProgramButton":"Chỉnh Sửa Chương Trình",
+      "titleOfCreatePage":"Tạo ra một chương trình mới",
+      "newProgramHeadline":"Tạo ra một chương trình mới",
+      "submitProgramButton":"Gửi Chương Trình",
+      "programContent":"Một chương trình có tất cả thông tin về bạn mã.",
+      "name":"Tên",
+      "programNameForm":"Chương trình tuyệt vời tên là ngắn và đáng nhớ, giống như <b>hello-world</b>.",
+      "titleOfProgram":"Tiêu đề",
+      "description":"Mô tả",
+      "validationError":"Xác nhận lỗi",
+      "errorTextForNameLength":"Chiều dài của <b>name</b> nên quá 0 và ít sau đó 32, nó nên bao gồm latin biểu tượng và gạch.",
+      "errorTextForName":"Này, tên của các nguồn đã được sử dụng bởi bạn.",
+      "errorTextForTitle":"Chiều dài của <b>title</b> nên quá 0 và ít sau đó 128.",
+      "errorTextForDescription":"Chiều dài của <b>description</b> nên quá 0 và ít sau đó 5120.",
+      "errorTextForSource":"Chiều dài của <b>source</b> nên quá 0 và ít sau đó 10240."
+    },
+    "programs":{
+      "title":"Chương trình"
+    },
+    "settingsPage":{
+      "title":"Cài đặt",
+      "publicProfile":"Làm hồ sơ",
+      "validationError":"Xác nhận lỗi",
+      "username":"Tên",
+      "yourUsername":"Tên của bạn",
+      "usernameWasAlreadyUsed":"Tên là đã sử dụng",
+      "usernameWasReserved":"Tên là dành",
+      "usernameValidation":"Chiều dài của <b>username</b> nên ít sau đó 24 và có chữ nhỏ của latin và số.",
+      "name":"Tên",
+      "yourFirstNameAndLastName":"Tên của bạn, và cuối cùng tên",
+      "nameValidation":"Chiều dài của <b>name</b> nên được nhiều hơn 0 và ít sau đó 24",
+      "bio":"Sinh học",
+      "tellALittleAboutYourself":"Nói một chút về bản thân",
+      "bioValidation":"Chiều dài của <b>bio</b> nên ít sau đó 128.",
+      "country":"Nước",
+      "select":"chọn",
+      "countryValidation":"Chọn bất kỳ quốc gia",
+      "updateProfile":"Cập nhật hồ sơ"
+    }
+  },
+  "modals":{
+    "loginRequiredModal":{
+      "signInTitle":"Đừng trong",
+      "signInDescription":"Các hoạt động là có thể chỉ khi cậu ta đã đăng kí."
+    },
+    "programDeleteModal":{
+      "programDeleteConfirmation":"Anh có chắc muốn xóa các chương trình ?",
+      "answerYes":"yes",
+      "answerNo":"không có"
+    },
+    "syntaxInfoModal":{
+      "cheatSheet":{
+        "outputName":"Ra",
+        "outputNameValue":"``linguacode\nra(X)\n``",
+        "outputDescription":"In bất kỳ giá trị X: các hoạt động văn bản và biến giá trị. Ví dụ:",
+        "outputDescriptionValue":"``linguacode\nra(4) # 4\nra(\"Chào\") # Howdy\nra(1+2) # 3\n``",
+        "inputName":"Đầu vào",
+        "inputNameValue":"``linguacode\nđầu vào(X)\n``",
+        "inputDescription":"Bất kỳ X biến giá trị tuyên bố bởi người dùng. Ví dụ:",
+        "inputDescriptionValue":"``linguacode\nđầu vào(một)\n``",
+        "ifElseStatementName":"Kiểm tra tuyên bố",
+        "ifElseStatementNameValue":"``linguacode\nnếu <condition N1> sau đó\n<operation N1>\nnếu khác <condition N2> sau đó\n<operation N2>\nkhác\n<operation N3>\n``",
+        "ifElseStatementDescription":"Hoạt động sẽ được thực hiện dựa trên quy định điều kiện là sự thật. Ví dụ:",
+        "ifElseStatementDescriptionValue":"``linguacode\nmột 5 = \nb = 5\nnếu một > b sau đó\nra(\"một > b\")\nnếu khác một < b sau đó\nra (\"< b\")\nkhác\nra(\"b == một\") # b == \n``",
+        "loopForName":"Giới hạn lặp lại",
+        "loopForNameValue":"``linguacode\nlặp lại lần <N>\n<operation>\n``",
+        "loopForDescription":"Có một khối mã một số lần. Ví dụ:",
+        "loopForDescriptionValue":"``linguacode\nnhắc lại 10 lần\nra(\"Chào\")\n``",
+        "loopWhileDoName":"Vòng Lặp \"Trong Lúc Làm\"",
+        "loopWhileDoNameValue":"``linguacode\ntrong khi <condition> sau đó\n<operation>\n``",
+        "loopWhileDoDescription":"\"Trong lúc Làm\" vòng thực hiện qua một khối mã như là một quy định điều kiện là sự thật. Ví dụ:",
+        "loopWhileDoDescriptionValue":"``linguacode\nmột = 1\ntrong khi một < 5 sau đó\nra(một)\nmột = 1\n``",
+        "loopDoWhileName":"Vòng Lặp \"Làm Trong Khi\"",
+        "loopDoWhileNameValue":"``linguacode\nlàm\n<operation>\ntrong khi <condition>\n``",
+        "loopDoWhileDescription":"Vòng lặp \"Làm trong Khi\" sẽ lặp lại những vòng lặp như là các điều kiện là sự thật. Ví dụ:",
+        "loopDoWhileDescriptionValue":"``linguacode\nmột = 1\nlàm \nra(một)\nmột = 1\ntrong khi một < 5\n``",
+        "piName":"pi toán liên tục",
+        "piNameValue":"``linguacode\nra(pi)\n``",
+        "piDescription":"In toán liên tục <b>pi</b>. Ví dụ:",
+        "piDescriptionValue":"``linguacode\nra(pi) # 3.141592653589793\n``",
+        "eNumberName":"e toán liên tục",
+        "eNumberNameValue":"``linguacode\nra(e)\n``",
+        "eNumberDescription":"In toán liên tục <b>e</b>. Ví dụ:",
+        "eNumberDescriptionValue":"``linguacode\nra(e) # 2.718281828459045\n``",
+        "sqrName":"Vuông của số",
+        "sqrNameValue":"``linguacode\nsqr(X)\n``",
+        "sqrDescription":"Trở lại vuông của <b>X</b> số nhập vào người dùng. Ví dụ:",
+        "sqrDescriptionValue":"``linguacode\nX = 5 \nY = sqr(X) \nra(Y) # 25\n``",
+        "powName":"Sức mạnh của số",
+        "powNameValue":"``linguacode\npow(X,Y)\n``",
+        "powDescription":"Trả về giá trị của <b>X</b> để sức mạnh của <b>Y</b>. Ví dụ:",
+        "powDescriptionValue":"``linguacode\nX = 2 \nY = 5 \nZ = pow(X, Y) \nra(Z) # 32\n``",
+        "sqrtName":"Bậc của số",
+        "sqrtNameValue":"``linguacode\ntưởng(X)\n``",
+        "sqrtDescription":"Trở về căn của <b>X</b> số nhập vào người dùng. Ví dụ:",
+        "sqrtDescriptionValue":"``linguacode\nX = 9 \nY = tưởng(X) \nra(Y) # 3\n``",
+        "absName":"Giá trị tuyệt đối của số",
+        "absNameValue":"``linguacode\nabs(X)\n``",
+        "absDescription":"Trở về các giá trị tuyệt đối của <b>X</b> số nhập vào người dùng. Ví dụ՝",
+        "absDescriptionValue":"``linguacode\nX = -5 \nY = abs(X) \nra(Y) # 5\n``",
+        "roundName":"Số tròn",
+        "roundNameValue":"``linguacode\nvòng(X)\n``",
+        "roundDescription":"Vòng một <b>X</b> số những nguyên gần nhất và trả về giá trị. Ví dụ:",
+        "roundDescriptionValue":"``linguacode\nX = 2.3 \nmột = vòng(X) \nra(một) # 2\n``",
+        "floorName":"Số sàn",
+        "floorNameValue":"``linguacode\nsàn(X)\n``",
+        "floorDescription":"Vòng một <b>X</b> số <b>downwards</b> số nguyên gần nhất và trả về giá trị. Ví dụ:",
+        "floorDescriptionValue":"``linguacode\nX = 2.6 \nmột = sàn(X) \nra(một) # 2\n``",
+        "ceilName":"Số máy",
+        "ceilNameValue":"``linguacode\ntrần(X)\n``",
+        "ceilDescription":"Vòng một <b>X</b> số <b>upwards</b> của nó nguyên gần nhất và trở về các giá trị",
+        "ceilDescriptionValue":"``linguacode\nX = 2.2 \nmột = trần(X) \nra(một) # 3\n``",
+        "sinName":"Sin",
+        "sinNameValue":"``linguacode\ntội lỗi(X)\n``",
+        "sinDescription":"Trả về giá trị của <b>sine</b> của một <b>X</b> số. Ví dụ:",
+        "sinDescriptionValue":"``linguacode\nX = tội lỗi(pi) \nra(X) # 0\n``",
+        "cosName":"Cos",
+        "cosNameValue":"``linguacode\ncos(X)\n``",
+        "cosDescription":"Trả về giá trị của <b>cosine</b> của một <b>X</b> số. Ví dụ:",
+        "cosDescriptionValue":"``linguacode\nX = cos(pi) \nra(X) # -1\n``",
+        "tanName":"Ốp",
+        "tanNameValue":"``linguacode\ntân(X)\n``",
+        "tanDescription":"Trả về giá trị của <b>tangent</b> của một <b>X</b> số. Ví dụ՝",
+        "tanDescriptionValue":"``linguacode\nX = tân(pi) \nra(X) # 0\n``",
+        "ctgName":"Cotang",
+        "ctgNameValue":"``linguacode\ntừng chịu trách nhiệm(X)\n``",
+        "ctgDescription":"Trả về giá trị của <b>cotangent</b> của một <b>X</b> số. Ví dụ՝",
+        "ctgDescriptionValue":"``linguacode\nX = từng chịu trách nhiệm(pi/4) \nra(X) # 1\n``",
+        "arcSinName":"Arcsine,",
+        "arcSinNameValue":"``linguacode\narcsin(X)\n``",
+        "arcSinDescription":"Trở về các giá trị nơi the sin được cùng một giá trị như <b>X</b>. Ví dụ:",
+        "arcSinDescriptionValue":"``linguacode\nmột = arcsin(1) \nra(một) # pi/2 \n``",
+        "arcCosName":"Arccosine",
+        "arcCosNameValue":"``linguacode\ncó sẵn từ điện thoại(X)\n``",
+        "arcCosDescription":"Trở về các giá trị nơi các cô được cùng một giá trị như <b>X</b>. Ví dụ:",
+        "arcCosDescriptionValue":"``linguacode\nmột = có sẵn từ điện thoại(1) \nra(một) # 0\n``",
+        "arcTanName":"Arctangent",
+        "arcTanNameValue":"``linguacode\narctan(X)\n``",
+        "arcTanDescription":"Trở về các giá trị nơi tang được cùng một giá trị như <b>X</b>. Ví dụ:",
+        "arcTanDescriptionValue":"``linguacode\nmột = arctan(0) \nra(một) # 0\n``",
+        "arcCtgName":"Arccotangent",
+        "arcCtgNameValue":"``linguacode\narcctg(X)\n``",
+        "arcCtgDescription":"Trở về các giá trị nơi cotang được cùng một giá trị như <b>X</b>. Ví dụ:",
+        "arcCtgDescriptionValue":"``linguacode\nmột = arcctg(1) \nra(một) # pi/4\n``",
+        "logName":"Mũ",
+        "logNameValue":"``linguacode\nlog(X,Y)\n``",
+        "logDescription":"Trở lại giá trị nhất của <b>X</b> để các cơ sở <b>Y</b>. Ví dụ:",
+        "logDescriptionValue":"``linguacode\nmột = nhập(3,27) \nra(một) # 3\n``",
+        "lgName":"Chung mũ",
+        "lgNameValue":"``linguacode\nlg(Y)\n``",
+        "lgDescription":"Trở lại giá trị nhất của <b>X</b> để các cơ sở <b>10</b>. Ví dụ:",
+        "lgDescriptionValue":"``linguacode\nmột = lg(100) \nra(một) # 10\n``",
+        "lnName":"Tự nhiên,",
+        "lnNameValue":"``linguacode\nln(Y)\n``",
+        "lnDescription":"Trở lại giá trị nhất của <b>X</b> để các cơ sở <b>e</b>. Ví dụ:",
+        "lnDescriptionValue":"``linguacode\nmột = ln(e) \nra(một) # 1\n``",
+        "randomName":"Số ngẫu nhiên tạo ra",
+        "randomNameValue":"``linguacode\nngẫu nhiên(X,[Y])\n``",
+        "randomDescription":"Nếu các thông số <b>Y</b> được đưa ra chương trình ngẫu nhiên sẽ tạo ra và trở lại số nguyên ngẫu nhiên từ range<b>[X, Y]</b>. Nhưng mà <b>Y</b> số phạm vi sẽ được <b>[0; X]</b>. Ví dụ:",
+        "randomDescriptionValueFirst":"``linguacode\nX = 10 \nmột = ngẫu nhiên(X) # [0; 10]\nra(một) # 4 \n``",
+        "randomDescriptionValueSecond":"``linguacode\nX = 5 \nY = 15 \nmột = ngẫu nhiên(X,Y) # [5; 15]\nra(một) # 12\n``"
+      },
+      "tutorials":{
+        "intro":"Giới thiệu",
+        "output":"Ra",
+        "variables":"Biến",
+        "input":"Đầu vào",
+        "operations":"Hoạt động",
+        "conditions":"Điều kiện",
+        "boolean":"Lôgic",
+        "languageAboutLanguageTitle":"Về Ngôn Ngữ",
+        "languageAboutLanguageContent":"LinguaCode được tạo ra cho tất cả những ai muốn tìm hiểu cơ bản lập trình ở cách thoải mái hơn. \nĐể học với LinguaCode nó không cần thiết những kiến thức về tiếng nước ngoài hoặc kĩ năng. Tất cả bạn cần là muốn học và sự siêng năng. \n\n#### Tính năng:\n- **Ngôn ngữ**\n- **Nhiều hệ**\n- **Đơn giản mã Nguồn**\n- ****\n",
+        "languageFeaturesTitle":"Tính Năng Ngôn Ngữ",
+        "languageFeaturesContent":"LinguaCode được dựa trên Python, Pascal và kết, làm cho nó dễ dàng để hiểu được với đơn giản mã nguồn và sau đó học ngôn ngữ lập trình khác nhanh hơn. \n\n**Đây là tất cả khái niệm cơ bản của ngôn ngữ:**\n\n- **Mỗi lệnh bắt đầu từ dòng mới.** \nMã nguồn sẽ có nhiều cách đơn giản và rõ ràng bằng cách đó.\n- **Lệnh có thể được viết cả loài.** \nNó làm tăng tốc trình của chương trình, nhưng nó ưa thích để viết chữ thường.\n- **Văn bản có thể được viết giữa hai báo hiệu và nháy.** \nỞ nhiều quốc gia, không có dấu nháy trong sử dụng đó, chắc các bạn có thể lựa chọn thuận tiện phiên bản dành cho bạn.\n- **Chữ viết sau khi biểu tượng \" tính#\" bị coi là bình luận và không có ảnh hưởng đến công việc của source code.** \nÝ kiến được cung cấp cho ghi chép.",
+        "outputCommandDefinitionTitle":"Lệnh nét",
+        "outputCommandDefinitionContent":"Mỗi chương trình mà không một số hoạt động, nên cho chúng tôi thấy thông tin về kết quả. Đó là lý do tại sao tất cả các hệ thống lập trình có văn bản ra khả năng và nơi chúng ta có thể thấy kết quả, đó được gọi là **thiết bị đầu Cuối**. \n\nLệnh \"*ra*\" được sử dụng cho các văn bản ra. \n\n#### Ví dụ: \nMã nguồn``linguacode\nra(\"Chào\")\n``Quả``thiết bị đầu cuối\nHowdy\n``",
+        "outputPossibleValuesTitle":"Có thể có giá trị",
+        "outputPossibleValuesContent":"Đầu ra lệnh có thể in chữ số toán học và biến giá trị.\n\n#### Ví dụ: \nMã nguồn \n``linguacode\nra(100)\nra(5 * 25)\n``Quả``thiết bị đầu cuối\n100\n125\n``",
+        "variablesDeclaresAndAssignsTitle":"Tuyên bố và chuyển nhượng",
+        "variablesDeclaresAndAssignsContent":"Thường thì chúng ta cần phải tiết kiệm những văn bản, số và số hoạt động ở đâu đó với mục đích để sử dụng nó một lần nữa. Các đựng, mà chúng ta có thể tiết kiệm giá trị khác nhau đang kêu gọi **biến**. Lúc đầu, chúng ta phải đặt tên cho sự biến và sau đó gán một giá trị cho nó. Sau đó chúng ta có thể tham khảo các giá trị đơn giản bằng cách kêu gọi các biến đổi với tên gọi của nó. \nBiến được lưu trữ trong Ngẫu nhiên-truy cập vào nhớ (RAM) của máy tính và khi chúng tôi sử dụng biến, máy tính trở về các giá trị tương ứng với tên biến từ RAM.\n#### Quan trọng là hãy nhớ\nTên biến \n**1.** Có thể chứa thư từ, các biểu tượng hay chữ số \n**2.** Không thể bắt đầu với một số \n**3.** Không thể chứa không gian và các biểu tượng của các phép tính\n#### Ví dụ: \nCho in ấn số **617** thay vì này \n``linguacode\nra(617)\n``\nchúng tôi sẽ viết\n``linguacode\nX = 617\nra(X)\n``\nQuả\n``thiết bị đầu cuối\n617\n`` \nVà nếu chúng ta muốn ra giá trị như nhau ba lần, chúng tôi sẽ viết \n``linguacode\nX = 617\nra(X)\nra(X)\nra(X)\n`` \nQuả \n``thiết bị đầu cuối\n617\n617\n617\n``",
+        "variablesPracticalUseTitle":"Thực tế sử dụng",
+        "variablesPracticalUseContent":"Như chúng ta thấy, chúng tôi có thể gán cả số và chữ giá trị để biến. Nhưng thường thì chúng ta cần phải giao cho người biến một số giá trị, mà đã được giao cho một cái khác. Trong trường hợp đó, chúng ta có thể gán đã có biến mới.\n#### Ví dụ: \nMã nguồn\n``linguacode\nmột = 1\nb = 2\nc = a b\nra(c)\n`` \nQuả\n``thiết bị đầu cuối\n3\n``\n",
+        "variablesMultipleUsesTitle":"Nhiều sử dụng",
+        "variablesMultipleUsesContent":"Bạn không cần phải tạo ra một biến mới cho một giá trị mới mỗi lần. Chúng tôi cũng có thể thay đổi giá trị giao cho các biến. Chúng tôi sẽ tránh từ không cần thiết biến và mã nguồn sẽ đơn giản hơn vậy.\n#### Ví dụ:\nHãy cho rằng chúng tôi có **100** táo và lưu này giá trị trong **táo** biến. Số táo đã giảm bởi **5** mỗi ngày. \nChúng ta phải ra số của táo cho mỗi ngày. \n\nMã nguồn\n``linguacode\ntáo = 100\nra(táo)\n\ntáo = táo - 5 # 95\nra (táo)\n\ntáo = táo - 5 # 90\nra(táo)\n\ntáo = táo - 5 # 85\nra(táo)\n`` \nQuả\n``thiết bị đầu cuối\n100\n95\n90\n85\n``",
+        "inputCommandDefinitionTitle":"Lệnh nét",
+        "inputCommandDefinitionContent":"Trong chương trình, chúng tôi cần cả hai đầu và trong nhiều trường hợp để đầu vào dữ liệu. Chúng ta cần nó khi biến có thể nhận được bất kỳ giá trị. Chúng tôi cũng có thể thay đổi mã nguồn mỗi lần và chỉ định giá trị mới để biến, nhưng nó không hiệu quả, và cần thời gian quá dài. \n\nTrong trường hợp đó, chúng tôi sử dụng lệnh \"*đầu vào*\". \n\nVà đây là một ví dụ đơn giản của chương trình đó kết quả gấp đôi số nhập vào người dùng. ``linguacode\nđầu vào(số)\nra(số * 2)\n`` Sau khi chạy chương trình này, chúng ta sẽ thấy các biểu tượng \"**>**\" có nghĩa là chương trình đã bắt đầu và chúng ta cần để nhập vào một dữ liệu bị mất. Sau khi nhập vào bất kỳ số nào và cách nhấn **Nhập** chúng ta sẽ nhìn thấy đôi của nhập vào số. ``thiết bị đầu cuối\n>617\n1234\n``Chủ yếu là chúng tôi cần phải viết chương trình có thể được sử dụng bởi những người thậm chí không biết lập trình.",
+        "inputWorkMechanismTitle":"Công việc chế",
+        "inputWorkMechanismContent":"Bây giờ chúng ta hãy xem chỉ huy đầu vào công việc. Ví dụ chúng ta có chương trình này ``linguacode\nra(\"Xin vui lòng Nhập mật thông tin:\")\nra(\"Tên:\")\nđầu vào(tên)\nra(\"Họ:\")\nđầu vào(họ)\nra(\"Hi\" với tên + \"\" với họ)\n`` Như chúng ta thấy có 6 đường trong chương trình của chúng tôi. \nSau khi chạy nó, chúng ta có thể thấy rằng chương trình làm việc cho đến đường dây số 3.``thiết bị đầu cuối\nXin vui lòng nhập mật thông tin:\nTên:\n>\n`` Sau khi nhập dữ liệu bị mất, chúng tôi sẽ nhìn thấy ngay bây giờ, nó làm việc cho đến tuyến 5.``thiết bị đầu cuối\nXin vui lòng nhập mật thông tin:\nTên:\n>Biển\nHọ:\n>\n` Và cuối cùng, sau khi vào cuối cùng sai lầm dữ liệu chương trình sẽ làm việc và kết thúc.``thiết bị đầu cuối\nXin vui lòng nhập mật thông tin:\nTên:\n>Biển\nHọ:\n>Chamchyan\nHi, Hàng Hải Chamchyan\n`` Vì vậy, chúng tôi đã thấy điều đó với đây chỉ huy chương trình hoạt động từng phần đòi hỏi nhập vào dữ liệu bị mất.",
+        "operationsArithmeticOperatorsTitle":"Số học hoạt động",
+        "operationsArithmeticOperatorsContent":"Trong LinguaCode nó có thể để thực hiện số học đơn giản hoạt động như thế **+**, **-**, **\\***, **/**. \n\nVí dụ chương trình này sẽ làm tất cả khai thác số học với **1** và **2** con số. ``linguacode\nra(1 + 2) # 3\nra(1 - 2) # -1\nra(1 * 2) # 2\nra(1 / 2) # 0.5\n` ` #### Quan trọng là hãy nhớ \nNhư chúng ta biết trong Toán nhân của biến với biến khác hoặc số có thể được viết mà không có biểu tượng của nhân. Ví dụ *7 lần X* sẽ được viết **7** *X lần Y như* **XY**. \nNhưng trong chương trình đó là quan trọng để viết biểu tượng của nhân. Ví dụ **7 tính***, hoặc **X* Y**.",
+        "operationsExecutingPriorityTitle":"Hoạt động thực hiện ưu tiên",
+        "operationsExecutingPriorityContent":"Cả hai trong Toán học và trong chương trình nếu có một bộ phận hoặc một nhân, trước hết chúng tôi làm cho họ và chỉ sau khi chúng ta làm và trừ. \n\n#### Ví dụ ``linguacode\nX = 10 + 2 * 4 - 2\n# X = 10 + 8 - 2\n# X = 18 - 2\n# X = 16\n`` Nhưng chúng ta có thể thay đổi thực hiện ưu tiên sử dụng ngoặc. \n#### Ví dụ ``linguacode\nX = (10 + 2) * (4 - 2)\n# X = 12 * (4 - 2)\n# X = 12 * 2\n# X = 24\n``Trong chương trình, chúng tôi có thể sử dụng ngoặc ngay cả nếu họ không cần thiết. \nNó sẽ không được sai, nhưng đó là ưa thích để viết đơn giản và rõ ràng mã nguồn đó, sẽ dễ dàng để hiểu được cho những người khác.",
+        "operationsNumbersTitle":"Số",
+        "operationsNumbersContent":"Như chúng ta biết <a href=\"https://en.wikipedia.org/wiki/Number\" target=\"_blank\">numbers</a> là toán học, đối tượng đã từng đếm bằng biện pháp và nhãn. \nCó 5 loại số. Chúng tôi sẽ thỏa thuận với tất cả, ngoại trừ phức tạp numbes \n- ** số tự nhiên** **1**, **2**, ...``linguacode\nra(7 + 4) # 13\n`` \n- **số nguyên** ..., **-1**, **0**, **1**, ...``linguacode\nra(-6 * 5 + -3) # -33\n`` \n- **số hợp lý** **1/2**, **2/3**, **0.125**, ...``linguacode\nra(0.617 * 2 * 1000) # 1234\n`` \n- **real số** **√2**, **1.62**, ...``linguacode\nra(2/3 + 1/2) # 1\n``",
+        "operationsSumOfStringAndNumberTitle":"Sum của dây, và con số",
+        "operationsSumOfStringAndNumberContent":"Như chúng ta thấy, nó có thể thêm cả hai con số và nhắn với nhau, trong đó quả là dòng được kết hợp trong một dòng. Nhưng thường thì chúng ta cần phải có một đường trong đó, sẽ có sử dụng giá trị số. Trong trường hợp đó, nó có thể thêm chữ số, trong đó quả là số sẽ được sửa đổi và kết hợp với các văn bản là văn bản.``linguacode\nvăn bản = \"có\" với 365 + \"ngày trong năm\"\n# văn bản = \"có\" với \"365\", thanh \"ngày trong năm\"\n# văn bản = \"có 365\", thanh \"ngày trong năm\"\n# văn bản = \"có 365 ngày trong năm\"\n` ` #### Quan trọng là hãy nhớ \nVới dòng chúng tôi chỉ có thể làm thêm hoạt động. Trong khi làm các hoạt động khác sẽ kết quả lỗi.",
+        "conditionsCommandsIfTitle":"Lệnh \"Nếu\"",
+        "conditionsCommandsIfContent":"Đôi khi, trong chương trình, chúng tôi có cần phải thực hiện một số hoạt động dựa vào tình trạng. Cho nó có là tình trạng kiểm tra lệnh như \"Nếu\", \"Nếu-khác\" và \"Khác-Nếu\". \n\nViết hình thức của lệnh \"**Nếu**\" ``linguacode\nnếu <condition> sau đó\n<operation>\n`` Ở đây giữa lệnh \"Nếu\" và \"sau đó,\" có bất kỳ điều kiện, và sau đó từ dòng mới và sau **4 gian** được viết hoạt động (hoặc hoạt động), sẽ được thực hiện nếu tuyên bố này là sự thật. \n\n#### Ví dụ ``linguacode\nmột 5 = \nb = 2\nnếu một > b sau đó\nra(\"một > b\")\n``",
+        "conditionsCommandsIfElseTitle":"Lệnh \"Nếu-Khác\"",
+        "conditionsCommandsIfElseContent":"Vì vậy, chúng ta biết làm thế nào để sử dụng tuyên bố có điều kiện trong chương trình. Bây giờ chúng ta sẽ thảo luận về những trường hợp khi điều kiện là sai.\n\nViết hình thức \"**Khác Nếu-**\" tuyên bố ``linguacode\nnếu <condition> sau đó\n<operation N1>\nkhác\n<operation N2>\n`` Ở đây sau khi lệnh \"Nếu\" đó là một lệnh mới \"Nữa\". Và từ dòng mới, sau khi 4 gian được viết các hoạt động, sẽ được thực hiện, nếu nói điều kiện là sai.\n\n#### Ví dụ ``linguacode\nmột 5 = \nb = 10\nnếu một > b\nra(\"một > b\")\nkhác\nra(\"b < một\")\n``",
+        "conditionsCommandsElseIfTitle":"Lệnh \"Khác-Nếu\"",
+        "conditionsCommandsElseIfContent":"Chúng tôi đã thảo luận đó chỉ huy sẽ được thực hiện dựa vào tình trạng là đúng hay sai. Nhưng đôi khi, chúng tôi cần phải kiểm tra nhiều hơn một điều kiện trong cùng một thời điểm. \n\nViết hình thức \"**Nếu-Khác-Nếu**\" tuyên bố``linguacode\nnếu <condition N1> sau đó\n<operation N1>\nnếu khác <condition N2> sau đó\n<operation N2>\nkhác\n<operation N3>\n`` Ở đây chúng ta phải kiểm tra nhiều hơn một điều kiện. Trong trường hợp của \"Khác-Nếu\" văn bản mẫu, có thể 1 hay hơn \"Khác-Nếu\" báo cáo giữa lệnh \"Nếu\" và \"Nữa\". \n\n#### Ví dụ ``linguacode\nmột 5 = \nb = 5\nnếu một > b sau đó\nra(\"một > b\")\nnếu khác một < b sau đó\nra (\"< b\")\nkhác\nra(\"b == một\")\n``",
+        "booleanTypesBooleanTitle":"Mô tả",
+        "booleanTypesBooleanContent":"Chúng tôi đã biết làm thế nào để kiểm tra câu và một số người trong số họ có thể được ** (22 > 18) hoặc *sai* (16 > 18). Đôi khi vì chiều dài của tình trạng kiểm tra đường dây, nó trở nên khó để đọc mã nguồn. Đây là để giúp giá trị lôgic \n\n- ****``linguacode\ntình trạng = đúng\nra(tình trạng) #true\n`` \n\n- **sai**``linguacode\ntình trạng = sai\nra(tình trạng) #sai\n`` Bất kỳ lôgic so sánh được biết đến chúng tôi trở về một trong những giá trị nhất định \n\nDụ của ** so sánh ``linguacode\ntình trạng = 1 < 5\nra(tình trạng) # true\n`` Dụ của *sai* so sánh ``linguacode\ntình trạng = 10 < 5\nra(tình trạng) # sai\n`` Vì vậy, trong tình trạng kiểm tra lệnh, chúng ta có thể sử dụng biến với logic giá trị. \n\n#### Ví dụ ``linguacode\nra(\"Viết một số \"a\":\")\nđầu vào(một)\n\nra(\"Viết một số \"b\":\")\nđầu vào(b)\n\ncondition1 = > b\ncondition2 = một < b\n\nnếu condition1 sau đó\nkết quả = \"một > b\"\nnếu khác condition2 sau đó\nkết quả = \"< b\"\nkhác\nkết quả = \"một == b\"։\nra(\"kết Quả:\" với kết quả)\n``",
+        "booleanOperatorsComparisonTitle":"So sánh khai thác",
+        "booleanOperatorsComparisonContent":"Trong tình trạng kiểm tra lệnh, chúng tôi đã sử dụng biểu tượng của \"nhiều hơn\" > \"ít hơn\" < so sánh khai thác. Nhưng giờ đây, chúng ta có thể sử dụng bất kỳ khai thác khác được biết đến chúng tôi. \n\n- **>** so sánh giá trị số, trong đó, đầu tiên là một *#lớn hơn* hơn một thứ hai. Ví dụ ``linguacode\nra(5 > 1) # true\nra(1 > 5) # sai\n`` \n\n- **>=** so sánh giá trị số, trong đó, đầu tiên là một *#lớn hơn hoặc bằng* một trong những thứ hai. Ví dụ ``linguacode\nra(5 >= 5) # true\nra(1 >= 5) # sai\n`` \n\n- **<** so sánh giá trị số, trong đó, đầu tiên là một *#ít* hơn một thứ hai. Ví dụ ``linguacode\nra(1 < 5) # true\nra(5 < 1) # sai\n`` \n\n- **<=** so sánh giá trị số, trong đó, đầu tiên là một *#ít hoặc tương đương với* một trong những thứ hai. Ví dụ ``linguacode\nra(1 <= 5) # true\nra(5 <= 1) # sai\n`` \n\n- **==** so sánh số hoặc nhắn tin giá trị trong đó, đầu tiên là một *#bằng* một trong những thứ hai. Ví dụ ``linguacode\nra(5 == 5) # true\nra(5 == 1) # sai\nra(\"người lính\" == \"người lính\") # true\nra(\"xin Chào\" == \"trực thăng\") # sai\n`` \n\n- **!=** so sánh số hoặc nhắn tin giá trị trong đó, đầu tiên là một *#không bằng* một trong những thứ hai. Ví dụ ``linguacode\nra(5 != 1) # true\nra(5 != 5) # sai\nra(\"xin Chào\" != \"Trực thăng\") # true\nra(\"người lính\" != \"người lính\") # sai\n`` \n\n- **không phải()** trở về đảo ngược quả của bất kỳ số hoặc nhắn tin so sánh. Ví dụ ``linguacode\nra(không(1 > 5)) # true\nra(không(5 == 5)) # sai\nra(không(sai)) # true\nra(không(đúng)) # sai\n``",
+        "booleanOperatorsLogicalTitle":"Phép khai thác",
+        "booleanOperatorsLogicalContent":"Vì vậy, chúng ta biết làm thế nào để viết bất kỳ điều kiện tuyên bố, nhưng thường thì chúng ta cần kết hợp một số điều kiện trong một, và dựa vào nó thực hiện một số hoạt động. Sự kết hợp của những điều kiện tung nơi này bằng phép khai thác. \n\n- Chỉ huy \"**và**\" kết hợp hai điều kiện trong một, đó được gọi là **** khi cả hai điều kiện ** và **sai** khi có ít nhất một trong những điều kiện là *sai*. Ví dụ ``linguacode\nra(5 > 1 և 10 < 100) # true\nra(20 < 100 և 1 > 5) # sai\n`` \n\n- Chỉ huy \"****\" kết hợp hai điều kiện trong một, đó được gọi là **** khi có ít nhất một trong những điều kiện là ** và **sai** khi hai điều kiện *sai*. Ví dụ ``linguacode\nra(5 > 1 hoặc 100 < 10) # true\nra(20 > 100 hoặc 1 > 5) # sai\n``",
+        "booleanOperatorsExecutingPriorityTitle":"Thực hiện ưu tiên",
+        "booleanOperatorsExecutingPriorityContent":"Chúng tôi đã học làm thế nào để kết hợp 2 điều kiện, nhưng họ có thể được hơn 2, dựa theo nội dung chương trình. Trong trường hợp đó, điều kiện sẽ được kết hợp với nhau từ *trái sang phải* cho đến khi họ tạo thành một điều kiện.\n\n#### Ví dụ ``linguacode\nra(5 < 1 և 1 < 7 hoặc 1 >= 3 hay 9 == 9)\n`` điều này cũng giống như ``linguacode\nra(sai և đúng hay sai hay đúng)\n`` hãy kết hợp **1th** và **2** \"**sai và đúng**\" điều kiện trong một tế ``linguacode\nra(sai hoặc sai hay đúng)\n``sau đó,**1+2** tình trạng với **3** sẽ được \"**sai hay sai**\" ``linguacode\nra(sai hay đúng)\n` và cuối cùng **1+2+3** tình trạng với **4** sẽ được \"**sai hay đúng**\" tế ``linguacode\nra(đúng)\n` Và vì vậy, chúng tôi kết hợp 4 điều kiện trong một. Chúng ta có thể kết hợp nhiều điều kiện theo cách đó. \n\nĐôi khi, chúng tôi cần phải thay đổi lại phải kết hợp ưu tiên sử dụng ngoặc. \n\n#### Ví dụ ``linguacode\nra(5 < 1 և (1 < 7 hoặc (1 >= 3 hay 9 == 9)))\n`` \n\nđiều này cũng giống như ``linguacode\nra(sai և (đúng hay (sai hay đúng)))\n`` hãy kết hợp **3** và **4** \"**sai hay đúng**\" điều kiện trong một ``linguacode\nra(sai hoặc (sai hay đúng))\n`` sau đó **2** với tình trạng **3+4** điều kiện sẽ được \"**sai hay đúng**\" ``linguacode\nra(sai և đúng)\n` và cuối cùng, chúng ta hãy kết hợp **1th** với tình trạng **2+(3+4)**. Nó sẽ được \"**sai và đúng**\" ``linguacode\nra(sai)\n` Và vì vậy, chúng ta đã thấy kết quả đó là thay đổi cách kết hợp ưu tiên."
+      },
+      "syntaxInfo":{
+        "modalTitle":"Lệnh hướng dẫn",
+        "cheatSheetTitle":"Tờ Cheat",
+        "lesson":"Hướng dẫn"
+      }
+    }
+  },
+  "modules":{
+    "ide":{
+      "title":"<b> Hotkeys</b>",
+      "undo":"Lùi lại",
+      "redo":"Làm lại",
+      "selectAll":"Chọn tất cả",
+      "run":"Chạy",
+      "terminal":"Thiết bị đầu cuối"
+    },
+    "program":{
+      "program":"Chương trình",
+      "sourceCode":"Mã nguồn",
+      "functionArgumentSyntaxError":"Chức năng tranh luận lỗi cú pháp ở ${line} dòng.",
+      "undefinedVariable":"\"${variable}\" biến không được xác định trong ${line} dòng.",
+      "indentError":"Không gian lỗi trong ${line} dòng.",
+      "hackAttempt":"Hack cố gắng. \"${ip}\" địa chỉ ip được lưu lại trong dữ liệu của chúng tôi.",
+      "syntaxError":"Cú pháp lỗi",
+      "timeout":"Biên dịch thời gian chờ. Hãy chắc chắn rằng mã không đã vô cùng vòng.",
+      "true":"sự thật",
+      "false":"sai",
+      "NaN":"không rõ",
+      "null":"không rõ",
+      "Infinity":"vô cùng",
+      "undefined":"không xác định"
+    },
+    "programListGroup":{
+      "programs":"Chương trình"
+    },
+    "terminal":{
+      "hotkeys":"<b> Hotkeys</b>",
+      "undo":"Lùi lại",
+      "redo":"Làm lại",
+      "selectAll":"Chọn tất cả",
+      "terminal":"Thiết bị đầu cuối"
+    }
+  },
+  "buttons":{
+    "loginButton":{
+      "signIn":"Đừng trong"
+    },
+    "menuButton":{
+      "settings":"Cài đặt",
+      "logOut":"Đừng ra"
+    }
+  },
+  "panels":{
+    "header":{
+      "title":"Nhà"
+    }
+  },
+  "elements":{
+    "emptyProgramListForOthersComponent":{
+      "programNotFoundForOthers":"Dùng không có bất kỳ chương trình sơ."
+    },
+    "emptyProgramListForOwnerComponent":{
+      "programNotFoundListForOwner":"Bạn không có bất kỳ chương trình sơ.",
+      "programNotFoundClickPartFirst":"Bấm",
+      "programNotFoundClickPartSecond":"ở đây",
+      "programNotFoundClickPartThird":"để tạo ra một chương trình mới."
+    },
+    "loading":{
+      "loading":"Nạp"
+    }
+  }
+}
