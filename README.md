@@ -23,7 +23,7 @@ Until we haven't automatized every peace of $hit, to convert translations into a
 
 1. Download the whole archive of the last build translation from the [Crowdin's LinguaCode page](https://translate.linguacode.me/project/linguacode/).
 2. Extract the content into a **tools/json2tree/input/** folder.
-3. Run `npm run json2tree'.
+3. Run `npm run json2tree`.
 4. Move all content from **tools/json2tree/output/** into a **languages/**.
 5. Create a pull request.
 
