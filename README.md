@@ -20,6 +20,7 @@ If you've any kind of suggestions, that can help with the translations (like som
 
 #### to developers
 Until we haven't automatized every peace of $hit, to convert translations into a usable data:
+
 1. Download the whole archive of the last build translation from the [Crowdin's LinguaCode page](https://translate.linguacode.me/project/linguacode/).
 2. Extract the content into a **tools/json2tree/input/** folder.
 3. Run `npm run json2tree'.
