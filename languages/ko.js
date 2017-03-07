@@ -26,10 +26,10 @@ module.exports = [{
   definition: '지'
 }, {
   command: COMMAND.FALSE,
-  definition: 'false'
+  definition: '그릇된'
 }, {
   command: COMMAND.TRUE,
-  definition: 'true'
+  definition: '참된'
 }, {
   command: COMMAND.DO,
   definition: '마'
@@ -53,7 +53,7 @@ module.exports = [{
   definition: '기능'
 }, {
   command: COMMAND.RANDOM,
-  definition: 'random'
+  definition: '난수'
 }, {
   command: COMMAND.POW,
   definition: '전원'

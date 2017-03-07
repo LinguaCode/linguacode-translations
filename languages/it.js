@@ -20,7 +20,7 @@ module.exports = [{
   definition: 'o'
 }, {
   command: COMMAND.AND,
-  definition: 'e_número'
+  definition: 'e'
 }, {
   command: COMMAND.NOT,
   definition: 'non'

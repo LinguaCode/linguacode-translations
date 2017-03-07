@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'քառակուսի'
 }, {
   command: COMMAND.SQRT,
-  definition: 'արմատ'
+  definition: 'square_root'
 }, {
   command: COMMAND.ROUND,
   definition: 'կլորացնել'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ամբողջացնել_վերև|ամբողջացնել_վերեւ'
 }, {
   command: COMMAND.ABS,
-  definition: 'մոդուլ'
+  definition: 'absolute_value'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

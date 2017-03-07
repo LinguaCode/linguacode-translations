@@ -2,76 +2,76 @@ const COMMAND = require('linguacode-constants').COMMAND;
 
 module.exports = [{
   command: COMMAND.INPUT,
-  definition: 'вхід'
+  definition: 'të_dhëna'
 }, {
   command: COMMAND.OUTPUT,
-  definition: 'вихід'
+  definition: 'prodhimi'
 }, {
   command: COMMAND.IF,
-  definition: 'якщо'
+  definition: 'nëse'
 }, {
   command: COMMAND.ELSE,
-  definition: 'ще'
+  definition: 'tjetër'
 }, {
   command: COMMAND.THEN,
-  definition: 'тоді'
+  definition: 'pastaj'
 }, {
   command: COMMAND.OR,
-  definition: 'або'
+  definition: 'ose'
 }, {
   command: COMMAND.AND,
-  definition: 'і'
+  definition: 'dhe'
 }, {
   command: COMMAND.NOT,
-  definition: 'не'
+  definition: 'jo'
 }, {
   command: COMMAND.FALSE,
-  definition: 'помилкові'
+  definition: 'të_rreme'
 }, {
   command: COMMAND.TRUE,
-  definition: 'правда'
+  definition: 'e vërtetë'
 }, {
   command: COMMAND.DO,
-  definition: 'робити'
+  definition: 'a'
 }, {
   command: COMMAND.WHILE,
-  definition: 'а'
+  definition: 'ndërsa'
 }, {
   command: COMMAND.REPEAT,
-  definition: 'повторити'
+  definition: 'përsëriteni'
 }, {
   command: COMMAND.TIMES,
-  definition: 'раз'
+  definition: 'kohët'
 }, {
   command: COMMAND.BREAK,
-  definition: 'перерва'
+  definition: 'pushim'
 }, {
   command: COMMAND.CONTINUE,
-  definition: 'далі'
+  definition: 'vazhdo'
 }, {
   command: COMMAND.FUNCTION,
-  definition: 'функція'
+  definition: 'funksioni'
 }, {
   command: COMMAND.RANDOM,
-  definition: 'випадковий'
+  definition: 'të_rastit'
 }, {
   command: COMMAND.POW,
-  definition: 'потужність'
+  definition: 'pushtet'
 }, {
   command: COMMAND.SQR,
-  definition: 'площа'
+  definition: 'katror'
 }, {
   command: COMMAND.SQRT,
   definition: 'square_root'
 }, {
   command: COMMAND.ROUND,
-  definition: 'круглий'
+  definition: 'raundi'
 }, {
   command: COMMAND.FLOOR,
-  definition: 'підлога'
+  definition: 'kati'
 }, {
   command: COMMAND.CEIL,
-  definition: 'підшити'
+  definition: 'ceil'
 }, {
   command: COMMAND.ABS,
   definition: 'absolute_value'
@@ -113,5 +113,5 @@ module.exports = [{
   definition: 'pi'
 }, {
   command: COMMAND.E,
-  definition: 'е'
+  definition: 'e'
 }];

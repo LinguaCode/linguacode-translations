@@ -14,7 +14,7 @@ module.exports = [{
   definition: 'άλλο'
 }, {
   command: COMMAND.THEN,
-  definition: 'στη_συνέχεια'
+  definition: 'στη συνέχεια'
 }, {
   command: COMMAND.OR,
   definition: 'ή'
