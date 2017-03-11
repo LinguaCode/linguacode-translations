@@ -1,4 +1,4 @@
-const COMMAND = require('linguacode-constants').COMMAND;
+var COMMAND = require('linguacode-constants').COMMAND;
 
 module.exports = [{
   command: COMMAND.INPUT,

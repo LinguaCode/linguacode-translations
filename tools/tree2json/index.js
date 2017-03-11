@@ -1,9 +1,9 @@
-const _ = require('lodash');
-const fs = require('fs');
+var _ = require('lodash');
+var fs = require('fs');
 
-const language = require('../../languages/en');
+var language = require('../../languages/en');
 
-const languageConverted = {};
+var languageConverted = {};
 language.forEach((instance) => {
   languageConverted[instance.command] = instance.definition;
 });
