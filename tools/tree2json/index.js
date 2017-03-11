@@ -4,7 +4,7 @@ var fs = require('fs');
 var language = require('../../languages/en');
 
 var languageConverted = {};
-language.forEach((instance) => {
+language.forEach(function(instance) {
   languageConverted[instance.command] = instance.definition;
 });
 
