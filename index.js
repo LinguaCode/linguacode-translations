@@ -1,7 +1,7 @@
 var languageList = require('./languageList');
 
 var languages = {};
-languageList.forEach((language) => {
+languageList.forEach(function(language){
   languages[language] = require('./languages/' + language);
 });
 
