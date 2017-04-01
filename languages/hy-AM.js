@@ -20,7 +20,7 @@ module.exports = [{
   definition: 'կամ'
 }, {
   command: COMMAND.AND,
-  definition: 'և|եւ'
+  definition: 'և|եւ|ու'
 }, {
   command: COMMAND.NOT,
   definition: 'ոչ'

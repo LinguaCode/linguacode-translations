@@ -59,7 +59,7 @@ module.exports = [{
   definition: 'strøm'
 }, {
   command: COMMAND.SQR,
-  definition: 'square'
+  definition: 'torget'
 }, {
   command: COMMAND.SQRT,
   definition: 'square_root'

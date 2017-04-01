@@ -2,7 +2,7 @@ var COMMAND = require('linguacode-constants').COMMAND;
 
 module.exports = [{
   command: COMMAND.INPUT,
-  definition: 'entrada'
+  definition: 'introducir'
 }, {
   command: COMMAND.OUTPUT,
   definition: 'salida'
@@ -11,10 +11,10 @@ module.exports = [{
   definition: 'si'
 }, {
   command: COMMAND.ELSE,
-  definition: 'acaso'
+  definition: 'otro'
 }, {
   command: COMMAND.THEN,
-  definition: 'entonces'
+  definition: 'después'
 }, {
   command: COMMAND.OR,
   definition: 'o'
@@ -77,7 +77,7 @@ module.exports = [{
   definition: 'absolute_value'
 }, {
   command: COMMAND.SIN,
-  definition: 'sin'
+  definition: 'Sin'
 }, {
   command: COMMAND.COS,
   definition: 'cos'

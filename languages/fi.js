@@ -59,7 +59,7 @@ module.exports = [{
   definition: 'teho'
 }, {
   command: COMMAND.SQR,
-  definition: 'square'
+  definition: 'neliö'
 }, {
   command: COMMAND.SQRT,
   definition: 'square_root'

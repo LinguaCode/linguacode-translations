@@ -2,8 +2,8 @@
 languageList.js
 
 # scripts trash
-scripts/*/input/
-scripts/*/output/
+tools/*/input/
+tools/*/output/
 
 # Yarn
 yarn.lock
