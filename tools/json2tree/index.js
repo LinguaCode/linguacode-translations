@@ -16,7 +16,10 @@ fs.readdir(path.join(__dirname, INPUT_FOLDER_NAME), function (err, list) {
       var modifiedFileText = originalFile;
       for (var key in coreJSON) {
         var constantCommandName = key.slice(1).toUpperCase();
-        modifiedFileText = modifiedFileText.replace(new RegExp('command\\:\\s*COMMAND.' + constantCommandName + ',\\s+definition\\:\\s+\'[a-zA-Z]+\'', 'g'), 'command: COMMAND.' + constantCommandName + ',\n  definition: \'' + coreJSON[key] + '\'');
+        modifiedFileText = modifiedFileText.replace(
+          new RegExp('command\\:\\s*COMMAND\\.' + constantCommandName + ',\\s+definition\\:\\s+\'[a-z_A-Z|]+\'', 'g'),
+          'command: COMMAND.' + constantCommandName + ',\n  definition: \'' + coreJSON[key] + '\''
+        );
       }
 
       fs.writeFileSync(path.join(OUTPUT_FOLDER_PATH, languageCode + '.js'), modifiedFileText);
