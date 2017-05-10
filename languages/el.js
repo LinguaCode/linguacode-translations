@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'πλατεία'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'τετραγωνική_ρίζα'
 }, {
   command: COMMAND.ROUND,
   definition: 'γύρω_από'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'απόλυτη_τιμή'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

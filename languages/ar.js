@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'مربع'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'جذر_تربيعي'
 }, {
   command: COMMAND.ROUND,
   definition: 'جولة'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'سقف'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'قيمه_مطلقه'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

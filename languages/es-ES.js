@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'plaza'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'raíz_cuadrada'
 }, {
   command: COMMAND.ROUND,
   definition: 'redondear'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'techo'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'valor_absoluto'
 }, {
   command: COMMAND.SIN,
   definition: 'Sin'

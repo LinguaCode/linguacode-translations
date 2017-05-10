@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'plein'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'vierkantswortel'
 }, {
   command: COMMAND.ROUND,
   definition: 'ronde'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'absolute_waarde'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

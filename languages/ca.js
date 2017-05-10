@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'plaça'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'arrel_quadrada'
 }, {
   command: COMMAND.ROUND,
   definition: 'ronda'

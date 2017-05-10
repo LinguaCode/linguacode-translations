@@ -62,7 +62,7 @@ module.exports = [{
   definition: '広場'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: '平方根'
 }, {
   command: COMMAND.ROUND,
   definition: '丸'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: '絶対値'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

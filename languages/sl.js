@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'kvadratni'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'kvadratni_koren'
 }, {
   command: COMMAND.ROUND,
   definition: 'krog'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'modul'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

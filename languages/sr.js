@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'површина'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'квадратни_корен'
 }, {
   command: COMMAND.ROUND,
   definition: 'током_целе'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'хем'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'модул'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

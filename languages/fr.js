@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'carré'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'racine_carrée'
 }, {
   command: COMMAND.ROUND,
   definition: 'ronde'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'valeur_absolue'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

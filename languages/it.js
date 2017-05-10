@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'quadrato'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'radice_quadrata'
 }, {
   command: COMMAND.ROUND,
   definition: 'rotondo'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'arrotonda_eccesso'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'modulo'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

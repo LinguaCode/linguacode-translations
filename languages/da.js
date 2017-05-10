@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'pladsen'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'kvadrat_rod'
 }, {
   command: COMMAND.ROUND,
   definition: 'runde'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'absolutte_værdi'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

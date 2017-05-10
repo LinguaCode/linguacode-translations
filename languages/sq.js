@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'katror'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'rrënja_katrore'
 }, {
   command: COMMAND.ROUND,
   definition: 'raundi'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'vlera_absolute'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

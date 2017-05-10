@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'квадрат'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'корень'
 }, {
   command: COMMAND.ROUND,
   definition: 'округлить'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'округлить_вверх'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'модуль'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

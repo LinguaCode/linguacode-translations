@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'neliö'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'neliöjuuri'
 }, {
   command: COMMAND.ROUND,
   definition: 'pyöreä'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'itseisarvo'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'square'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'căn_bậc_hai'
 }, {
   command: COMMAND.ROUND,
   definition: 'vòng'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'trần'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'mô_đun'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'pătrat'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'rădăcină_pătrată'
 }, {
   command: COMMAND.ROUND,
   definition: 'runda'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'valoare_absolută'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

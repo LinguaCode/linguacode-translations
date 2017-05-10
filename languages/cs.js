@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'náměstí'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'odmocnina'
 }, {
   command: COMMAND.ROUND,
   definition: 'kolo'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'absolutní_hodnota'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

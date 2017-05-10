@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'สแควร์'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'รากที่สอง'
 }, {
   command: COMMAND.ROUND,
   definition: 'ร'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'ค่าสัมบูรณ์'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

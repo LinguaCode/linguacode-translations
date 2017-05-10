@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'მოედანზე'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'კვადრატული_ფესვი'
 }, {
   command: COMMAND.ROUND,
   definition: 'მრგვალი'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'მოდული'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

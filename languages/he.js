@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'כיכר'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'שורש_ריבועי'
 }, {
   command: COMMAND.ROUND,
   definition: 'סיבוב'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'סיל'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'ערך_מוחלט'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

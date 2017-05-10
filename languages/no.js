@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'torget'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'kvadratrot'
 }, {
   command: COMMAND.ROUND,
   definition: 'runde'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'absolutt_verdi'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

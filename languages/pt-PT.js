@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'praça'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'raiz_quadrada'
 }, {
   command: COMMAND.ROUND,
   definition: 'rodada'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'valor_absoluto'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

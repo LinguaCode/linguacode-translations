@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'площа'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'квадратний_корінь'
 }, {
   command: COMMAND.ROUND,
   definition: 'круглий'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'підшити'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'модуль'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

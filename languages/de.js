@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'quadratisch'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'quadratwurzel'
 }, {
   command: COMMAND.ROUND,
   definition: 'rund'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'aufrunden'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'absolutwert'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

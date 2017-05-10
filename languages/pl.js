@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'powierzchnia'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'pierwiastek_kwadratowy'
 }, {
   command: COMMAND.ROUND,
   definition: 'przez_cały'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'hem'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'całkowita_wartość'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

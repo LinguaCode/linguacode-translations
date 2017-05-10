@@ -62,7 +62,7 @@ module.exports = [{
   definition: '장'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: '제곱근'
 }, {
   command: COMMAND.ROUND,
   definition: '라운드'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: '절대_값'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

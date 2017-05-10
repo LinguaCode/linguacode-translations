@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'tér'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'négyzetgyök'
 }, {
   command: COMMAND.ROUND,
   definition: 'kerek'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'abszolút_érték'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'

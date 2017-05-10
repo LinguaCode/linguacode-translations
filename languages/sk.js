@@ -62,7 +62,7 @@ module.exports = [{
   definition: 'námestie'
 }, {
   command: COMMAND.SQRT,
-  definition: 'square_root'
+  definition: 'odmocnina'
 }, {
   command: COMMAND.ROUND,
   definition: 'kolo'
@@ -74,7 +74,7 @@ module.exports = [{
   definition: 'ceil'
 }, {
   command: COMMAND.ABS,
-  definition: 'absolute_value'
+  definition: 'modul'
 }, {
   command: COMMAND.SIN,
   definition: 'sin'
