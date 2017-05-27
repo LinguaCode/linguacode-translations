@@ -2,10 +2,10 @@ var COMMAND = require('linguacode-constants').COMMAND;
 
 module.exports = [{
   command: COMMAND.INPUT,
-  definition: 'մուտք'
+  definition: 'մուտքագրել'
 }, {
   command: COMMAND.OUTPUT,
-  definition: 'ելք'
+  definition: 'տպել'
 }, {
   command: COMMAND.IF,
   definition: 'եթե'
